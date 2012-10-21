@@ -10,3 +10,21 @@
 	margin-right:auto;
   background:url('../images/sample.jpg')no-repeat;
 }
+
+.key-visual {
+	width:950px;
+	height:330px;
+	position:absolute;
+	top:170px;
+	left:0px;
+}
+
+.key-visual img{
+  position:absolute;
+  top:190px;
+  left:440px;
+  display:none;
+}
+
+#note001 {
+}
