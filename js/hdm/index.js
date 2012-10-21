@@ -11,9 +11,9 @@
 
   $(function () {
     setTimeout (i.note001, 3000);
-    setTimeout (i.note002, 6000);
-    setTimeout (i.note003, 9000);
-    setTimeout (i.note004, 12000);
+    setTimeout (i.note002, 13000);
+    setTimeout (i.note003, 23000);
+    setTimeout (i.note004, 33000);
   });
 
   i.note001 = function () {
@@ -44,6 +44,7 @@
             if (nR >= 900) {
               clearInterval(timerIDR001);
               $('#note001').fadeOut(500);
+              i.note001();
             }
           }
       ,50);
@@ -79,6 +80,7 @@
             if (nR >= 900) {
               clearInterval(timerIDR002);
               $('#note002').fadeOut(500);
+              i.note002();
             }
           }
       ,50);
@@ -113,6 +115,7 @@
             if (nR >= 900) {
               clearInterval(timerIDR003);
               $('#note003').fadeOut(500);
+              i.note003;
             }
           }
       ,50);
@@ -147,6 +150,7 @@
             if (nR >= 900) {
               clearInterval(timerIDR004);
               $('#note004').fadeOut(500);
+              i.note004();
             }
           }
       ,50);
