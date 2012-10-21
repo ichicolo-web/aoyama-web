@@ -22,7 +22,7 @@
     nR = 170,
     nT = 100;
     $('#note001').fadeIn(3000);
-    timerID = setInterval (
+    timerID001 = setInterval (
       function () {
         nR = nR + 0.2 * (Math.random () * 5);
         n1.style.right = nR + 'px';
@@ -30,19 +30,19 @@
         n1.style.top = nT + 'px';
         if (nT >= 260) {
           i.note001.reverse();
-          clearInterval(timerID); 
+          clearInterval(timerID001); 
         }
       }
       ,50);
     i.note001.reverse = function () {
-      timerIDR = setInterval (
+      timerIDR001 = setInterval (
           function () {
             nR = nR + 0.2 * (Math.random () * 5);
             n1.style.right = nR + 'px';
             nT = nT - 0.1 * (Math.random () * 5);
             n1.style.top = nT + 'px';
             if (nR >= 900) {
-              clearInterval(timerIDR);
+              clearInterval(timerIDR001);
               $('#note001').fadeOut(500);
             }
           }
@@ -57,7 +57,7 @@
     nR = 170,
     nT = 100;
     $('#note002').fadeIn(3000);
-    timerID = setInterval (
+    timerID002 = setInterval (
       function () {
         nR = nR + 0.2 * (Math.random () * 5);
         n1.style.right = nR + 'px';
@@ -65,19 +65,19 @@
         n1.style.top = nT + 'px';
         if (nT >= 260) {
           i.note002.reverse();
-          clearInterval(timerID); 
+          clearInterval(timerID002); 
         }
       }
       ,50);
     i.note002.reverse = function () {
-      timerIDR = setInterval (
+      timerIDR002 = setInterval (
           function () {
             nR = nR + 0.2 * (Math.random () * 5);
             n1.style.right = nR + 'px';
             nT = nT - 0.1 * (Math.random () * 5);
             n1.style.top = nT + 'px';
             if (nR >= 900) {
-              clearInterval(timerIDR);
+              clearInterval(timerIDR002);
               $('#note002').fadeOut(500);
             }
           }
@@ -91,27 +91,27 @@
     nR = 170,
     nT = 100;
     $('#note003').fadeIn(3000);
-    timerID = setInterval (
+    timerID003 = setInterval (
       function () {
         nR = nR + 0.2 * (Math.random () * 5);
         n1.style.right = nR + 'px';
         nT = nT + 0.1 * (Math.random () * 5);
         n1.style.top = nT + 'px';
         if (nT >= 260) {
-          i.note001.reverse();
-          clearInterval(timerID); 
+          i.note003.reverse();
+          clearInterval(timerID003); 
         }
       }
       ,50);
     i.note003.reverse = function () {
-      timerIDR = setInterval (
+      timerIDR003 = setInterval (
           function () {
             nR = nR + 0.2 * (Math.random () * 5);
             n1.style.right = nR + 'px';
             nT = nT - 0.1 * (Math.random () * 5);
             n1.style.top = nT + 'px';
             if (nR >= 900) {
-              clearInterval(timerIDR);
+              clearInterval(timerIDR003);
               $('#note003').fadeOut(500);
             }
           }
@@ -125,27 +125,27 @@
     nR = 170,
     nT = 100;
     $('#note004').fadeIn(3000);
-    timerID = setInterval (
+    timerID004 = setInterval (
       function () {
         nR = nR + 0.2 * (Math.random () * 5);
         n1.style.right = nR + 'px';
         nT = nT + 0.1 * (Math.random () * 5);
         n1.style.top = nT + 'px';
         if (nT >= 260) {
-          i.note001.reverse();
-          clearInterval(timerID); 
+          i.note004.reverse();
+          clearInterval(timerID004); 
         }
       }
       ,50);
     i.note004.reverse = function () {
-      timerIDR = setInterval (
+      timerIDR004 = setInterval (
           function () {
             nR = nR + 0.2 * (Math.random () * 5);
             n1.style.right = nR + 'px';
             nT = nT - 0.1 * (Math.random () * 5);
             n1.style.top = nT + 'px';
             if (nR >= 900) {
-              clearInterval(timerIDR);
+              clearInterval(timerIDR004);
               $('#note004').fadeOut(500);
             }
           }
