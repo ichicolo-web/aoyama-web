@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
 <title>Haus-de-musik（ハウスデムジカ）</title>
-<meta content="" name="keywords" />
+<meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
@@ -17,14 +17,16 @@
 <script type='text/javascript' src='js/hdm.js'></script>
 <script type='text/javascript' src='js/hdm/index.js'></script>
 </head>
-<body>
+<body class="index">
 	<div class="wrapper">
     <div class="contents">
+        <? require_once 'partials/header.php'; ?>
+        
       <div class="key-visual">
-        <img src="images/note001.png" id="note001" />
-        <img src="images/note002.png" id="note002" />
-        <img src="images/note003.png" id="note003" />
-        <img src="images/note004.png" id="note004" />
+        <img src="images/index/note001.png" id="note001" />
+        <img src="images/index/note002.png" id="note002" />
+        <img src="images/index/note003.png" id="note003" />
+        <img src="images/index/note004.png" id="note004" />
       </div><!-- /key-visual -->
     </div><!-- /contents -->
 	</div><!-- /wrapper -->
