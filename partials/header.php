@@ -12,15 +12,14 @@ print <<<EOF
       </address>
     </div>
     <ul class="gnavi">
-      <li>トップ</li>
-      <li>バイオリン教室</li>
-      <li>ピアノ教室</li>
-      <li>演奏依頼</li>
-      <li>お問い合わせ</li>
-      <li>リンク</li>
-      <li>アクセス</li>
+      <li><a href="index.php">トップ</a></li>
+      <li><a href="violin.php">バイオリン教室</a></li>
+      <li><a href="piano.php">ピアノ教室</a></li>
+      <li><a href="request.php">演奏依頼</a></li>
+      <li><a href="contact.php">お問い合わせ</a></li>
+      <li><a href="link.php">リンク</a></li>
+      <li class="last"><a href="access.php">アクセス</a></li>
     </ul>
-
   </div><!-- /header -->
 EOF;
 ?>

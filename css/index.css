@@ -6,11 +6,11 @@
   position:relative;
 }
 
-.key-visual img{
-  position:absolute;
-  top:100px;
-  right:170px;
-  display:none;
+.key-visual img {
+  position: absolute;
+  top: 100px;
+  right: 170px;
+  display: none;
 }
 
 #note001 {

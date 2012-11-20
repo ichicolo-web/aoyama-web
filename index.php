@@ -21,13 +21,9 @@
 	<div class="wrapper">
     <div class="contents">
         <? require_once 'partials/header.php'; ?>
-        
       <div class="key-visual">
-        <img src="images/index/note001.png" id="note001" />
-        <img src="images/index/note002.png" id="note002" />
-        <img src="images/index/note003.png" id="note003" />
-        <img src="images/index/note004.png" id="note004" />
       </div><!-- /key-visual -->
+        <? require_once 'partials/footer.php'; ?> 
     </div><!-- /contents -->
 	</div><!-- /wrapper -->
 </body>
