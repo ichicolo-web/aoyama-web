@@ -1,17 +1,41 @@
 @charset "utf-8";
 
-.key-visual {
-	width:950px;
-	height:330px;
-  position:relative;
+.index .key-visual {
+	width: 950px;
+	height: 330px;
+  position: relative;
 }
 
-.key-visual img {
+.index .about {
+  padding: 20px 35px;
+  position: relative;
+}
+
+.index .about img {
   position: absolute;
-  top: 100px;
-  right: 170px;
-  display: none;
+  top: 8px;
+  left: 32px;
 }
 
-#note001 {
+.index .about div {
+	width: 860px;
+	height: 60px;
+  margin: 0 auto;
+  border-top: solid 2px #300203;
+  border-bottom: solid 2px #300203;
+  padding: 15px 10px;
 }
+
+.index .about div p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.index .about div span {
+  width: 860px;
+  height: auto;
+  display: block;
+  word-wrap: break-word;
+  line-height: 1.7;
+}
+

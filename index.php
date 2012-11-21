@@ -22,9 +22,21 @@
     <div class="contents">
         <? require_once 'partials/header.php'; ?>
       <div class="key-visual">
+        <img src="images/index/key_visual001.jpg" width="950" height="330" alt="ハウスデムジカ" />
       </div><!-- /key-visual -->
+      <div class="about">
+        <img src="images/base/title-design.jpg" width="165" height="24" alt="" />
+        <div>
+          <p>Haus-de-musikについて</p>
+          <span>
+            ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+          </span>
+        </div>
+      </div><!-- /about -->
+
         <? require_once 'partials/footer.php'; ?> 
     </div><!-- /contents -->
 	</div><!-- /wrapper -->
 </body>
 </html>
+

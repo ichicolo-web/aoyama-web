@@ -164,4 +164,6 @@ body {
   color: #ffffff;
 }
 
-
+.footer ul li a:hover {
+  text-decoration: underline;
+}
