@@ -33,7 +33,38 @@
           </span>
         </div>
       </div><!-- /about -->
-
+      <div class="classes">
+        <div class="violin">
+          <div>
+            <img src="images/base/violin.png" width="38" height="35" alt="バイオリン" />
+            <span>青山英里香バイオリン教室</span>
+          </div>
+          <a href="violin.php"><img src="images/index/violin.jpg" width="460" height="230" alt="バイオリン教室" /></a>
+        </div><!-- /violin -->
+        <div class="piano">
+          <div>
+            <img src="images/base/piano.png" width="36" height="47" alt="ピアノ" />
+            <span>青山由貴子ピアノ教室</span>
+          </div>
+          <a href="piano.php"><img src="images/index/piano.jpg" width="460" height="230" alt="ピアノ教室" /></a>
+        </div><!-- /piano -->
+      </div><!-- /classes -->
+      <div class="info">
+        <div class="fb">
+          <span>更新情報 from facebook</span>
+        </div><!-- /fb -->
+        <div class="request">
+          <a href=""><p></p></a>
+          <div>
+             ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+          </div>
+        </div><!-- /request -->
+        <div class="banners">
+          <a href=""><p></p></a>
+          <a href=""><p></p></a>
+          <a href=""><p></p></a>
+        </div><!-- /banners -->
+      </div><!-- /info -->
         <? require_once 'partials/footer.php'; ?> 
     </div><!-- /contents -->
 	</div><!-- /wrapper -->

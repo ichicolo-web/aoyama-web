@@ -7,18 +7,18 @@
 }
 
 .index .about {
-  padding: 20px 35px;
+  padding: 20px 25px;
   position: relative;
 }
 
 .index .about img {
   position: absolute;
   top: 8px;
-  left: 32px;
+  left: 25px;
 }
 
 .index .about div {
-	width: 860px;
+	width: 880px;
 	height: 60px;
   margin: 0 auto;
   border-top: solid 2px #300203;
@@ -32,10 +32,115 @@
 }
 
 .index .about div span {
-  width: 860px;
+  width: 880px;
   height: auto;
   display: block;
   word-wrap: break-word;
   line-height: 1.7;
 }
 
+.index .classes {
+  width: 950px;
+	height: 295px;
+  position: relative;
+}
+
+.index .classes .violin {
+  width: 460px;
+	height: auto;
+  float: left;
+}
+
+.index .classes .violin div {
+  height: 50px;
+  padding: 0 0 0 25px;
+}
+
+.index .classes .violin div img {
+  float: left;
+}
+
+.index .classes .violin div span {
+  font-size: 1.3em;
+  font-weight: bold;
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+.index .classes .piano {
+  width: 460px;
+	height: auto;
+  float: right;
+}
+
+.index .classes .piano div {
+  height: 50px;
+  padding: 0 0 0 25px;
+}
+
+.index .classes .piano div img {
+  float: left;
+}
+
+.index .classes .piano div span {
+  font-size: 1.3em;
+  font-weight: bold;
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+.index .info {
+  width: 950px;
+	height: 310px;
+  position: relative;
+}
+
+.index .info .fb {
+  width: 345px;
+	height: auto;
+  float: left;
+  padding: 10px 0 0 25px;
+}
+
+.index .info .fb span {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.index .info .request {
+  width: 280px;
+	height: auto;
+  float: left;
+  margin: 40px 0 0;
+}
+
+.index .info .request p {
+  width: 201px;
+	height: 66px;
+  background: url("../images/index/banner.jpg") no-repeat;
+  margin: 0 0 0 33px;
+}
+
+.index .info .request div {
+  width: 235px;
+	height: 150px;
+  border-left: solid 2px #6a3906;
+  border-right: solid 2px #6a3906;
+  word-wrap: break-word;
+  padding: 15px 15px 0;
+  margin: 15px 0 0;
+}
+
+.index .info .banners {
+  width: 280px;
+	height: auto;
+  float: right;
+  margin: 40px 0 0;
+}
+
+.index .info .banners p {
+  width: 201px;
+	height: 66px;
+  background: url("../images/index/banner.jpg") no-repeat;
+  margin: 0 0 20px 33px;
+}
