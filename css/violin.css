@@ -2,16 +2,18 @@
 /* CSS Document */
 
 /* はじめにページ */
-#big_box{
+.big_box{
 	width:950px;
-	height:1050px;
+	height:600px;
 }
-#box_left{
+
+.box_left{
 	width:auto;
 	height:200px;
 	position:relative;
 	float:left;
 }
+
 .title{
 	width:950px;
 	height:40px;
@@ -22,6 +24,7 @@
 	float:left;
   	clear:both;
 }
+
 .title div{
   height: 50px;
   padding: 0 0 0 25px;
@@ -43,7 +46,7 @@
 
 .menu_left img {
 	float:left;
-  	clear:both;
+  clear:both;
 }
 
 .menu_left ul {
@@ -53,6 +56,7 @@
 
 .menu_left li{
   padding:10px 0 0 10px;
+  cursor:pointer;
 }
 
 .menu_left li span {
@@ -63,10 +67,19 @@
   color:#963;
 }
 
-#box_main{
+.menu_left li.selected span{
+	color: #cc9593;
+}
+
+.box_main{
 	width:720px;
 	height:auto;
 	float:right;
+}
+
+.box002,
+.box003{
+  display:none;
 }
 
 .box_right{
@@ -76,6 +89,7 @@
 	margin:10px 20px 0 0;
 	background-image:url(../images/base/title_background.jpg);
 }
+
 .box_right .obi{
 	width:720px;
 	height:30px;
@@ -83,6 +97,7 @@
 	margin:8px 0 0 30px;
 	font-weight:bold;
 }
+
 .sentence01 p{
 	width:700px;
 	height:auto;
@@ -103,6 +118,7 @@
 	margin:10px 20px 10px 0;
 	word-wrap:break-all;
 }
+
 .sentence03 img{
 	float:left;
 }
