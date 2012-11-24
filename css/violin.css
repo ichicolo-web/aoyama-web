@@ -1,13 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
+
+/* はじめにページ */
 #big_box{
 	width:950px;
-	height:auto;
+	height:1050px;
 }
 #box_left{
 	width:auto;
 	height:200px;
-	position: relative;
+	position:relative;
 	float:left;
 }
 .title{
@@ -61,25 +63,59 @@
   color:#963;
 }
 
-#box_right{
+#box_main{
+	width:720px;
+	height:auto;
+	float:right;
+}
+
+.box_right{
 	width:720px;
 	height:30px;
 	float:right;
 	margin:10px 20px 0 0;
 	background-image:url(../images/base/title_background.jpg);
 }
-#box_right .obi{
+.box_right .obi{
+	width:720px;
+	height:30px;
 	color:#FFF;
 	margin:8px 0 0 30px;
 	font-weight:bold;
 }
-#box_right .sentence p{
-	width:720px;
-	height:100px;
-	margin:10px 0 0 0;
+.sentence01 p{
+	width:700px;
+	height:auto;
+	margin:10px 20px 10px 0;
 	word-wrap:break-all;
+}
+
+.sentence02 p{
+	width:700px;
+	height:auto;
+	margin:10px 20px 10px 0;
+	word-wrap:break-all;
+}
+
+.sentence03 p{
+	width:700px;
+	height:auto;
+	margin:10px 20px 10px 0;
+	word-wrap:break-all;
+}
+.sentence03 img{
+	float:left;
 }
 
 .cb{
 	clear:both;
 }
+/* はじめにページ終わり */
+
+/* 料金ページ */
+table{
+	width:300px;
+	border:#999 solid 1px;
+	margin:10px 0 0 20px;
+}
+/* 料金ページ終わり */
