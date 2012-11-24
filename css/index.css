@@ -107,11 +107,15 @@
   font-weight: bold;
 }
 
+.index .info .fb iframe {
+  margin: 10px 0 0;
+}
+
 .index .info .request {
   width: 280px;
 	height: auto;
   float: left;
-  margin: 40px 0 0;
+  margin: 40px 0 0 30px;
 }
 
 .index .info .request p {
@@ -132,7 +136,7 @@
 }
 
 .index .info .banners {
-  width: 280px;
+  width: 270px;
 	height: auto;
   float: right;
   margin: 40px 0 0;
