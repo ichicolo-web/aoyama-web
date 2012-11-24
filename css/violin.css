@@ -4,7 +4,7 @@
 /* はじめにページ */
 .big_box{
 	width:950px;
-	height:600px;
+	height:550px;
 }
 
 .box_left{
@@ -79,7 +79,7 @@
 
 .box002,
 .box003{
-  display:none;
+	display:none;
 }
 
 .box_right{
@@ -112,13 +112,23 @@
 	word-wrap:break-all;
 }
 
-.sentence03 p{
-	width:700px;
-	height:auto;
-	margin:10px 20px 10px 0;
+.sentence03 li{
+	margin:0 20px 0 0;
 	word-wrap:break-all;
 }
-
+.sentence03_left {
+	float:left;
+}
+.sentence03_right {
+	width:470px;
+	margin:10px 20px 10px 0;
+	word-wrap:break-all;
+	float:right;
+}
+.sentence03 span {
+  font-size: 1.3em;
+  font-weight: bold;
+}
 .sentence03 img{
 	float:left;
 }
@@ -132,6 +142,6 @@
 table{
 	width:300px;
 	border:#999 solid 1px;
-	margin:10px 0 0 20px;
+	margin:10px 0 0 0;
 }
 /* 料金ページ終わり */
