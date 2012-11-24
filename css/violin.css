@@ -1,12 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
+#big_box{
+	width:950px;
+	height:auto;
+}
 #box_left{
-	width:300px;
+	width:auto;
 	height:200px;
 	position: relative;
+	float:left;
 }
 .title{
-	width:250px;
+	width:950px;
 	height:40px;
 	margin:20px 0 0 20px;
 }
@@ -20,7 +25,7 @@
   padding: 0 0 0 25px;
 }
 
-#box_left .title div span {
+.title div span {
   font-size: 1.3em;
   font-weight: bold;
   margin: 10px 0 0 10px;
@@ -28,9 +33,10 @@
 }
 
 .menu_left{
-	width:250px;
+	width:160px;
 	height:auto;
 	margin: 0 0 20px 20px;
+	float:left;
 }
 
 .menu_left img {
@@ -53,4 +59,27 @@
   margin: 0 0 0 0px;
   padding:10px 0 0 10px;
   color:#963;
+}
+
+#box_right{
+	width:720px;
+	height:30px;
+	float:right;
+	margin:10px 20px 0 0;
+	background-image:url(../images/base/title_background.jpg);
+}
+#box_right .obi{
+	color:#FFF;
+	margin:8px 0 0 30px;
+	font-weight:bold;
+}
+#box_right .sentence p{
+	width:720px;
+	height:100px;
+	margin:10px 0 0 0;
+	word-wrap:break-all;
+}
+
+.cb{
+	clear:both;
 }

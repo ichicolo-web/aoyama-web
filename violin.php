@@ -12,7 +12,6 @@
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/index.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="css/violin.css" media="all" charset="utf-8" />
 <script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='js/hdm.js'></script>
@@ -22,25 +21,42 @@
 	<div class="wrapper">
     <div class="contents">
         <? require_once 'partials/header.php'; ?>
-      <div id="box_left">
       <div class="title">
       	<div>
-		 <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山バイオリン教室</span>
+		 <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山英里香バイオリン教室</span>
         </div>          
       </div><!-- /title -->
       
-      <div class="menu_left">
-      	<ul>
-        	<li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>はじめに</span></li>
-            <li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
-            <li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
-            <li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li>
-        </ul>
-      </div><!-- /menu_left -->
+      
+      <div id="big_box">
+      	<div id="box_left">
+      
+      	<div class="menu_left">
+      		<ul>
+        		<li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>はじめに</span></li>
+            	<li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
+            	<li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
+            	<li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li>
+        	</ul>
+      	</div><!-- /menu_left -->
       </div><!-- /box_left -->
+      
+      	<div id="box_right">
+      		<p class="obi"><b>ご挨拶</b></p>
+          <div class="sentence">
+          <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+          </div>
+      	</div>
+      
+      	<div class="cb"></div>
+        
+      </div>
       
         <? require_once 'partials/footer.php'; ?> 
     </div><!-- /contents -->
 	</div><!-- /wrapper -->
+</body>
+</html>
+<!-- /wrapper -->
 </body>
 </html>
