@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+#box_left{
+	width:300px;
+	height:200px;
+	position: relative;
+}
+.title{
+	width:250px;
+	height:40px;
+	margin:20px 0 0 20px;
+}
+
+.title div img {
+	float:left;
+  	clear:both;
+}
+.title div{
+  height: 50px;
+  padding: 0 0 0 25px;
+}
+
+#box_left .title div span {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  float:left;
+}
+
+.menu_left{
+	width:250px;
+	height:auto;
+	margin: 0 0 20px 20px;
+}
+
+.menu_left img {
+	float:left;
+  	clear:both;
+}
+
+.menu_left ul {
+  height: 50px;
+  padding: 0 0 0 25px;
+}
+
+.menu_left li{
+  padding:10px 0 0 10px;
+}
+
+.menu_left li span {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0 0 0 0px;
+  padding:10px 0 0 10px;
+  color:#963;
+}

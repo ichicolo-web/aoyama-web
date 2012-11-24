@@ -22,8 +22,23 @@
 	<div class="wrapper">
     <div class="contents">
         <? require_once 'partials/header.php'; ?>
-      <div class="key-visual">      
-      </div><!-- /key-visual -->
+      <div id="box_left">
+      <div class="title">
+      	<div>
+		 <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山バイオリン教室</span>
+        </div>          
+      </div><!-- /title -->
+      
+      <div class="menu_left">
+      	<ul>
+        	<li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>はじめに</span></li>
+            <li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
+            <li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
+            <li><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li>
+        </ul>
+      </div><!-- /menu_left -->
+      </div><!-- /box_left -->
+      
         <? require_once 'partials/footer.php'; ?> 
     </div><!-- /contents -->
 	</div><!-- /wrapper -->
