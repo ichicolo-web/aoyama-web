@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* はじめにページ */
+.big_box{
+	width:950px;
+	height:auto;
+  overflow: auto;
+}
+
+.box_left{
+	width:auto;
+	height:200px;
+	position:relative;
+	float:left;
+}
+
+.main_title{
+	width:950px;
+	height:40px;
+	margin:20px 0 0 20px;
+}
+
+.main_title div img {
+	float:left;
+  	clear:both;
+}
+
+.main_title div{
+  height: 50px;
+  padding: 0 0 0 25px;
+}
+
+.main_title div span {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  float:left;
+}
+
+.menu_left{
+	width:160px;
+	height:auto;
+	margin: 0 0 20px 20px;
+	float:left;
+}
+
+.menu_left img {
+	float:left;
+  clear:both;
+}
+
+.menu_left ul {
+  height: 50px;
+  padding: 0 0 0 25px;
+}
+
+.menu_left li{
+  padding:10px 0 0 10px;
+  cursor:pointer;
+}
+
+.menu_left li span {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0 0 0 0px;
+  padding:10px 0 0 10px;
+  color:#963;
+}
+
+.menu_left li.selected span{
+	color: #cc9593;
+}
+
+.box_right{
+	width:740px;
+	height:auto;
+	float:left;
+	margin:0 0 0 30px;
+}
+
+.box_right .article{
+	width:720px;
+	height:auto;
+	margin:10px 0 20px 0;
+  float:left;
+}
+
+.box_right .article .tag{
+	width:688px;
+	height:24px;
+	color:#ffffff;
+	font-weight:bold;
+	background-image:url(../images/base/title_background.jpg);
+  padding:6px 0 0 32px;
+}
+
+.box_right .article .tag .id{
+    float: right;
+}
+
+.box_right .article .left {
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+
+.box_right .article .left img{
+    margin: 10px 0 0;
+}
+
+.box_right .article .right {
+    width: 540px;
+    height: 100%;
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+.box_right .article .title {
+    width: 540px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.box_right .article .description {
+    width:540px;
+    font-size: 1.2em;
+    margin: 10px 0 0;
+    word-wrap: break-word;
+}
