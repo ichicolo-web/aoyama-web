@@ -17,12 +17,12 @@
 <script type='text/javascript' src='js/hdm.js'></script>
 
 <?php
-require_once("admin/violin/init.php");
+require_once("admin/piano/init.php");
 init();
 $link = mysql_connect('localhost', 'root', 'root');
 $db_selected = mysql_select_db('update', $link);
 mysql_set_charset('utf-8');
-$result = mysql_query('SELECT id,date,file,writer,title,description FROM posts ORDER BY id DESC LIMIT 3');
+$result = mysql_query('SELECT id,date,file,writer,title,description FROM posts_piano ORDER BY id DESC LIMIT 3');
 $close_flag = mysql_close($link);
 ?>
 
@@ -33,7 +33,7 @@ $close_flag = mysql_close($link);
     <? require_once 'partials/header.php'; ?>
       <div class="main_title">
         <div>
-          <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山英里香バイオリン教室</span>
+          <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
@@ -57,7 +57,7 @@ $close_flag = mysql_close($link);
             print('</span>');
             print('</div>');
             print('<div class="left">');
-            print('<img src="admin/violin/images/upload/'.$row['file'].'" />');
+            print('<img src="admin/piano/images/upload/'.$row['file'].'" />');
             print('</div>');
             print('<div class="right">');
             print('<p class="title">');

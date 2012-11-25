@@ -50,7 +50,7 @@ $close_flag = mysql_close($link);
           <input placeholder="入力" type="text" name="delete" size="10" maxlength="4" />
           <input type="submit" value="削除する" />
         </form>
-<a class ="view" href="../violin_student.php" target="_blank">サイトで確認する</a>
+<a class ="view" href="../../violin_student.php" target="_blank">サイトで確認する</a>
 <?php
 while ($row = mysql_fetch_assoc($result)) {
   print('<div class="log">');

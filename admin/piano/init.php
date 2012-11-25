@@ -12,5 +12,4 @@ function init() {
   ob_start("mb_output_handler");
   session_start();
 }
-
 ?>

@@ -18,6 +18,6 @@ $confirm_description = nl2br($view_description);
   $result_flag = mysql_query($sql);
   $close_flag = mysql_close($link);
 
-  header("Location: ../violin_student.php");
-  header("Location: ../admin/index.php");
+  header("Location: ../../violin_student.php");
+  header("Location: ../../admin/violin/index.php");
 ?> 
