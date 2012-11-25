@@ -135,6 +135,14 @@ body {
   padding: 0 15px;
 }
 
+.header ul.gnavi li.selected {
+  background-color: #cc9593;
+}
+
+.header ul.gnavi li.selected a:hover{
+  color: #300203;
+}
+
 .header ul.gnavi li.last {
   border: none;
 }

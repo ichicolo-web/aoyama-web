@@ -12,14 +12,44 @@ print <<<EOF
       </address>
     </div>
     <ul class="gnavi">
-      <li><a href="index.php">トップ</a></li>
-      <li><a href="violin.php">バイオリン教室</a></li>
-      <li><a href="piano.php">ピアノ教室</a></li>
-      <li><a href="request.php">演奏依頼</a></li>
-      <li><a href="contact.php">お問い合わせ</a></li>
-      <li><a href="link.php">リンク</a></li>
-      <li class="last"><a href="access.php">アクセス</a></li>
+      <li id="index"><a href="index.php">トップ</a></li>
+      <li id="violin"><a href="violin.php">バイオリン教室</a></li>
+      <li id="piano"><a href="piano.php">ピアノ教室</a></li>
+      <li id="request"><a href="request.php">演奏依頼</a></li>
+      <li id="contact"><a href="contact.php">お問い合わせ</a></li>
+      <li id="link"><a href="link.php">リンク</a></li>
+      <li id="access" class="last"><a href="access.php">アクセス</a></li>
     </ul>
   </div><!-- /header -->
+<script type="text/javascript">
+(function () {
+  var path = location.pathname,
+      index = path.match('index'),
+      violin = path.match('violin'),
+      piano = path.match('piano'),
+      request = path.match('request'),
+      contact = path.match('contact'),
+      link = path.match('link'),
+      access = path.match('access');
+  
+    if (index == 'index') {
+      $('#index').addClass('selected');
+    } else if (violin == 'violin') {
+      $('#violin').addClass('selected');
+    } else if (piano == 'piano') {
+      $('#piano').addClass('selected');
+    } else if (request == 'request') {
+      $('#request').addClass('selected');
+    } else if (contact == 'contact') {
+      $('#contact').addClass('selected');
+    } else if (link == 'link') {
+      $('#link').addClass('selected');
+    } else if (access == 'access') {
+      $('#access').addClass('selected');
+    }
+}());
+</script>
+
 EOF;
+
 ?>
