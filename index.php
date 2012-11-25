@@ -43,7 +43,7 @@
         </div><!-- /violin -->
         <div class="piano">
           <div>
-            <img src="images/base/piano.png" width="36" height="47" alt="ピアノ" />
+            <img src="images/base/piano.png" width="27" height="35" alt="ピアノ" />
             <span>青山由貴子ピアノ教室</span>
           </div>
           <a href="piano.php"><img src="images/index/piano.jpg" width="460" height="230" alt="ピアノ教室" /></a>

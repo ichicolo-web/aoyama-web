@@ -114,9 +114,9 @@ body {
   float: left;
 }
 
-.header div h1 span {
-  margin:-22px 0 0 25px;
-  float:right;
+.header div p {
+	margin: 10px 0 0 30px;
+	float:left;
 }
 
 .header div address {

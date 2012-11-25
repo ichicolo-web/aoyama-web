@@ -4,8 +4,8 @@ print <<<EOF
     <div>
       <h1>
         <img src="images/base/logo.png" width="297" height="36" alt="Haus-de-musik（ハウスデムジカ）" />
-		<span>～ハウスデムジカ・音楽の集まる家～</span>
       </h1>
+	  <p>～ハウスデムジカ・音楽の集まる家～</p>
       <address>
         神奈川県横須賀市湘南鷹取3丁目<br />
         TEL : 046-865-0000<br />
