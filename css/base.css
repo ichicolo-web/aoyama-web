@@ -101,6 +101,7 @@ body {
 	position: relative;
 	margin: 0 auto;
   border-bottom: solid 3px #300203;
+   background: url("../images/base/header_background.jpg") no-repeat;
 }
 
 .header div {
@@ -111,6 +112,11 @@ body {
 
 .header div h1 {
   float: left;
+}
+
+.header div h1 span {
+  margin:-22px 0 0 25px;
+  float:right;
 }
 
 .header div address {
