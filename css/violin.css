@@ -4,7 +4,7 @@
 /* はじめにページ */
 .big_box{
 	width:950px;
-	height:550px;
+	height:740px;
 }
 
 .box_left{
@@ -38,7 +38,7 @@
 }
 
 .menu_left{
-	width:160px;
+	width:200px;
 	height:auto;
 	margin: 0 0 20px 20px;
 	float:left;
@@ -83,7 +83,7 @@
 }
 
 .box_right{
-	width:720px;
+	width:700px;
 	height:30px;
 	float:right;
 	margin:10px 20px 0 0;
@@ -91,7 +91,7 @@
 }
 
 .box_right .obi{
-	width:720px;
+	width:700px;
 	height:30px;
 	color:#FFF;
 	margin:8px 0 0 30px;
@@ -110,6 +110,9 @@
 	height:auto;
 	margin:10px 20px 10px 0;
 	word-wrap:break-all;
+}
+.sentence02 table{
+	text-align:center;
 }
 
 .sentence03 li{
