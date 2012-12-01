@@ -33,7 +33,7 @@ $close_flag = mysql_close($link);
     <? require_once 'partials/header.php'; ?>
       <div class="main_title">
         <div>
-          <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
+          <img src="images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
