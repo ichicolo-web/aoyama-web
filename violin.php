@@ -13,9 +13,12 @@
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="css/violin.css" media="all" charset="utf-8" />
+<link href="css/lightbox.css" rel="stylesheet" />
 <script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='js/hdm.js'></script>
 <script type='text/javascript' src='js/hdm/violin.js'></script>
+<script src="js/lightbox/jquery-1.7.2.min.js"></script>
+<script src="js/lightbox/lightbox.js"></script>
 </head>
 <body class="index">
 <div class="wrapper">
@@ -89,8 +92,20 @@
             <li>最寄り駅：京王井の頭線「久我山駅」より徒歩６分</li>
             <li>バス系統［荻４０］立教女学院行き「久我山」のバス停より徒歩３分</li>
             <li>（ＪＲ荻窪、西荻窪駅などからバスが出ています。）</li>
+            <li>お車の方は駐車場スペースあり</li>
 
           </ul><br />
+                    
+          <p>
+          楽器の持ち方、構え方、ボーイング、ヴィブラート等の基礎は、きっちり身に着けて頂きたいと思っています。<br />
+          そのための練習方法をお教えします。また、音楽的な表現については、違いを示しながらレッスンしていきます。<br /><br />
+          曲の仕上げのレッスンはできる限り伴奏つきで行えるようにしております。<br />
+          (原則無料ですが、ご家族の方にお願いする場合もあります)<br /><br />
+          年に一度、春に横浜美術館レクチャーホールにて、発表会を行っております。<br />
+          (発表会費10,000円～、これ以外に上級者の方には伴奏代をお願いしております)<br />
+          12月にはクリスマス会として、湘南鷹取の自宅にて、ホームコンサートを行い、ソロはもちろんですが、ご家族、<br />
+          生徒さん同士のアンサンブルの発表会の場を設けるように致しております。<br />
+          ティータイム付以外は原則無料、アットホームな楽しい会で、毎年生徒さんの方からは「いつ？」と聞かれます。 </p>
           
           <table border="1" cellpadding="0" cellspacing="0">
             <th>レッスン料金表</th>
@@ -111,24 +126,15 @@
           <p>大人向けのレッスン、および出張レッスンは、現在受け付けておりません。<br />
   専門になさりたい方は、上記以上のお時間をお勧めします。ご相談ください。<br />
   初心者、小さいお子様は30分レッスン、徐々に時間を増やしていかれるのが良いと思います。<br />
-  現在演奏活動が忙しく、曜日は決めていても、こちらの都合で変更をお願いしなければいけない事もあると思います。<br />
+  現在演奏活動が忙しく曜日は決めていても、こちらの都合で変更をお願いしなければいけない事もあると思います。<br />
   ご了承ください。
           </p>
           
           <p>
-          基礎(楽器の持ち方、構え方、ボーイング、ヴィブラート)はきっちりと身に着けて頂きたいと思っています。<br />
-          そのための練習方法をお教えします。また、音楽的な表現については、違いを示しながらレッスンしていきます。<br /><br />
-          曲の仕上げのレッスンはできる限り伴奏つきで行えるようにしております。<br />
-          (原則無料ですが、ご家族の方にお願いする場合もあります)<br /><br />
-          年に一度、春に横浜美術館レクチャーホールにて、発表会を行っております。<br />
-          (発表会費10,000円～、これ以外に上級者の方には伴奏代をお願いしております)<br />
-          12月にはクリスマス会として、湘南鷹取の自宅にて、ホームコンサートを行い、ソロはもちろんですが、ご家族、<br />
-          生徒さん同士のアンサンブルの発表会の場を設けるように致しております。<br />
-          ティータイム付以外は原則無料、アットホームな楽しい会で、毎年生徒さんの方からはいつ？と聞かれます。 </p>
-          <p>
           青山英里香バイオリン教室は、山梨県甲府市の塩部幼稚園内でも月3回(月曜日、火曜日)レッスンを行っております。<br />
           発表会は年1回、秋にキングスウェル・ガーデンホールで行っております。レッスン料、その他は別途お問い合わせください。
           </p>
+          
         </div><!-- /sentence02 -->
             </div><!-- /box002 -->
           <div class="box003">
@@ -143,31 +149,50 @@
           </div>
           	<div class="sentence03_right">
           	<ul>
-            	<li><span>【青山英里香】</span></li>
-				<li>横浜に生まれ、横須賀で育つ。3歳よりバイオリンを始める。桐朋学園子供のための音楽教室（鎌倉、横浜教室）を経て、桐朋女子高等学校音楽科（男女共学）、桐朋学園大学音楽学部演奏学科を卒業。桐朋学園大学研究科修了。</li><br />
+            	<li><span>【青山英里香】</span></li><br />
+				<li>横浜に生まれ、横須賀で育つ。<br />
+			    3歳よりバイオリンを始める。桐朋学園子供のための音楽教室（鎌倉、横浜教室）を経て、桐朋女子高等学校音楽科（男女共学）、桐朋学園大学音楽学部演奏学科を卒業。 同研究科修了。オーケストラ・アカデミー研修生修了。</li><br />
 
 				<li>これまでに小出始子、井上淑子、神谷美千子、ドガレイユ、加藤知子の各氏に師事。室内楽では、毛利伯郎、藤井一興、三上桂子、野島稔、原田幸一郎、藤原浜雄、徳永二男、斎木隆、東京カルテットの各氏に師事。</li><br />
 				<li>第７６、７８、８０回桐朋学園室内楽演奏会出演。JTアートホール期待の音大生によるアフタヌーンコンサートVol.１８５出演。<br />
 クラシック音楽コンクール、日本演奏家コンクール、JILA音楽コンクール、TMC東京Jazz/Rockコンクールetc.上位入賞。</li><br />
-		<li>現在、ストリングス・ユニット「seasons」を結成しテレビ、ライヴなど全国で活動中。 2009 年にＣＤ「Neo classic」をリリース。</li>
+		<li>2005年&nbsp;湘南ユースオーケストラとチャイコフスキーのコンチェルトを共演。</li>
+        <li>2006年&nbsp;横須賀成人式において、成人代表として挨拶。</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;横須賀交響楽団とヴィバルディ「四季」を共演。</li><br />
+        <li>2010年&nbsp;栄フィルハーモニー交響楽団とシベリウスのコンチェルトを共演。<br />
+          栄フィルでは、2012年ゲストコンマスとして、リムスキー、コルサンコフの「シエラザード」のソロを演奏する。現在、音楽財団「豊島区Gドリーム」のオーケストラに所属、コンサートミストレスを務めている。</li><br />
+        <li>室内楽の分野では、高校時代に結成したピアノカルテット「ルミエール」は10年目を迎え、10周年コンサートを企画中。</li><br />
+        
+        <li>メルティ・ストリングスカルテットはメンバーの都合により休止中、タリア弦楽四重奏団などにも力を注いでいる。またストリングス・ユニット「Seasons」を結成し、TV、ライブなど、全国で活躍中。2009年にCD「Neo classic」をリリース。</li>
+        <li>多方面の活躍により、共演したアーティストは数多く、中西桂三、溝口肇(チェロ)、アキコグレース(ピアノ)、加山雄三、森山良子 ～。
         </ul>
-        <br />
 
-        <ul>
-        	<li><span>【詳しい活動内容】</span></li>
-        	<li>鈴木メソード全国大会（武道館）で２年連続代表。夏期学校コンサート最年少出演</li>
-            <li>桐朋学園子供のための音楽教室推薦音楽会出演</li>
-            <li>第８回コンサートかなざわ出演</li>
-            <li>第４３回鎌倉市学生音楽コンクール教育委員会賞</li>
-            <li>第１７回厚木青少年音楽コンクール金賞</li>
-            <li>第９回クラシック音楽コンクール東京大会優秀賞</li>
-            <li>第１回日本演奏家コンクール第３位</li>
-            <li>第９回ＪＩＬＡ音楽コンクール第２位</li>
-            <li>ＴＭＣ東京Jazz/Rockコンクール最高位、その他入賞入選多数</li>
-        </ul>
         </div>
         </div><!-- /sentence03 -->
             </div><!-- /box003 -->
+        
+        <div class="box004">
+        <div class="box_right">
+          <p class="obi">アルバム/動画</p>
+        </div>
+        <div class="cb"></div>
+        <div class="sentence04">
+         <div class="imageRow">
+  			<div class="single">
+        	<a href="images/album/2012_image01.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image01_s.jpg" /></a>
+            <a href="images/album/2012_image02.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image02_s.jpg" /></a>
+            <a href="images/album/2012_image03.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image03_s.jpg" /></a><br />
+            <a href="images/album/2012_image04_1.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image04_1_s.jpg" /></a>
+            <a href="images/album/2012_image04_2.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image04_2_s.jpg" /></a>
+            <a href="images/album/2012_image05.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image05_s.jpg" /></a>
+            <a href="images/album/2012_image06.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image06_s.jpg" /></a>
+            </div>
+            </div>
+
+     
+  </div><!-- /sentence04 -->
+            </div><!-- /box004 -->
+        
       </div><!-- /box_main -->
     </div><!-- /big_box -->
   <? require_once 'partials/footer.php'; ?> 

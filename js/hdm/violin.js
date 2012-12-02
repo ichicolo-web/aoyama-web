@@ -14,18 +14,28 @@
       $('.box001').show();
       $('.box002').hide();
       $('.box003').hide();
+	  $('.box004').hide();
       $('.selected').removeClass('selected');
       $('.navi00' + tag).addClass('selected');
     } else if(tag == '2') {
       $('.box002').show();
       $('.box001').hide();
       $('.box003').hide();
+	  $('.box004').hide();
       $('.selected').removeClass('selected');
       $('.navi00' + tag).addClass('selected');
     } else if(tag == '3') {
       $('.box003').show();
       $('.box001').hide();
       $('.box002').hide();
+	  $('.box004').hide();
+      $('.selected').removeClass('selected');
+	  $('.navi00' + tag).addClass('selected');
+    } else if(tag == '4') {
+      $('.box004').show();
+      $('.box001').hide();
+      $('.box002').hide();
+	  $('.box003').hide();
       $('.selected').removeClass('selected');
       $('.navi00' + tag).addClass('selected');
     }
