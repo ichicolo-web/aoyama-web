@@ -2,9 +2,16 @@
 /* CSS Document */
 
 /* はじめにページ */
+.inner{
+	width:950px;
+	height:auto;
+}
+
 .big_box{
 	width:950px;
-	height:740px;
+	height:auto;
+  float:left;
+  background-color:#ffffff;
 }
 
 .box_left{

@@ -24,6 +24,7 @@
 <div class="wrapper">
   <div class="contents">
     <? require_once 'partials/header.php'; ?>
+      <div class="inner">
       <div class="title">
         <div>
           <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山英里香バイオリン教室</span>
@@ -195,6 +196,7 @@
         
       </div><!-- /box_main -->
     </div><!-- /big_box -->
+    </div><!-- /innner -->
   <? require_once 'partials/footer.php'; ?> 
   </div><!-- /contents -->
 </div><!-- /wrapper -->
