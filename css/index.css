@@ -6,6 +6,15 @@
   position: relative;
 }
 
+.index .key-visual img {
+  display: none; 
+  position: absolute;
+}
+
+.index .key-visual img.v001 {
+  display: block; 
+}
+
 .index .about {
   padding: 20px 25px;
   position: relative;

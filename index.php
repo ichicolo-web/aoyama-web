@@ -22,7 +22,9 @@
     <div class="contents">
         <? require_once 'partials/header.php'; ?>
       <div class="key-visual">
-        <img src="images/index/key_visual001.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v001" src="images/index/key_visual001.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v002" src="images/index/key_visual002.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v003" src="images/index/key_visual003.jpg" width="950" height="330" alt="ハウスデムジカ" />
       </div><!-- /key-visual -->
       <div class="about">
         <img src="images/base/title-design.jpg" width="165" height="24" alt="" />
@@ -62,7 +64,6 @@
              クワルテット、デュオ、ソロetc.<br />
              御要望に応じたアレンジを致します。<br />
              ”大切なイベントに生演奏を！”とお考えの方、御連絡をお待ち致しております。
-
           </div>
         </div><!-- /request -->
         <div class="banners">
