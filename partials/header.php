@@ -25,7 +25,6 @@ print <<<EOF
 <script type="text/javascript">
 (function () {
   var path = location.pathname,
-      index = path.match('index'),
       violin = path.match('violin'),
       piano = path.match('piano'),
       request = path.match('request'),
@@ -33,9 +32,7 @@ print <<<EOF
       link = path.match('link'),
       access = path.match('access');
   
-    if (index == 'index') {
-      $('#index').addClass('selected');
-    } else if (violin == 'violin') {
+    if (violin == 'violin') {
       $('#violin').addClass('selected');
     } else if (piano == 'piano') {
       $('#piano').addClass('selected');
@@ -47,6 +44,8 @@ print <<<EOF
       $('#link').addClass('selected');
     } else if (access == 'access') {
       $('#access').addClass('selected');
+    } else {
+      $('#index').addClass('selected');
     }
 }());
 </script>
