@@ -20,7 +20,7 @@
       v001.fadeOut('slow');
       v002.fadeIn('slow');
       second();
-    }, 4000);
+    }, 6000);
   };
 
   var second = function () {
@@ -28,7 +28,7 @@
       v002.fadeOut('slow');
       v003.fadeIn('slow');
       third();
-    }, 4000);
+    }, 6000);
   };
 
   var third = function () {
@@ -36,7 +36,7 @@
       v003.fadeOut('slow');
       v001.fadeIn('slow');
       first();
-    }, 4000);
+    }, 6000);
   };
 
     first();
