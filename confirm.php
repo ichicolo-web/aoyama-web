@@ -79,7 +79,9 @@ if($error == 1) {
     <? require_once 'partials/header.php'; ?>
       <div class="title">
         <div>
-          <img src="images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>お問い合わせ内容確認</span>
+          <img src="images/base/violin.png" width="38" height="35" alt="バイオリン" />
+          <img src="images/base/piano.png" width="27" height="35" alt="ピアノ" />
+          <span>お問い合わせ内容確認</span>
         </div>          
       </div><!-- /title -->
     <form action="send.php" method="post">

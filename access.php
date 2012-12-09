@@ -24,7 +24,7 @@
       <div class="title">
         <div>
           <img src="images/base/violin.png" width="38" height="35" alt="バイオリン" />
-          <img src="images/base/piano.png" width="36" height="47" alt="ピアノ" />
+          <img src="images/base/piano.png" width="27" height="35" alt="ピアノ" />
           <span>アクセス</span>
         </div>          
       </div><!-- /title -->

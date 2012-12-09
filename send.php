@@ -29,7 +29,7 @@ $all="
 if(mb_send_mail($to,$title,$all,"FROM:$email")){
   $caution="メールを送信いたしました。<br />
     このたびはお問い合わせいただき、誠にありがとうございました。<br /><br /><br />
-    <a class='back' href='contact.php'>問い合わせページに戻る</a>";
+    <a class='back' href='contact.php'>お問い合わせページに戻る</a>";
 }
 else{
   $caution="メールの送信に失敗しました。<br />
@@ -73,7 +73,9 @@ mb_send_mail($email,$reply_title,$reply_all,"FROM:$to");
     <? require_once 'partials/header.php'; ?>
       <div class="title">
         <div>
-          <img src="images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>送信確認</span>
+          <img src="images/base/violin.png" width="38" height="35" alt="バイオリン" />
+          <img src="images/base/piano.png" width="27" height="35" alt="ピアノ" />
+          <span>送信確認</span>
         </div>          
       </div><!-- /title -->
       <p class="caution"><?= $caution ?></p>
