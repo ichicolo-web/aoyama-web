@@ -31,7 +31,7 @@
         <div>
           <p>Haus-de-musikについて</p>
           <span>
-            横浜にほど近い湘南鷹取(横須賀/追浜)のバイオリン・ピアノ教室です。音楽を楽しめる場所としてHaus-de-musik(ハウスデムジカ)は始まりました。<a href="hausdemusik.php" onclick="window.open('./hausdemusik.php', '', 'width=800,height=620'); return false;">【詳細】</a><br />
+            横浜にほど近い湘南鷹取(横須賀/追浜)のバイオリン・ピアノ教室です。音楽を楽しめる場所としてHaus-de-musik(ハウスデムジカ)は始まりました。<a href="hausdemusik.php" onclick="window.open('./hausdemusik.php', '', 'width=800,height=700'); return false;">【詳細】</a><br />
 現在、生徒さん募集中！！体験レッスン、面談などをご希望の方はお気軽にお問い合わせください。
           </span>
         </div>
@@ -58,7 +58,7 @@
           <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FHausDeMusik&amp;width=330&amp;height=245&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=true&amp;appId=337089699705595" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:330px; height:245px;" allowTransparency="true"></iframe>
         </div><!-- /fb -->
         <div class="request">
-          <a href=""><p></p></a>
+          <a href=""><p style="padding:22px 0 0 63px; font-size:150%; font-weight:bold;">演奏依頼</p></a>
           <div>
              出張演奏いたします。<br />
              クワルテット、デュオ、ソロetc.<br />

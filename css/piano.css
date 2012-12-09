@@ -2,9 +2,16 @@
 /* CSS Document */
 
 /* はじめにページ */
+
+.inner{
+	width:950px;
+	height:auto;
+}
 .big_box{
 	width:950px;
-	height:550px;
+	height:auto;
+  float:left;
+  background-color:#ffffff;
 }
 
 .box_left{
@@ -75,6 +82,7 @@
 	width:720px;
 	height:auto;
 	float:right;
+	margin:0 0 20px 0; 
 }
 
 .box002,
@@ -101,7 +109,7 @@
 .sentence01 p{
 	width:700px;
 	height:auto;
-	margin:10px 20px 10px 0;
+	margin:20px 20px 20px 0;
 	word-wrap:break-all;
 }
 
