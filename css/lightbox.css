@@ -194,7 +194,7 @@
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-  margin-right: 40px;
+  margin-right: 20px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
@@ -212,7 +212,7 @@
 }
 /* line 335, ../sass/screen.sass */
 .imageRow .single a:hover {
-  background-color: #8ad459;
+  background-color: #FCF;
 }
 /* line 337, ../sass/screen.sass */
 .imageRow .set {

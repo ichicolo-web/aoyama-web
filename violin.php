@@ -180,13 +180,90 @@
         <div class="sentence04">
          <div class="imageRow">
   			<div class="single">
-        	<a href="images/album/2012_image01.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image01_s.jpg" /></a>
-            <a href="images/album/2012_image02.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image02_s.jpg" /></a>
-            <a href="images/album/2012_image03.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image03_s.jpg" /></a><br />
-            <a href="images/album/2012_image04_1.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image04_1_s.jpg" /></a>
-            <a href="images/album/2012_image04_2.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image04_2_s.jpg" /></a>
-            <a href="images/album/2012_image05.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image05_s.jpg" /></a>
-            <a href="images/album/2012_image06.jpg" rel="lightbox[roadtrip]"><img src="images/album/2012_image06_s.jpg" /></a>
+            <div class="cb"></div>
+                <div class="photo_box">
+                <br />
+                
+                <table width="700">
+  				<tr>
+                	<td colspan="3" style="text-align:left; padding:0 0 0 10px;">■2012年5月　発表会（横浜美術館レクチャーホールにて）
+                    </td>
+  				<tr>
+                <tr>
+    				<td><a href="images/album/2012_image07.jpg" rel="lightbox[roadtrip]" title="妹弟子を迎え先生のお手伝い・・・「大丈夫よ！」"><img src="images/album/2012_image07_s.jpg" width="200" height="191" /><br /><br />
+妹弟子を迎え先生のお手伝い・・・<br />
+「大丈夫よ！」</a></td>
+
+    				<td><a href="images/album/2012_image08.jpg" rel="lightbox[roadtrip]" title="「できっこな～い」が実現した御兄弟の連弾"><img src="images/album/2012_image08_s.jpg" width="200" height="208" /><br /><br />
+「できっこな～い」が実現した<br />
+御兄弟の連弾</a></td>
+
+    				<td><a href="images/album/2012_image09.jpg" rel="lightbox[roadtrip]" title="自作のバイオリンでお嬢様とデュオ（素晴らしい！）"><img src="images/album/2012_image09_s.jpg" width="200" height="155" /><br /><br />
+自作のバイオリンでお嬢様とデュオ<br />
+（素晴らしい！）
+</a></td>
+  				</tr>
+ 				 <tr>
+  	
+    				<td><a href="images/album/2012_image12.jpg" rel="lightbox[roadtrip]" title="ピアノを始めた記念にパパ・ママと3人連弾"><img src="images/album/2012_image12_s.jpg" width="200" height="170" /><br /><br />
+ピアノを始めた記念に<br />
+パパ・ママと3人連弾</a></td>
+    
+    				<td><a href="images/album/2012_image11.jpg" rel="lightbox[roadtrip]" title="5人で弾く「親指ラグ」本当に親指しか使いません"><img src="images/album/2012_image11_s.jpg" width="200" height="138" /><br /><br />
+5人で弾く「親指ラグ」<br />
+本当に親指しか使いません</a></td>
+					<td><a href="images/album/2012_image13.jpg" rel="lightbox[roadtrip]" title="大好きなバレエ曲を連弾！ママも子供の頃は生徒さんでした。"><img src="images/album/2012_image13_s.jpg" width="200" height="189" /><br /><br />
+大好きなバレエ曲を連弾！<br />
+ママも子供の頃は生徒さんでした。</a></td>
+  				</tr>
+  				<tr>
+  					<td><a href="images/album/2012_image10.jpg" rel="lightbox[roadtrip]" title="プログラム製作担当者もバイオリニスト？？（青山家３人）"><img src="images/album/2012_image10_s.jpg" width="200" height="160" /><br /><br />
+プログラム製作担当者も<br />
+バイオリニスト？？（青山家３人）</a></td>
+    				<td><a href="images/album/2012_image14.jpg" rel="lightbox[roadtrip]" title="ミニコンサート  バイオリン：青山英里香 チェロ：堀内美貴子さん ピアノ：丸山いづみさん"><img src="images/album/2012_image14_s.jpg" width="200" height="151" /><br /><br />
+				ミニコンサート<br />
+				バイオリン：青山英里香<br />
+				チェロ：堀内美貴子さん<br />
+				ピアノ：丸山いづみさん</a></td>
+    				<td>&nbsp;</td>
+  				</tr>
+				</table><br /><br />
+                
+                <table width="700">
+                <tr>
+                	<td colspan="3" style="text-align:left; padding:0 0 0 10px;">■2011年12月　クリスマスコンサート（湘南鷹取の自宅にて）
+                    </td>
+  				<tr>
+    				<td><a href="images/album/2012_image01.jpg" rel="lightbox[roadtrip]" title="あらあら、どうしたの？はじめますよ・・・"><img src="images/album/2012_image01_s.jpg" width="200" height="150" /><br /><br />
+あらあら、どうしたの？<br />
+はじめますよ・・・</a></td>
+   				 <td><a href="images/album/2012_image02.jpg" rel="lightbox[roadtrip]" title="「気のいいアヒル」をガーガー楽しかった？"><img src="images/album/2012_image02_s.jpg" width="200" height="150" /><br /><br />
+「気のいいアヒル」をガーガー<br />
+楽しかった？</a></td>
+    				<td><a href="images/album/2012_image03.jpg" rel="lightbox[roadtrip]" title="クラスメイトのデュオ"><img src="images/album/2012_image03_s.jpg" width="200" height="150" /><br /><br />
+クラスメイトのデュオ</a></td>
+  				</tr>
+  				<tr>
+    				<td style="padding-left:40px;"><a href="images/album/2012_image04_1.jpg" rel="lightbox[roadtrip]" title="バイオリン教室最初の生徒さんでした！"><img src="images/album/2012_image04_1_s.jpg" width="113" height="150" /><br /><br />
+バイオリン教室の<br />
+最初の生徒さんでした！</a></td>
+    				<td><a href="images/album/2012_image04_2.jpg" rel="lightbox[roadtrip]" title="ベルリーニの主題によるエアバリエ"><img src="images/album/2012_image04_2_s.jpg" width="200" height="150" /><br /><br />
+ベルリーニの主題によるエアバリエ</a></td>
+    				<td><a href="images/album/2012_image05.jpg" rel="lightbox[roadtrip]" title="全員で「聖夜」を！！バイオリンとピアノの伴奏付です。"><img src="images/album/2012_image05_s.jpg" width="200" height="150" /><br /><br />
+全員で「聖夜」を！！<br />
+バイオリンとピアノの伴奏付です。</a></td>
+  				</tr>
+  				<tr>
+    				<td><a href="images/album/2012_image06.jpg" rel="lightbox[roadtrip]" title="終了後にパチリ！！みんな、よいお顔ですね・・・"><img src="images/album/2012_image06_s.jpg" width="200" height="150" /><br /><br />
+終了後にパチリ！！<br />
+みんな、よいお顔ですね・・・</a></td>
+    				<td>&nbsp;</td>
+    				<td>&nbsp;</td>
+  				</tr>
+				</table><br />
+				<br />
+
+            </div>
             </div>
             </div>
 

@@ -162,3 +162,18 @@ table{
 	margin:10px 0 0 0;
 }
 /* 料金ページ終わり */
+.photo_box{
+	width:720px;
+	text-align:center;
+}
+.photo_box table{
+	text-decoration:none;
+	text-align:center;
+	border:none;
+	vertical-align:bottom;
+}
+.photo_box table td{
+	padding:5px 0 10px 0;
+	text-align:center;
+	vertical-align:bottom;
+}
