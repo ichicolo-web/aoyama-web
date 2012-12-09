@@ -94,6 +94,13 @@ body {
 	margin: 0 auto;
   background-color: #ffffff;
 }
+.contents02 {
+	width: 700px;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+  background-color: #ffffff;
+}
 
 .header {
 	width: 950px;

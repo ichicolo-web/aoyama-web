@@ -31,7 +31,7 @@
         <div>
           <p>Haus-de-musikについて</p>
           <span>
-            横浜にほど近い湘南鷹取(横須賀/追浜)のバイオリン・ピアノ教室です。音楽を楽しめる場所としてHaus-de-musik(ハウスデムジカ)は始まりました。【詳細】<br />
+            横浜にほど近い湘南鷹取(横須賀/追浜)のバイオリン・ピアノ教室です。音楽を楽しめる場所としてHaus-de-musik(ハウスデムジカ)は始まりました。<a href="hausdemusik.php" onclick="window.open('./hausdemusik.php', '', 'width=800,height=620'); return false;">【詳細】</a><br />
 現在、生徒さん募集中！！体験レッスン、面談などをご希望の方はお気軽にお問い合わせください。
           </span>
         </div>

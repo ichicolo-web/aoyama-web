@@ -212,7 +212,8 @@
 }
 /* line 335, ../sass/screen.sass */
 .imageRow .single a:hover {
-  background-color: #FCF;
+  background-color: #FADD92;
+  color:#000;
 }
 /* line 337, ../sass/screen.sass */
 .imageRow .set {

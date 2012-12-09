@@ -109,14 +109,14 @@
 .sentence01 p{
 	width:700px;
 	height:auto;
-	margin:10px 20px 10px 0;
+	margin:20px 20px 20px 0;
 	word-wrap:break-all;
 }
 
 .sentence02 p{
 	width:700px;
 	height:auto;
-	margin:10px 20px 10px 0;
+	margin:20px 20px 20px 0;
 	word-wrap:break-all;
 }
 .sentence02 table{
@@ -132,7 +132,7 @@
 }
 .sentence03_right {
 	width:470px;
-	margin:10px 20px 10px 0;
+	margin:20px 20px 20px 0;
 	word-wrap:break-all;
 	float:right;
 }

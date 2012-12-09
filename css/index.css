@@ -18,6 +18,7 @@
 .index .about {
   padding: 20px 25px;
   position: relative;
+  height:auto;
 }
 
 .index .about img {
@@ -35,11 +36,34 @@
   padding: 15px 10px;
 }
 
+.index .about02 div {
+	width: 880px;
+	height: 60px;
+  margin: 0 auto;
+  padding: 15px 10px;
+}
+.index .about div02 {
+	width: 880px;
+	height: auto;
+  margin: 0 auto;
+  padding: 15px 10px;
+}
 .index .about div p {
   font-size: 1.2em;
   font-weight: bold;
 }
-
+.index .about div02 p {
+  font-size: 1.2em;
+  font-weight: bold;
+  height:auto;
+}
+.name {
+	float:right;
+	font-weight:normal;
+}
+.button{
+	text-align:center;
+}
 .index .about div span {
   width: 880px;
   height: auto;
@@ -48,6 +72,17 @@
   line-height: 1.7;
 }
 
+.index .about div02 span {
+  width: 600px;
+  height: auto;
+  display: block;
+  word-wrap: break-word;
+  line-height: 1.7;
+  margin:0 0 0 30px;
+}
+.index .about div02 span img {
+  margin:0 0 0 30px;
+}
 .index .classes {
   width: 950px;
 	height: 295px;
