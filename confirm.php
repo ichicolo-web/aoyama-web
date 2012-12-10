@@ -95,12 +95,12 @@ if($error == 1) {
     <br />
     <input type="submit" value="送信する" />
     <input type="button" onclick="self.history.back()" value="入力画面に戻る" />
-    <input type="hidden" value="$name" name="name"/>
-    <input type="hidden" value="$address" name="address"/>
-    <input type="hidden" value="$email" name="email"/>
-    <input type="hidden" value="$confirm_email" name="confirm_email"/>
-    <input type="hidden" value="$tel" name="tel"/>
-    <input type="hidden" value="$description" name="description"/>
+    <input type="hidden" value="<?= $name ?>" name="name"/>
+    <input type="hidden" value="<?= $address ?>" name="address"/>
+    <input type="hidden" value="<?= $email ?>" name="email"/>
+    <input type="hidden" value="<?= $confirm_email ?>" name="confirm_email"/>
+    <input type="hidden" value="<?= $tel ?>" name="tel"/>
+    <input type="hidden" value="<?= $description ?>" name="description"/>
     </form>
   <? require_once 'partials/footer.php'; ?> 
   </div><!-- /contents -->
