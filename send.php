@@ -16,6 +16,7 @@ $address = htmlspecialchars($_POST["address"],ENT_QUOTES);
 $email = htmlspecialchars($_POST["email"],ENT_QUOTES);
 $confirm_email = htmlspecialchars($_POST["confirm_email"],ENT_QUOTES);
 $tel = htmlspecialchars($_POST["tel"],ENT_QUOTES);
+$category = htmlspecialchars($_POST["category"],ENT_QUOTES);
 $description = htmlspecialchars($_POST["description"],ENT_QUOTES);
 
 $to="sevens67@gmail.com";
@@ -25,8 +26,9 @@ $all="
   住所：$address
   E-mailアドレス：$email
   電話番号：$tel
+  カテゴリー：$category
   お問い合わせ内容：$description";
-if(mb_send_mail($to,$title,$all,"FROM:$email")){
+if(mail($to,$title,$all,"FROM:$email")){
   $caution="メールを送信いたしました。<br />
     このたびはお問い合わせいただき、誠にありがとうございました。<br /><br /><br />
     <a class='back' href='contact.php'>お問い合わせページに戻る</a>";
@@ -45,9 +47,10 @@ $reply_all="このメールは自動送信です。
   住所：$address
   E-mailアドレス：$email
   電話番号：$tel
+  カテゴリー：$category
   お問い合わせ内容：$description
   改めてご連絡させていただきますので今しばらくお待ちいただきますようよろしくお願いいたします。";
-mb_send_mail($email,$reply_title,$reply_all,"FROM:$to");
+mail($email,$reply_title,$reply_all,"FROM:$to");
 
 ?>
 

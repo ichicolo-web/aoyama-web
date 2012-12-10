@@ -6,12 +6,14 @@ if(isset($_POST["address"])){$_SESSION["address"] = $_POST["address"];}
 if(isset($_POST["email"])){$_SESSION["email"] = $_POST["email"];}
 if(isset($_POST["confirm_email"])){$_SESSION["confirm_email"] = $_POST["confirm_email"];}
 if(isset($_POST["tel"])){$_SESSION["tel"] = $_POST["tel"];}
+if(isset($_POST["category"])){$_SESSION["category"] = $_POST["category"];}
 if(isset($_POST["description"])){$_SESSION["description"] = $_POST["description"];}
 $name = htmlspecialchars($_POST["name"],ENT_QUOTES);
 $address = htmlspecialchars($_POST["address"],ENT_QUOTES);
 $email = htmlspecialchars($_POST["email"],ENT_QUOTES);
 $confirm_email = htmlspecialchars($_POST["confirm_email"],ENT_QUOTES);
 $tel = htmlspecialchars($_POST["tel"],ENT_QUOTES);
+$category = htmlspecialchars($_POST["category"],ENT_QUOTES);
 $description = htmlspecialchars($_POST["description"],ENT_QUOTES);
 $error = 0;
 if($name == "") {
@@ -91,6 +93,7 @@ if($error == 1) {
     <p>E-mailアドレス：<?= $email ?></p>
     <p>E-mailアドレス確認用：<?= $confirm_email ?></p>
     <p>電話番号：<?= $tel ?></p>
+    <p>カテゴリー：<?= $category ?></p>
     <p>お問い合わせ内容：<?= $description ?></p>
     <br />
     <input type="submit" value="送信する" />
@@ -100,6 +103,7 @@ if($error == 1) {
     <input type="hidden" value="<?= $email ?>" name="email"/>
     <input type="hidden" value="<?= $confirm_email ?>" name="confirm_email"/>
     <input type="hidden" value="<?= $tel ?>" name="tel"/>
+    <input type="hidden" value="<?= $category ?>" name="category"/>
     <input type="hidden" value="<?= $description ?>" name="description"/>
     </form>
   <? require_once 'partials/footer.php'; ?> 

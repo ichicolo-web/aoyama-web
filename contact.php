@@ -74,6 +74,13 @@ if($_SESSION["description"]) {
       <input placeholder="半角英数字でご入力ください。" class="confirm_email" type="text" name="confirm_email" size="30" maxlength="30" value="<?= $confirm_email ?>" />
       <p>電話番号</p>
       <input placeholder="半角数字ハイフン無しでご入力ください。" class="tel" type="text" name="tel" size="30" maxlength="15" value="<?= $tel ?>" />
+      <p>カテゴリー</p>
+        <select name="category">
+          <option value="演奏依頼">演奏依頼</option>
+          <option value="ピアノ教室">ピアノ教室</option>
+          <option value="バイオリン教室">バイオリン教室</option>
+          <option value="その他">その他</option>
+        </select>
       <p>お問い合わせ内容<span>(必須)</span></p>
       <textarea placeholder="お問い合わせ内容をご入力ください。" class="description" name="description" rows="4" cols="40"><?= $description ?></textarea>
       <input type="hidden" name="date" value="<?= $date ?>">
