@@ -63,7 +63,7 @@ if($_SESSION["description"]) {
           <span>お問い合わせ</span>
         </div>          
       </div><!-- /title -->
-<?= $error_message ?>
+    <p class="error"><?= $error_message ?></p>
     <form action="confirm.php" method="post">
     <p class="title">メールでのお問い合わせは、下記フォームからお願い致します。</p>
       <p>お名前<span>(必須)</span></p>
