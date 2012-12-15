@@ -111,6 +111,12 @@
   margin: 10px 0 0 10px;
 }
 
+.index .classes .violin a img:hover {
+   filter: alpha(opacity=60);
+   -moz-opacity:0.6;
+   opacity:0.6;
+}
+
 .index .classes .piano {
   width: 460px;
 	height: auto;
@@ -131,6 +137,12 @@
   font-weight: bold;
   float: left;
   margin: 10px 0 0 10px;
+}
+
+.index .classes .piano a img:hover {
+   filter: alpha(opacity=60);
+   -moz-opacity:0.6;
+   opacity:0.6;
 }
 
 .index .info {
