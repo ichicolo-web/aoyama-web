@@ -31,7 +31,7 @@
       </div><!-- /title -->
       <div class="map">
         <p>
-          <span>Haus-de-musik Aoyama</span>
+          <span>Haus-de-musik Aoyama(横須賀/横浜教室)</span>
           <ul>
             <li><span>所在地：</span>神奈川県横須賀市湘南鷹取3丁目</li>
             <li><span>最寄り駅：</span>京浜急行「追浜駅」</li>
@@ -40,7 +40,19 @@
             <li class="indent">※お車の方は駐車場スペースあり。</li>
           </ul>
         </p>
-        <iframe width="950" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E9%A0%88%E8%B3%80%E5%B8%82%E6%B9%98%E5%8D%97%E9%B7%B9%E5%8F%963%E4%B8%81%E7%9B%AE&amp;aq=&amp;sll=34.728949,138.455511&amp;sspn=44.022063,56.601563&amp;brcurrent=3,0x60184131beff37d3:0x72c7da9579ccbb47,0&amp;ie=UTF8&amp;hq=&amp;hnear=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E9%A0%88%E8%B3%80%E5%B8%82%E6%B9%98%E5%8D%97%E9%B7%B9%E5%8F%96%EF%BC%93%E4%B8%81%E7%9B%AE&amp;ll=35.305459,139.617237&amp;spn=0.002705,0.003455&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>      
+        <iframe width="948" height="598" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E9%A0%88%E8%B3%80%E5%B8%82%E6%B9%98%E5%8D%97%E9%B7%B9%E5%8F%963%E4%B8%81%E7%9B%AE&amp;aq=&amp;sll=34.728949,138.455511&amp;sspn=44.022063,56.601563&amp;brcurrent=3,0x60184131beff37d3:0x72c7da9579ccbb47,0&amp;ie=UTF8&amp;hq=&amp;hnear=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E9%A0%88%E8%B3%80%E5%B8%82%E6%B9%98%E5%8D%97%E9%B7%B9%E5%8F%96%EF%BC%93%E4%B8%81%E7%9B%AE&amp;ll=35.305459,139.617237&amp;spn=0.002705,0.003455&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+        <p>
+        <br />
+        <span>バイオリン教室(東京教室)</span>
+          <ul>
+            <li><span>所在地：</span>杉並区久我山４丁目</li>
+            <li><span>最寄り駅：</span>京王井の頭線「久我山駅」</li>
+            <li class="indent">久我山駅よりバス系統［荻４０］立教女学院行きバスに乗車。 「久我山」のバス停より徒歩３分。</li>
+            <li class="indent">ＪＲ荻窪、西荻窪駅などからバスが出ています。</li>
+            <li class="indent">※お車の方は駐車場スペースあり。</li>
+          </ul>
+        </p>
+       <iframe width="948" height="598" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E6%9D%89%E4%B8%A6%E5%8C%BA%E4%B9%85%E6%88%91%E5%B1%B1%EF%BC%94%E4%B8%81%E7%9B%AE&amp;aq=&amp;sll=35.673343,139.710388&amp;sspn=0.341373,0.559616&amp;brcurrent=3,0x6018ee1e76d820a7:0xc3f631917fdc3b63,1&amp;ie=UTF8&amp;hq=&amp;hnear=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%9D%89%E4%B8%A6%E5%8C%BA%E4%B9%85%E6%88%91%E5%B1%B1%EF%BC%94%E4%B8%81%E7%9B%AE&amp;t=m&amp;z=14&amp;ll=35.690452,139.597842&amp;output=embed"></iframe>
       </div><!-- /map -->
         <? require_once 'partials/footer.php'; ?> 
     </div><!-- /contents -->

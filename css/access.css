@@ -28,6 +28,11 @@
   position: relative;
 }
 
+.access .map iframe {
+	width: 948px;
+	border: solid 1px #000000;
+}
+
 .access .map p {
   margin: 10px 0 0 45px;
   font-size: 1.3em;
