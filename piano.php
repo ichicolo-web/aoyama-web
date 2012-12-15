@@ -16,6 +16,7 @@
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/violin.js'></script>
+<script type='text/javascript' src='/js/hdm/selected.js'></script>
 </head>
 <body class="index">
 <div class="wrapper">
@@ -31,9 +32,9 @@
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
-              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
-              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
+              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
+              <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
+              <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
               
             </ul>
           </div><!-- /menu_left -->

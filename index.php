@@ -16,6 +16,7 @@
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/index.js'></script>
+<script type='text/javascript' src='/js/hdm/selected.js'></script>
 </head>
 <body class="index">
 	<div class="wrapper">
@@ -23,9 +24,9 @@
         <? require_once 'partials/header.php'; ?>
       <div class="key-visual">
 
-          <img class="v001" src="images/index/key_visual001.jpg" width="950" height="330" alt="ハウスデムジカ" />
-          <img class="v002" src="images/index/key_visual002.jpg" width="950" height="330" alt="ハウスデムジカ" />
-          <img class="v003" src="images/index/key_visual004.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v001" src="/images/index/key_visual001.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v002" src="/images/index/key_visual002.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v003" src="/images/index/key_visual004.jpg" width="950" height="330" alt="ハウスデムジカ" />
       </div><!-- /key-visual -->
       <div class="about">
         <img src="/images/base/title-design.jpg" width="165" height="24" alt="" />

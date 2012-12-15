@@ -74,6 +74,8 @@ if($error == 1) {
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="/css/contact.css" media="all" charset="utf-8" />
+<script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
+<script type='text/javascript' src='/js/hdm/selected.js'></script>
 </head>
 <body class="contact">
 <div class="wrapper">

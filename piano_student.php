@@ -15,6 +15,7 @@
 <link type="text/css" rel="stylesheet" href="/css/violin_student.css" media="all" charset="utf-8" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
+<script type='text/javascript' src='/js/hdm/selected.js'></script>
 
 <?php
 require_once("admin/piano/init.php");
