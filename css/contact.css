@@ -61,6 +61,7 @@ form p {
 
 .contact p.caution{
 	width:900px;
+	min-height:600px;
 	height:100%;
 	padding:20px 0 20px 50px;
   font-size: 1.2em;
@@ -71,3 +72,4 @@ form p {
   font-weight:bold;
   text-decoration:underline;
 }
+

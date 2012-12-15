@@ -2,11 +2,11 @@
 /* CSS Document */
 
 /* はじめにページ */
-
 .inner{
 	width:950px;
 	height:auto;
 }
+
 .big_box{
 	width:950px;
 	height:auto;
@@ -22,7 +22,7 @@
 }
 
 .title{
-	width:950px;
+	width:200px;
 	height:40px;
 	margin:20px 0 0 20px;
 }
@@ -45,7 +45,7 @@
 }
 
 .menu_left{
-	width:160px;
+	width:200px;
 	height:auto;
 	margin: 0 0 20px 20px;
 	float:left;
@@ -81,17 +81,12 @@
 .box_main{
 	width:720px;
 	height:auto;
+	margin-top:-40px;
 	float:right;
-	margin:0 0 20px 0; 
-}
-
-.box002,
-.box003{
-	display:none;
 }
 
 .box_right{
-	width:720px;
+	width:700px;
 	height:30px;
 	float:right;
 	margin:10px 20px 0 0;
@@ -99,11 +94,16 @@
 }
 
 .box_right .obi{
-	width:720px;
+	width:700px;
 	height:30px;
 	color:#FFF;
 	margin:8px 0 0 30px;
 	font-weight:bold;
+}
+.box002,
+.box003,
+.box004{
+	display:none;
 }
 .sentence01{
 	width:700px;
@@ -124,8 +124,11 @@
 .sentence02 p{
 	width:700px;
 	height:auto;
-	margin:10px 20px 10px 0;
+	margin:20px 20px 20px 0;
 	word-wrap:break-all;
+}
+.sentence02 table{
+	text-align:center;
 }
 .sentence03{
 	width:700px;
@@ -141,7 +144,7 @@
 }
 .sentence03_right {
 	width:470px;
-	margin:10px 20px 10px 0;
+	margin:20px 20px 20px 0;
 	word-wrap:break-all;
 	float:right;
 }
@@ -153,7 +156,17 @@
 	float:left;
 	margin:10px 0 0 0;
 }
-
+.sentence04{
+	width:700px;
+	min-height:400px;
+	height:auto;
+}
+.sentence04 p{
+	width:700px;
+	height:auto;
+	margin:10px 20px 10px 0;
+	word-wrap:break-all;
+}
 .cb{
 	clear:both;
 }
@@ -164,6 +177,34 @@ table{
 	width:300px;
 	border:#999 solid 1px;
 	margin:10px 0 0 0;
-	text-align:center;
 }
 /* 料金ページ終わり */
+.photo_box{
+	width:720px;
+	text-align:center;
+}
+.photo_box table{
+	text-decoration:none;
+	text-align:center;
+	border:none;
+	vertical-align:bottom;
+}
+.photo_box table td{
+	padding:5px 0 10px 0;
+	text-align:center;
+	vertical-align:bottom;
+}
+.request{
+		width:700px;
+	min-height:400px;
+	height:auto;
+}
+.request_sentence{
+	padding:40px 10px 0 10px;
+	min-height:400px;
+}
+.quartet{
+	float:right;
+	margin:20px 20px 0 0;
+	padding:0 0 0 10px;
+}
