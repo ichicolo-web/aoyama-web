@@ -11,10 +11,10 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
-<link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/violin_student.css" media="all" charset="utf-8" />
-<script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
-<script type='text/javascript' src='js/hdm.js'></script>
+<link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/violin_student.css" media="all" charset="utf-8" />
+<script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
+<script type='text/javascript' src='/js/hdm.js'></script>
 
 <?php
 require_once("admin/piano/init.php");
@@ -33,14 +33,14 @@ $close_flag = mysql_close($link);
     <? require_once 'partials/header.php'; ?>
       <div class="main_title">
         <div>
-          <img src="images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
+          <img src="/images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi005 selected" onclick="window.hdm.violin.toggle(4)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>生徒様用</span></li>
+              <li class="navi005 selected" onclick="window.hdm.violin.toggle(4)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>生徒様用</span></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
@@ -57,7 +57,7 @@ $close_flag = mysql_close($link);
             print('</span>');
             print('</div>');
             print('<div class="left">');
-            print('<img src="admin/piano/images/upload/'.$row['file'].'" />');
+            print('<img src="/admin/piano/images/upload/'.$row['file'].'" />');
             print('</div>');
             print('<div class="right">');
             print('<p class="title">');

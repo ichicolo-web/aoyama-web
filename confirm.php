@@ -72,8 +72,8 @@ if($error == 1) {
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
-<link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/contact.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/contact.css" media="all" charset="utf-8" />
 </head>
 <body class="contact">
 <div class="wrapper">
@@ -81,8 +81,8 @@ if($error == 1) {
     <? require_once 'partials/header.php'; ?>
       <div class="title">
         <div>
-          <img src="images/base/violin.png" width="38" height="35" alt="バイオリン" />
-          <img src="images/base/piano.png" width="27" height="35" alt="ピアノ" />
+          <img src="/images/base/violin.png" width="38" height="35" alt="バイオリン" />
+          <img src="/images/base/piano.png" width="27" height="35" alt="ピアノ" />
           <span>お問い合わせ内容確認</span>
         </div>          
       </div><!-- /title -->

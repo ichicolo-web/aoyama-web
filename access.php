@@ -11,8 +11,8 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
-<link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/access.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/access.css" media="all" charset="utf-8" />
 <script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='js/hdm.js'></script>
 <script type='text/javascript' src='js/hdm/index.js'></script>
@@ -23,8 +23,8 @@
         <? require_once 'partials/header.php'; ?>
       <div class="title">
         <div>
-          <img src="images/base/violin.png" width="38" height="35" alt="バイオリン" />
-          <img src="images/base/piano.png" width="27" height="35" alt="ピアノ" />
+          <img src="/images/base/violin.png" width="38" height="35" alt="バイオリン" />
+          <img src="/images/base/piano.png" width="27" height="35" alt="ピアノ" />
           <span>アクセス</span>
         </div>          
       </div><!-- /title -->

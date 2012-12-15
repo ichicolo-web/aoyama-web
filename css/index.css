@@ -165,7 +165,7 @@
 .index .info .request p {
   width: 201px;
 	height: 66px;
-  background: url("../images/index/banner.jpg") no-repeat;
+  background: url("/images/index/banner.jpg") no-repeat;
   margin: 0 0 0 33px;
 }
 
@@ -189,6 +189,6 @@
 .index .info .banners p {
   width: 201px;
 	height: 66px;
-  background: url("../images/index/banner.jpg") no-repeat;
+  background: url("/images/index/banner.jpg") no-repeat;
   margin: 0 0 20px 33px;
 }

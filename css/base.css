@@ -84,7 +84,7 @@ body {
 	font-family: verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif; 
 	line-height: 1.4;  
 	color: #40281d;
-	background-image: url(../images/base/lyonnette.png);
+	background-image: url(/images/base/lyonnette.png);
 }
 
 .contents {
@@ -108,7 +108,7 @@ body {
 	position: relative;
 	margin: 0 auto;
   border-bottom: solid 3px #300203;
-   background: url("../images/base/header_background.jpg") no-repeat;
+   background: url("/images/base/header_background.jpg") no-repeat;
 }
 
 .header div {
@@ -164,7 +164,7 @@ body {
 	width: 900px;
 	height: 44px;
   padding: 20px 25px 0;
-  background: url("../images/base/footer_background.jpg") no-repeat;
+  background: url("/images/base/footer_background.jpg") no-repeat;
   color: #ffffff;
   float: left;
 }

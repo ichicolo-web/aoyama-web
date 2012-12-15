@@ -11,14 +11,14 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
-<link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/request.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/request.css" media="all" charset="utf-8" />
 <link href="css/lightbox.css" rel="stylesheet" />
-<script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
-<script type='text/javascript' src='js/hdm.js'></script>
-<script type='text/javascript' src='js/hdm/violin.js'></script>
-<script src="js/lightbox/jquery-1.7.2.min.js"></script>
-<script src="js/lightbox/lightbox.js"></script>
+<script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
+<script type='text/javascript' src='/js/hdm.js'></script>
+<script type='text/javascript' src='/js/hdm/violin.js'></script>
+<script src="/js/lightbox/jquery-1.7.2.min.js"></script>
+<script src="/js/lightbox/lightbox.js"></script>
 </head>
 <body class="index">
 <div class="wrapper">
@@ -27,17 +27,17 @@
       <div class="inner">
       <div class="title">
         <div>
-          <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>演奏依頼</span>
+          <img src="/images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>演奏依頼</span>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
-              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏履歴</span></li>
-              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>出張コンサート歴</span></li>
-              <li class="navi005" onclick="window.hdm.violin.toggle(5)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li>
+              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
+              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏履歴</span></li>
+              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>出張コンサート歴</span></li>
+              <li class="navi005" onclick="window.hdm.violin.toggle(5)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
@@ -49,7 +49,7 @@
           <div class="cb"></div>
             <div class="request">
                 	
-                	<div class="quartet"><img src="images/violin/Ｄjyanru01.jpg" />
+                	<div class="quartet"><img src="/images/violin/Ｄjyanru01.jpg" />
                     </div>
 
               <p class="request_sentence">
@@ -77,7 +77,7 @@
           <div class="cb"></div>
             <div class="request">
                 	
-                	<div class="quartet"><img src="images/violin/Ｄjyanru01.jpg" />
+                	<div class="quartet"><img src="/images/violin/Ｄjyanru01.jpg" />
                     </div>
 
               <p class="request_sentence">

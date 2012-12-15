@@ -11,11 +11,11 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
-<link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/piano.css" media="all" charset="utf-8" />
-<script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
-<script type='text/javascript' src='js/hdm.js'></script>
-<script type='text/javascript' src='js/hdm/violin.js'></script>
+<link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/piano.css" media="all" charset="utf-8" />
+<script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
+<script type='text/javascript' src='/js/hdm.js'></script>
+<script type='text/javascript' src='/js/hdm/violin.js'></script>
 </head>
 <body class="index">
 <div class="wrapper">
@@ -24,16 +24,16 @@
     <div class="inner">
       <div class="title">
         <div>
-          <img src="images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
+          <img src="/images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
-              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
-              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
+              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
+              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
+              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
               
             </ul>
           </div><!-- /menu_left -->
@@ -124,7 +124,7 @@
         <div class="cb"></div>
         <div class="sentence03">
           <div class="sentence03_left">
-          <p><img src="images/piano/yukiko.jpg" width="160" height="213" />
+          <p><img src="/images/piano/yukiko.jpg" width="160" height="213" />
           </p>
           </div>
           	<div class="sentence03_right">

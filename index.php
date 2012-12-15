@@ -11,23 +11,23 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
-<link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/index.css" media="all" charset="utf-8" />
-<script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
-<script type='text/javascript' src='js/hdm.js'></script>
-<script type='text/javascript' src='js/hdm/index.js'></script>
+<link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/index.css" media="all" charset="utf-8" />
+<script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
+<script type='text/javascript' src='/js/hdm.js'></script>
+<script type='text/javascript' src='/js/hdm/index.js'></script>
 </head>
 <body class="index">
 	<div class="wrapper">
     <div class="contents">
         <? require_once 'partials/header.php'; ?>
       <div class="key-visual">
-          <img class="v001" src="images/index/key_visual001.jpg" width="950" height="330" alt="ハウスデムジカ" />
-          <img class="v002" src="images/index/key_visual002.jpg" width="950" height="330" alt="ハウスデムジカ" />
-          <img class="v003" src="images/index/key_visual003.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v001" src="/images/index/key_visual001.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v002" src="/images/index/key_visual002.jpg" width="950" height="330" alt="ハウスデムジカ" />
+          <img class="v003" src="/images/index/key_visual003.jpg" width="950" height="330" alt="ハウスデムジカ" />
       </div><!-- /key-visual -->
       <div class="about">
-        <img src="images/base/title-design.jpg" width="165" height="24" alt="" />
+        <img src="/images/base/title-design.jpg" width="165" height="24" alt="" />
         <div>
           <p>Haus-de-musikについて</p>
           <span>
@@ -39,17 +39,17 @@
       <div class="classes">
         <div class="violin">
           <div>
-            <img src="images/base/violin.png" width="38" height="35" alt="バイオリン" />
+            <img src="/images/base/violin.png" width="38" height="35" alt="バイオリン" />
             <span>青山英里香バイオリン教室</span>
           </div>
-          <a href="violin.php"><img src="images/index/violin.jpg" width="460" height="230" alt="バイオリン教室" /></a>
+          <a href="violin.php"><img src="/images/index/violin.jpg" width="460" height="230" alt="バイオリン教室" /></a>
         </div><!-- /violin -->
         <div class="piano">
           <div>
-            <img src="images/base/piano.png" width="27" height="35" alt="ピアノ" />
+            <img src="/images/base/piano.png" width="27" height="35" alt="ピアノ" />
             <span>青山由貴子ピアノ教室</span>
           </div>
-          <a href="piano.php"><img src="images/index/piano.jpg" width="460" height="230" alt="ピアノ教室" /></a>
+          <a href="piano.php"><img src="/images/index/piano.jpg" width="460" height="230" alt="ピアノ教室" /></a>
         </div><!-- /piano -->
       </div><!-- /classes -->
       <div class="info">
