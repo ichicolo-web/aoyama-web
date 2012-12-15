@@ -10,8 +10,8 @@ $confirm_title = htmlspecialchars($_POST['check_title']);
 $view_description = htmlspecialchars($_POST['check_description']);
 $confirm_description = nl2br($view_description);
 
-  $link = mysql_connect('localhost', 'root', 'root');
-  $db_selected = mysql_select_db('update', $link);
+  $link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
+  $db_selected = mysql_select_db('sddb0040086768', $link);
   mysql_set_charset('utf-8');
   $sql = "INSERT INTO posts (id,date,file,writer,title,description) VALUES ('', '$confirm_date', '$confirm_filename', '$confirm_writer', '$confirm_title', '$confirm_description')";
   $result = mysql_query('SELECT id,date,file,writer,title,description FROM posts ORDER BY id DESC');

@@ -17,8 +17,8 @@ $date = date('Y.m.d');
 $error_message = $_SESSION["error_message"];
 $_SESSION["error_message"] = "";
 
-$link = mysql_connect('localhost', 'root', 'root');
-$db_selected = mysql_select_db('update', $link);
+$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
+$db_selected = mysql_select_db('sddb0040086768', $link);
 mysql_set_charset('utf-8');
 $result = mysql_query('SELECT id,date,file,writer,title,description FROM posts ORDER BY id DESC LIMIT 3');
 $close_flag = mysql_close($link);

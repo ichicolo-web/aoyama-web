@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>バイオリン教室 管理ページ</title>
+<title>ピアノ教室 管理ページ</title>
 <meta content="" name="keywords" />
 <meta content="" name="description" />
 <meta name="robots" content="noindex,nofollow">
@@ -17,8 +17,8 @@ $date = date('Y.m.d');
 $error_message = $_SESSION["error_message"];
 $_SESSION["error_message"] = "";
 
-$link = mysql_connect('localhost', 'root', 'root');
-$db_selected = mysql_select_db('update', $link);
+$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
+$db_selected = mysql_select_db('sddb0040086768', $link);
 mysql_set_charset('utf-8');
 $result = mysql_query('SELECT id,date,file,writer,title,description FROM posts_piano ORDER BY id DESC LIMIT 3');
 $close_flag = mysql_close($link);
