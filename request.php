@@ -34,10 +34,12 @@
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
-              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏履歴</span></li>
-              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>出張コンサート歴</span></li>
-              <li class="navi005" onclick="window.hdm.violin.toggle(5)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li>
+
+              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
+              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏履歴</span></li>
+              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>出張コンサート歴</span></li>
+              <li class="navi004" onclick="window.hdm.violin.toggle(4)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>動画</span></li>
+
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
@@ -66,7 +68,11 @@
                 各種パーティー、宴会、レセプションに多数の出演実績があり、様々な著名アーティストのレコーディング、コンサートの<br />
 バックミュージシャンとしての参加経験多数。<br />
                 <br />
-                スタジオやコンサートホール、レコーディング、ライブハウス、レストラン、大使館、迎賓館、公園、ドームなど出演多数。</p>
+                スタジオやコンサートホール、レコーディング、ライブハウス、レストラン、大使館、迎賓館、公園、ドームなど出演多数。<br /><br />
+                演奏料金は時間・編成・場所・その他により異なってきますので、お電話、メールでお問い合わせ下さい。<br />
+(ご希望に応じてお見積もりなども承っています。)
+</p>
+<div class="button"><img src="" width="200" height="50" /></div>
 </div><!-- /sentence01 -->
             </div><!-- /box001 -->
             

@@ -84,6 +84,10 @@
 	float:right;
 }
 
+.box01{
+	min-height:400px;
+}
+
 .box002,
 .box003,
 .box004{
@@ -107,26 +111,32 @@
 }
 .sentence01{
 	width:700px;
-	min-height:400px;
 	height:auto;
 }
 .sentence01 p{
-	width:700px;
+	width:410px;
 	height:auto;
 	margin:20px 20px 20px 0;
 	word-wrap:break-all;
+}
+.photo_sentence{
+		padding:10px 10px 10px 10px;
+		width:410px;
+		float:left;
+		word-wrap:break-all;
+}
+.photo_img{
+	float:right;
+	margin:20px 30px 0 0;
+	padding:0 0 0 10px;
 }
 .sentence02{
 	width:700px;
 	min-height:400px;
 	height:auto;
+	margin:0 0 20px 0;
 }
-.sentence02 p{
-	width:700px;
-	height:auto;
-	margin:20px 20px 20px 0;
-	word-wrap:break-all;
-}
+
 .sentence02 table{
 	text-align:center;
 }
