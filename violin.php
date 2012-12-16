@@ -12,13 +12,14 @@
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/violin.css" media="all" charset="utf-8" />
-<link href="css/lightbox.css" rel="stylesheet" />
-<script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
-<script type='text/javascript' src='js/hdm.js'></script>
-<script type='text/javascript' src='js/hdm/violin.js'></script>
-<script src="js/lightbox/jquery-1.7.2.min.js"></script>
-<script src="js/lightbox/lightbox.js"></script>
+<link type="text/css" rel="stylesheet" href="/css/violin.css" media="all" charset="utf-8" />
+<link href="/css/lightbox.css" rel="stylesheet" />
+<script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
+<script type='text/javascript' src='/js/hdm.js'></script>
+<script type='text/javascript' src='/js/hdm/violin.js'></script>
+<script type='text/javascript' src='/js/hdm/selected.js'></script>
+<script src="/js/lightbox/jquery-1.7.2.min.js"></script>
+<script src="/js/lightbox/lightbox.js"></script>
 </head>
 <body class="index">
 <div class="wrapper">
@@ -27,18 +28,18 @@
       <div class="inner">
       <div class="title">
         <div>
-          <img src="images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山英里香バイオリン教室</span>
+          <img src="/images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山英里香バイオリン教室</span>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
-              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
-              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
-              <li class="navi004" onclick="window.hdm.violin.toggle(4)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム/動画</span></li>
-              <li><a href="violin_student.php"><img src="images/base/student_button.jpg" width="150" height="30" /></a></li>
+              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
+              <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
+              <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
+              <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム/動画</span></li>
+              <li><a href="violin_student.php"><img src="/images/base/student_button.jpg" width="150" height="30" /></a></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
@@ -75,7 +76,7 @@
               
               </div>
               <div class="photo_img">
-              <img src="images/violin/erika01.jpg" />
+              <img src="/images/violin/erika01.jpg" />
               </div>
             </div><!-- /sentence01 -->
             </div><!-- /box001 -->
@@ -110,7 +111,7 @@
           </div>
           
            <div class="photo_img">
-              <img src="images/album/2012_image04_1.jpg" />
+              <img src="/images/album/2012_image04_1.jpg" />
            </div>   
            <div class="cb"></div>  
           <p>
@@ -166,7 +167,7 @@
         <div class="cb"></div>
         <div class="sentence03">
           <div class="sentence03_left">
-          <p><img src="images/violin/erika.jpg" width="200" height="234" />
+          <p><img src="/images/violin/erika.jpg" width="200" height="234" />
           </p>
           </div>
           	<div class="sentence03_right">
@@ -215,37 +216,37 @@
                     </td>
   				<tr>
                 <tr>
-    				<td><a href="images/album/2012_image07.jpg" rel="lightbox[roadtrip]" title="妹弟子を迎え先生のお手伝い・・・「大丈夫よ！」"><img src="images/album/2012_image07_s.jpg" width="200" height="191" /><br /><br />
+    				<td><a href="/images/album/2012_image07.jpg" rel="lightbox[roadtrip]" title="妹弟子を迎え先生のお手伝い・・・「大丈夫よ！」"><img src="/images/album/2012_image07_s.jpg" width="200" height="191" /><br /><br />
 妹弟子を迎え先生のお手伝い・・・<br />
 「大丈夫よ！」</a></td>
 
-    				<td><a href="images/album/2012_image08.jpg" rel="lightbox[roadtrip]" title="「できっこな～い」が実現した御兄弟の連弾"><img src="images/album/2012_image08_s.jpg" width="200" height="208" /><br /><br />
+    				<td><a href="/images/album/2012_image08.jpg" rel="lightbox[roadtrip]" title="「できっこな～い」が実現した御兄弟の連弾"><img src="/images/album/2012_image08_s.jpg" width="200" height="208" /><br /><br />
 「できっこな～い」が実現した<br />
 御兄弟の連弾</a></td>
 
-    				<td><a href="images/album/2012_image09.jpg" rel="lightbox[roadtrip]" title="自作のバイオリンでお嬢様とデュオ（素晴らしい！）"><img src="images/album/2012_image09_s.jpg" width="200" height="155" /><br /><br />
+    				<td><a href="/images/album/2012_image09.jpg" rel="lightbox[roadtrip]" title="自作のバイオリンでお嬢様とデュオ（素晴らしい！）"><img src="/images/album/2012_image09_s.jpg" width="200" height="155" /><br /><br />
 自作のバイオリンでお嬢様とデュオ<br />
 （素晴らしい！）
 </a></td>
   				</tr>
  				 <tr>
   	
-    				<td><a href="images/album/2012_image12.jpg" rel="lightbox[roadtrip]" title="ピアノを始めた記念にパパ・ママと3人連弾"><img src="images/album/2012_image12_s.jpg" width="200" height="170" /><br /><br />
+    				<td><a href="/images/album/2012_image12.jpg" rel="lightbox[roadtrip]" title="ピアノを始めた記念にパパ・ママと3人連弾"><img src="/images/album/2012_image12_s.jpg" width="200" height="170" /><br /><br />
 ピアノを始めた記念に<br />
 パパ・ママと3人連弾</a></td>
     
-    				<td><a href="images/album/2012_image11.jpg" rel="lightbox[roadtrip]" title="5人で弾く「親指ラグ」本当に親指しか使いません"><img src="images/album/2012_image11_s.jpg" width="200" height="138" /><br /><br />
+    				<td><a href="/images/album/2012_image11.jpg" rel="lightbox[roadtrip]" title="5人で弾く「親指ラグ」本当に親指しか使いません"><img src="/images/album/2012_image11_s.jpg" width="200" height="138" /><br /><br />
 5人で弾く「親指ラグ」<br />
 本当に親指しか使いません</a></td>
-					<td><a href="images/album/2012_image13.jpg" rel="lightbox[roadtrip]" title="大好きなバレエ曲を連弾！ママも子供の頃は生徒さんでした。"><img src="images/album/2012_image13_s.jpg" width="200" height="189" /><br /><br />
+					<td><a href="/images/album/2012_image13.jpg" rel="lightbox[roadtrip]" title="大好きなバレエ曲を連弾！ママも子供の頃は生徒さんでした。"><img src="/images/album/2012_image13_s.jpg" width="200" height="189" /><br /><br />
 大好きなバレエ曲を連弾！<br />
 ママも子供の頃は生徒さんでした。</a></td>
   				</tr>
   				<tr>
-  					<td><a href="images/album/2012_image10.jpg" rel="lightbox[roadtrip]" title="プログラム製作担当者もバイオリニスト？？（青山家３人）"><img src="images/album/2012_image10_s.jpg" width="200" height="160" /><br /><br />
+  					<td><a href="/images/album/2012_image10.jpg" rel="lightbox[roadtrip]" title="プログラム製作担当者もバイオリニスト？？（青山家３人）"><img src="/images/album/2012_image10_s.jpg" width="200" height="160" /><br /><br />
 プログラム製作担当者も<br />
 バイオリニスト？？（青山家３人）</a></td>
-    				<td><a href="images/album/2012_image14.jpg" rel="lightbox[roadtrip]" title="ミニコンサート  バイオリン：青山英里香 チェロ：堀内美貴子さん ピアノ：丸山いづみさん"><img src="images/album/2012_image14_s.jpg" width="200" height="151" /><br /><br />
+    				<td><a href="/images/album/2012_image14.jpg" rel="lightbox[roadtrip]" title="ミニコンサート  バイオリン：青山英里香 チェロ：堀内美貴子さん ピアノ：丸山いづみさん"><img src="/images/album/2012_image14_s.jpg" width="200" height="151" /><br /><br />
 				ミニコンサート<br />
 				バイオリン：青山英里香<br />
 				チェロ：堀内美貴子さん<br />
@@ -259,27 +260,27 @@
                 	<td colspan="3" style="text-align:left; padding:0 0 0 10px;">■2011年12月　クリスマスコンサート（湘南鷹取の自宅にて）
                     </td>
   				<tr>
-    				<td><a href="images/album/2012_image01.jpg" rel="lightbox[roadtrip]" title="あらあら、どうしたの？はじめますよ・・・"><img src="images/album/2012_image01_s.jpg" width="200" height="150" /><br /><br />
+    				<td><a href="/images/album/2012_image01.jpg" rel="lightbox[roadtrip]" title="あらあら、どうしたの？はじめますよ・・・"><img src="/images/album/2012_image01_s.jpg" width="200" height="150" /><br /><br />
 あらあら、どうしたの？<br />
 はじめますよ・・・</a></td>
-   				 <td><a href="images/album/2012_image02.jpg" rel="lightbox[roadtrip]" title="「気のいいアヒル」をガーガー楽しかった？"><img src="images/album/2012_image02_s.jpg" width="200" height="150" /><br /><br />
+   				 <td><a href="/images/album/2012_image02.jpg" rel="lightbox[roadtrip]" title="「気のいいアヒル」をガーガー楽しかった？"><img src="/images/album/2012_image02_s.jpg" width="200" height="150" /><br /><br />
 「気のいいアヒル」をガーガー<br />
 楽しかった？</a></td>
-    				<td><a href="images/album/2012_image03.jpg" rel="lightbox[roadtrip]" title="クラスメイトのデュオ"><img src="images/album/2012_image03_s.jpg" width="200" height="150" /><br /><br />
+    				<td><a href="/images/album/2012_image03.jpg" rel="lightbox[roadtrip]" title="クラスメイトのデュオ"><img src="/images/album/2012_image03_s.jpg" width="200" height="150" /><br /><br />
 クラスメイトのデュオ</a></td>
   				</tr>
   				<tr>
-    				<td style="padding-left:40px;"><a href="images/album/2012_image04_1.jpg" rel="lightbox[roadtrip]" title="バイオリン教室最初の生徒さんでした！"><img src="images/album/2012_image04_1_s.jpg" width="113" height="150" /><br /><br />
+    				<td style="padding-left:40px;"><a href="/images/album/2012_image04_1.jpg" rel="lightbox[roadtrip]" title="バイオリン教室最初の生徒さんでした！"><img src="/images/album/2012_image04_1_s.jpg" width="113" height="150" /><br /><br />
 バイオリン教室の<br />
 最初の生徒さんでした！</a></td>
-    				<td><a href="images/album/2012_image04_2.jpg" rel="lightbox[roadtrip]" title="ベルリーニの主題によるエアバリエ"><img src="images/album/2012_image04_2_s.jpg" width="200" height="150" /><br /><br />
+    				<td><a href="/images/album/2012_image04_2.jpg" rel="lightbox[roadtrip]" title="ベルリーニの主題によるエアバリエ"><img src="/images/album/2012_image04_2_s.jpg" width="200" height="150" /><br /><br />
 ベルリーニの主題によるエアバリエ</a></td>
-    				<td><a href="images/album/2012_image05.jpg" rel="lightbox[roadtrip]" title="全員で「聖夜」を！！バイオリンとピアノの伴奏付です。"><img src="images/album/2012_image05_s.jpg" width="200" height="150" /><br /><br />
+    				<td><a href="/images/album/2012_image05.jpg" rel="lightbox[roadtrip]" title="全員で「聖夜」を！！バイオリンとピアノの伴奏付です。"><img src="/images/album/2012_image05_s.jpg" width="200" height="150" /><br /><br />/
 全員で「聖夜」を！！<br />
 バイオリンとピアノの伴奏付です。</a></td>
   				</tr>
   				<tr>
-    				<td><a href="images/album/2012_image06.jpg" rel="lightbox[roadtrip]" title="終了後にパチリ！！みんな、よいお顔ですね・・・"><img src="images/album/2012_image06_s.jpg" width="200" height="150" /><br /><br />
+    				<td><a href="/images/album/2012_image06.jpg" rel="lightbox[roadtrip]" title="終了後にパチリ！！みんな、よいお顔ですね・・・"><img src="/images/album/2012_image06_s.jpg" width="200" height="150" /><br /><br />
 終了後にパチリ！！<br />
 みんな、よいお顔ですね・・・</a></td>
     				<td>&nbsp;</td>
