@@ -84,8 +84,12 @@
 	float:right;
 }
 
-.box01{
+.box001,
+.box002,
+.box003,
+.box004{
 	min-height:400px;
+	height:auto;
 }
 
 .box002,
@@ -132,18 +136,26 @@
 }
 .sentence02{
 	width:700px;
-	min-height:400px;
 	height:auto;
 	margin:0 0 20px 0;
 }
-
 .sentence02 table{
 	text-align:center;
 }
+.photo_sentence02{
+		padding:10px 10px 10px 10px;
+		width:410px;
+		float:left;
+		word-wrap:break-all;
+}
+.photo_img02{
+	float:right;
+	margin:20px 30px 0 0;
+	padding:0 0 0 10px;
+}
+
 .sentence03{
 	width:700px;
-	min-height:400px;
-	height:auto;
 }
 .sentence03 li{
 	margin:0 20px 0 0;
@@ -168,7 +180,6 @@
 }
 .sentence04{
 	width:700px;
-	min-height:400px;
 	height:auto;
 }
 .sentence04 p{
@@ -186,7 +197,7 @@
 table{
 	width:300px;
 	border:#999 solid 1px;
-	margin:10px 0 0 0;
+	margin:10px 0 0 0px;
 }
 /* 料金ページ終わり */
 .photo_box{

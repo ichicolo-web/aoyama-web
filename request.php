@@ -52,7 +52,7 @@
           <div class="cb"></div>
             <div class="request">
                 	
-                	<div class="quartet"><img src="/images/violin/Ｄjyanru01.jpg" />
+                	<div class="quartet"><img src="/images/violin/djiyanru01.jpg" />
                     </div>
 
               <p class="request_sentence">
@@ -73,7 +73,8 @@
                 演奏料金は時間・編成・場所・その他により異なってきますので、お電話、メールでお問い合わせ下さい。<br />
 (ご希望に応じてお見積もりなども承っています。)
 </p>
-<div class="button"><img src="" width="200" height="50" /></div>
+
+<div class="button"><a href="contact.php"><img src="images/violin/request_button.jpg" width="200" height="30" /></a></div>
 </div><!-- /sentence01 -->
             </div><!-- /box001 -->
             
@@ -84,7 +85,7 @@
           <div class="cb"></div>
             <div class="request">
                 	
-                	<div class="quartet"><img src="/images/violin/Ｄjyanru01.jpg" />
+                	<div class="quartet"><img src="/images/violin/djiyanru01.jpg" />
                     </div>
 
               <p class="request_sentence">
@@ -101,7 +102,7 @@
                 各種パーティー、宴会、レセプションに多数の出演実績があり、様々な著名アーティストのレコーディング、コンサートのバックミュージシャンとしての参加経験多数。<br />
                 <br />
                 スタジオやコンサートホールでのレコーディング、ライブハウス、レストラン、大使館、迎賓館、公園、ドームなどでの出演多数。</p>
-</div><!-- /sentence01 -->
+</div><!-- /request -->
             </div><!-- /box02 -->
         
       </div><!-- /box_main -->

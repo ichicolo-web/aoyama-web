@@ -35,6 +35,7 @@
               <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
               <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
               <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
+              <li><a href="piano_student.php"><img src="images/base/student_button.jpg" width="150" height="30" /></a></li>
               
             </ul>
           </div><!-- /menu_left -->
@@ -45,8 +46,10 @@
             <p class="obi"><b>ご挨拶</b></p>
           </div><!-- /box_right -->
           <div class="cb"></div>
+          
             <div class="sentence01">
-              <p>4歳ぐらいから大人の方まで。生徒さん募集中です。
+              <p>
+4歳ぐらいから大人の方まで。生徒さん募集中です。
 
                 <br />
                 <br />
@@ -61,7 +64,8 @@
 <br />
 お楽しみの曲や連弾を交えながら、レッスンを進めていきます。
 もちろん、ちょっとしたソルフェージュ、楽典の勉強も取り入れます。希望者とは横須賀小中学校作曲課題、テスト勉強も行っております。<br />
-「継続は力なり！」無理せず長く続け、ピアノを通じて、人生が豊かで幸せなものになっていただけたら・・・・・と願っております。&nbsp;</p>
+「継続は力なり！」無理せず長く続け、ピアノを通じて、人生が豊かで幸せなものになっていただけたら・・と願っております。<br /><br />
+<img src="images/piano/piano_banner.jpg" /></p>
             </div><!-- /sentence01 -->
             </div><!-- /box001 -->
           <div class="box002">
@@ -85,8 +89,10 @@
           <p>ここ数年は毎年春に、横浜美術館レクチャーホールにて、発表会を行っております。（発表会費10000円~）<br />
 12月にはクリスマス会として、湘南鷹取の自宅にて、ホームコンサートを行い、ソロはもちろんですが、<br />
 ご家族、生徒さん同士の連弾や、バイオリンとのアンサンブル等の発表の場を設けるように致しております。<br />
-ティータイム付の時以外は原則無料、アットホームな楽しい会です。 </p>
+ティータイム付の時以外は原則無料、アットホームな楽しい会です。 </p><br />
 
+          <div class="table_box">
+          <div class="table_box_left">
           <table border="1" cellpadding="0" cellspacing="0">
               <th colspan="2">レッスン料の目安&nbsp;(月謝制　年４５回程度) </th>
             <tr>
@@ -117,6 +123,12 @@
               <td>60分/3,000円</td>
             </tr>
         </table>
+        </div>
+        <div class="table_box_right">
+        	<img src="images/piano/piano_class.jpg" />
+        </div>
+        </div>
+        
             </div><!-- /box002 -->
           <div class="box003">
         <div class="box_right">

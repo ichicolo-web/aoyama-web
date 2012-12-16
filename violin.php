@@ -11,13 +11,12 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
-<link type="text/css" rel="stylesheet" href="css/base.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="css/violin.css" media="all" charset="utf-8" />
 <link href="css/lightbox.css" rel="stylesheet" />
 <script type='text/javascript' src='js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='js/hdm.js'></script>
 <script type='text/javascript' src='js/hdm/violin.js'></script>
-<script type='text/javascript' src='/js/hdm/selected.js'></script>
 <script src="js/lightbox/jquery-1.7.2.min.js"></script>
 <script src="js/lightbox/lightbox.js"></script>
 </head>
@@ -35,11 +34,11 @@
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
-              <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
-              <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
-              <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム/動画</span></li>
-              <li class="navi005" onclick="window.hdm.violin.toggle(5); window.hdm.selected.start();"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li>
+              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
+              <li class="navi002" onclick="window.hdm.violin.toggle(2)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
+              <li class="navi003" onclick="window.hdm.violin.toggle(3)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
+              <li class="navi004" onclick="window.hdm.violin.toggle(4)"><img src="images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム/動画</span></li>
+              <li><a href="violin_student.php"><img src="images/base/student_button.jpg" width="150" height="30" /></a></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
@@ -68,10 +67,10 @@
               <li>・ご自分の室内楽グループでレッスンを希望される方</li>
               </ul>
                 
-                <p>きちんとしたバイオリンテクニック(弾き方)や練習方法を効率よく身につけていただける為には、<br />
-                クラシックの教本・曲の勉強が必要ですが、ポップスも弾いてみたい方には、そういった曲も取り入れます。<br />
-                (私も仕事では沢山弾いております。)<br />
-              生徒さんの目的やレベルに沿った指導方法を考えレッスンしていくよう心がけております。遠慮なくお話し下さい。</p>
+                <p>きちんとしたバイオリンテクニック(弾き方)や練習方法を効率よく身につけていただける為には、クラシックの教本・曲の勉強が必要ですが、ポップスも弾いてみたい方には、そういった曲も取り入れます。<br />
+(私も仕事では沢山弾いております。)<br />
+              生徒さんの目的やレベルに沿った指導方法を考えレッスンしていくよう<br />
+心がけております。遠慮なくお話し下さい。</p>
               
               
               </div>
@@ -80,6 +79,7 @@
               </div>
             </div><!-- /sentence01 -->
             </div><!-- /box001 -->
+          
           <div class="box002">
           <div class="box_right">
             <p class="obi">レッスンについて</p>
@@ -87,6 +87,7 @@
           <div class="cb"></div>
           <br />
           <div class="sentence02">
+           <div class="photo_sentence02">
           <ul>
           	<li>【横須賀/横浜教室】</li>
             <li>毎週水曜日のみ</li>
@@ -106,7 +107,12 @@
             <li>お車の方は駐車場スペースあり</li>
 
           </ul><br />
-                    
+          </div>
+          
+           <div class="photo_img">
+              <img src="images/album/2012_image04_1.jpg" />
+           </div>   
+           <div class="cb"></div>  
           <p>
           楽器の持ち方、構え方、ボーイング、ヴィブラート等の基礎は、きっちり身に着けて頂きたいと思っています。<br />
           そのための練習方法をお教えします。また、音楽的な表現については、違いを示しながらレッスンしていきます。<br /><br />
@@ -118,6 +124,7 @@
           生徒さん同士のアンサンブルの発表会の場を設けるように致しております。<br />
           ティータイム付以外は原則無料、アットホームな楽しい会で、毎年生徒さんの方からは「いつ？」と聞かれます。 </p>
           
+          <div align="center">
           <table border="1" cellpadding="0" cellspacing="0">
               <th>レッスン料の目安</th>
             <tr>
@@ -133,6 +140,8 @@
               </td>
             </tr>
         </table>
+        </div>
+        <br />
   
           <p>大人向けのレッスン、および出張レッスンは、現在受け付けておりません。<br />
   専門になさりたい方は、上記以上のお時間をお勧めします。ご相談ください。<br />
@@ -149,6 +158,7 @@
           
         </div><!-- /sentence02 -->
             </div><!-- /box002 -->
+            
           <div class="box003">
         <div class="box_right">
           <p class="obi">プロフィール</p>
@@ -179,12 +189,13 @@
         <li>メルティ・ストリングスカルテットはメンバーの都合により休止中だが、<br />
 タリア弦楽四重奏団(Thalia String Quartet)などの室内楽にも力を注いでいる。<br />
 またストリングス・ユニット「Seasons」を結成し、TV、ライブなど、全国で活躍中。2009年にCD「Neo classic」をリリース。</li>
-        <li>多方面の活躍により、共演したアーティストは数多く、中西桂三、溝口肇(チェロ)、アキコグレース(ピアノ)、加山雄三、森山良子 ～。
+        <li>多方面の活躍により、共演したアーティストは数多く、中西桂三、溝口肇(チェロ)、アキコグレース(ピアノ)、加山雄三、森山良子 ～。</li>
         </ul>
 
         </div>
         </div><!-- /sentence03 -->
-            </div><!-- /box003 -->
+        </div><!-- /box003 -->
+        
         
         <div class="box004">
         <div class="box_right">
