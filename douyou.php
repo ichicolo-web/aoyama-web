@@ -26,7 +26,7 @@
         <div>
           <img src="/images/base/violin.png" width="38" height="35" alt="バイオリン" />
           <img src="/images/base/piano.png" width="27" height="35" alt="ピアノ" />
-          <span>アクセス</span>
+          <span>&lt;生涯学習の薦め&gt;</span>
         </div>          
       </div><!-- /title -->
       <div class="map">
