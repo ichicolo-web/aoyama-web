@@ -38,8 +38,7 @@
 
               <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
               <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏履歴</span></li>
-              <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>出張コンサート歴</span></li>
-              <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>動画</span></li>
+              <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>コンサート動画</span></li>
 
             </ul>
           </div><!-- /menu_left -->
@@ -71,11 +70,12 @@
                 <br />
                 スタジオやコンサートホール、レコーディング、ライブハウス、レストラン、大使館、迎賓館、公園、ドームなど出演多数。<br /><br />
                 演奏料金は時間・編成・場所・その他により異なってきますので、お電話、メールでお問い合わせ下さい。<br />
-(ご希望に応じてお見積もりなども承っています。)
+(ご希望に応じてお見積もりなども承っています。)<br /><br />
+
+<div align="center" style="padding-bottom:30px;"><a href="contact.php"><img src="images/violin/request_button.jpg" width="200" height="30" /></a></div>
 </p>
 
-<div class="button"><a href="contact.php"><img src="images/violin/request_button.jpg" width="200" height="30" /></a></div>
-</div><!-- /sentence01 -->
+</div><!-- /request -->
             </div><!-- /box001 -->
             
             <div class="box002">
@@ -85,23 +85,21 @@
           <div class="cb"></div>
             <div class="request">
                 	
-                	<div class="quartet"><img src="/images/violin/djiyanru01.jpg" />
+                	<div class="quartet"><img src="images/violin/djiyanru02.jpg" />
                     </div>
 
               <p class="request_sentence">
-              <b>プロの演奏家をお探しの方はHaus-de-musik Aoyamaへ！</b><br /><br />
-プロの演奏家の出張演奏いたしています。<br />
-                桐朋、芸大卒などの音楽仲間と伺えたら・・・と思っています。<br />
-                演奏に対しては厳しく鍛えられ、きちんとした気持ちで臨むことを学んできた仲間ばかりですので、安心してお任せください。<br />
+              <b>ご依頼がありましたら、どこでもお伺いいたします。</b><br /><br />
+学校、幼稚園などの音楽鑑賞会、レクチャーコンサート。<br />
+会社、ホテル、レストラン、ショッピングモール、公園、植物園、博物館、美術館などのイベント演奏。<br />
+結婚式、披露宴のウェルカム演奏やBGM、お誕生日会のサプライズ演奏から、老人ホーム、病院などでのボランティア演奏も致します。<br />
+オーケストラ、バンド、アンサンブルのエキストラ演奏なども致します。<br />
+<br />
+<img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><b>演奏ジャンル・レパートリー</b><br />
+クラシック、ポップス、映画音楽、ゲーム音楽、ロック、タンゴ、日本の曲、童謡、ディズニーやジブリの曲、100曲以上のレパートリーが御座います。<br />
                 <br />
-                新曲も含め、あらゆるジャンル(クラシック、ポピュラー、日本の曲、アニメソング、童謡、ジャズ、タンゴなど)の曲に、楽譜を入手後、数日で本番に臨めます。<br />
-                <br />
-                演奏時間、構成などはご希望に合わせますのでご相談ください。<br />
-                大切な場の雰囲気にふさわしい演奏となるよう、様々なレパートリーの中から選曲いたします。リクエストがある場合には、どうぞお気軽にお問い合わせください。<br />
-                <br />
-                各種パーティー、宴会、レセプションに多数の出演実績があり、様々な著名アーティストのレコーディング、コンサートのバックミュージシャンとしての参加経験多数。<br />
-                <br />
-                スタジオやコンサートホールでのレコーディング、ライブハウス、レストラン、大使館、迎賓館、公園、ドームなどでの出演多数。</p>
+                <img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><b>楽器編成</b><br />
+                バイオリンソロ(ピアノ伴奏付)、バイオリンデュオ、弦楽トリオ、ピアノトリオ、弦楽四重奏＝弦楽カルテット、ピアノカルテットなど。</p>
 </div><!-- /request -->
             </div><!-- /box02 -->
         

@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.access .title {
+	width: 950px;
+	height: auto;
+  position: relative;
+}
+
+.access .title img {
+	float:left;
+}
+
+.access .title div {
+  height: 50px;
+  margin: 20px 0 0 45px;
+}
+
+.access .title div span {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 10px 0 0 10px;
+  float:left;
+}
+
+.access .map {
+	width: 950px;
+	height: auto;
+  position: relative;
+}
+
+.access .map iframe {
+	width: 948px;
+	border: solid 1px #000000;
+}
+
+.access .map p {
+  margin: 10px 0 0 45px;
+  font-size: 1.3em;
+}
+
+.access .map p span {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.access .map ul {
+  margin: 10px 0 0 45px;
+  font-size: 1.1em;
+}
+
+.access .map ul li span {
+  font-weight: bold;
+}
+
+.access .map ul li.indent{
+  padding: 0 0 0 65px;
+}
+.osirase{
+	margin:0 0 0 300px;
+}
