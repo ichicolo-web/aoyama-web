@@ -13,12 +13,15 @@
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="/css/douyou.css" media="all" charset="utf-8" />
+<link href="/css/lightbox.css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
-<script type='text/javascript' src='/js/hdm/index.js'></script>
+<script type='text/javascript' src='/js/hdm/violin.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
+<script src="/js/lightbox/jquery-1.7.2.min.js"></script>
+<script src="/js/lightbox/lightbox.js"></script>
 </head>
-<body class="access">
+<body class="douyou">
 	<div class="wrapper">
     <div class="contents">
         <? require_once 'partials/header.php'; ?>
@@ -37,7 +40,7 @@
           3ヶ月かけて作曲家の想いや曲想を勉強し、「かたちの」花を唄ったり、「落葉松」をピアノの音型を味わいながら唄ったりもしました。「第九」もドイツ語(カタカナから出発)にチャレンジ！<br />
 NHK東日本地震災プロジェクト「花は咲く」は3月まで唄う予定です。</p><br />
 
-  <div class="osirase">
+  <div class="osirase02">
   <ul>
             <li><span>日時：</span>第一月曜日　午前10:00～11:30</li>
             <li><span>場所：</span>湘南鷹取　青山宅</li>
@@ -51,7 +54,7 @@ NHK東日本地震災プロジェクト「花は咲く」は3月まで唄う予�
           始めて3年、参加されている方からは、「とてもアットホームな雰囲気」、「この齢で新しい友達が出来ました」、「歌を通して、季節を身近に感じられるようになりました」、「その時間唄うだけなのに、1年で150曲も唄えました」、「作詞作曲、音についての解説を聞いて唄うと、心にしっかり刻まれます」など、好評を頂いています。
           </p><br />
           
-          <div class="osirase02">
+          <div class="osirase03">
   <ul>
             <li><span>歌指導/柴田　美嘉</span>：故川田正子、故海沼実の各氏に童謡の指導を受ける。戸塚生涯学習ナビゲーター</li>
             <li><span>ピアノ/青山由貴子</span>：元ヤマハ音楽教室システム講師　合唱伴奏暦40年　横須賀まなび館情報登録講師</li>
@@ -62,8 +65,28 @@ NHK東日本地震災プロジェクト「花は咲く」は3月まで唄う予�
             <ul>
             <li><span>お問い合わせ＆お申し込み先</span>：090-8305-0003</li>
             <li><span>～ピアノ、バイオリン教室もあります～</span></li>
-          </ul>
+          </ul><br />
+     
           </div><br />
+          <div class="imageRow">
+  			<div class="single">
+            <div class="cb"></div>
+          <div class="photo">
+            <a href="/images/album/2012_image16.jpg" rel="lightbox[roadtrip]" title="1曲ごとに、いろいろな視点からのお話を聞いて歌います。。"><img src="images/album/2012_image16_s.jpg" /><br /><br /> 
+            1曲ごとに、いろいろな視点からの<br />
+            お話を聞いて歌います。</a>
+            <a href="/images/album/2012_image17.jpg" rel="lightbox[roadtrip]" title="お1人ごとのアクセスでしたが、今ではよい歌仲間です。"><img src="images/album/2012_image17_s.jpg" /><br /><br />
+お1人ごとのアクセスでしたが、<br />
+今ではよい歌仲間です。</a>
+            <a href="/images/album/2012_image15.jpg" rel="lightbox[roadtrip]" title="12月は会の終了後にクリスマス会をしました。"><img src="images/album/2012_image15_s.jpg" width="200" height="132" /><br /><br />
+12月は会の終了後に<br />
+クリスマス会をしました。</a>
+            
+          </div>
+          </div>
+          </div>
+          
+          <div class="cb"></div>
        
       </div><!-- /map -->
         <? require_once 'partials/footer.php'; ?> 

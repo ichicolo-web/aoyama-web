@@ -38,7 +38,7 @@
               <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
               <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
               <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
-              <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム/動画</span></li>
+              <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム</span></li>
               <li><a href="violin_student.php"><img src="/images/base/student_button.jpg" width="150" height="30" /></a></li>
             </ul>
           </div><!-- /menu_left -->
