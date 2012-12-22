@@ -12,7 +12,7 @@
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/link.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/link.css" media="all" charset="utf-8" />
 <link href="/css/lightbox.css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
@@ -32,18 +32,18 @@
           <span>&lt;リンク&gt;</span>
         </div>          
       </div><!-- /title -->
-      <div class="map">
-          <a href="http://kze-violin.com"><span><b><img src="/images/base/sch029.gif" border="0" /><span class="name">林こずえバイオリン教室</span><</b></span><br />
+      <div class="address">
+      	<div class="address_box">
+          <a href="http://kze-violin.com"><span><b><img src="/images/base/sch029.gif" border="0" /><span class="name">林こずえバイオリン教室</span></b></span><br />
           ＳＥＡＳＯＮＳやメルティカルテットで一緒に演奏している林こずえちゃんのＨＰです。</a>
-          <br /><br />
-          
+          </div>
+       
+          <div class="address_box">
           <a href="http://ichicolo.com"><span><b><img src="/images/base/ichicolo_logo.png" border="0" /><span class="name">ichicolo</span></b></span><br />
           ハウスデムジカのホームページを製作して頂いたichicoloのサイトです。</a>
-          <br />
-
+          </div>
  
-       
-      </div><!-- /map -->
+      </div><!-- /address -->
         <? require_once 'partials/footer.php'; ?> 
     </div><!-- /contents -->
 	</div><!-- /wrapper -->
