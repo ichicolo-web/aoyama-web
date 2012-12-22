@@ -25,40 +25,43 @@
 }
 
 
-.link .map {
+.link .address {
 	width: 950px;
 	height: auto;
 	min-height:400px;
   position: relative;
 }
 
-.link .map  {
+.link .address  {
 	width:770px;
   margin: 10px 0 0 100px;
   font-size: 1.3em;
 }
 
-.link .map p span {
+.link .address p span {
   font-size: 1.3em;
   font-weight: bold;
 }
 
-.link .map p span a {
+.link .address p span a {
 	text-decoration:none;
 }
 .name{
 	margin: 0 0 0 10px;
 }
-.link .map ul {
+.address_box{
+	margin:0 0 20px 0;
+}
+.link .address ul {
   margin: 10px 0 0 45px;
   font-size: 1.3em;
 }
 
-.link .map ul li span {
+.link .address ul li span {
   font-weight: bold;
 }
 
-.link .map ul li.indent{
+.link .address ul li.indent{
   padding: 0 0 0 65px;
 }
 .osirase{
