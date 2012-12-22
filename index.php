@@ -69,9 +69,9 @@
           </div>
         </div><!-- /request -->
         <div class="banners">
-          <a href="douyou.php"><p style="padding:30px 0 0 43px; font-size:100%; font-weight:bold;">童謡・抒情歌を唄う会</p></a>
-          <p style="padding:32px 0 0 25px; font-size:90%; font-weight:bold; margin-top:-40px;">室内楽・弦楽アンサンブルの会</p>
-          <p style="padding:30px 0 0 43px; font-size:100%; font-weight:bold; margin-top:-40px">Shunichiのアトリエ</p>
+          <a href="douyou.php"><p class="douyou">童謡・抒情歌を唄う会</p></a>
+          <p class="amsamble">室内楽・弦楽アンサンブルの会</p>
+          <p class="shunichi">Shunichiのアトリエ</p>
         </div><!-- /banners -->
       </div><!-- /info -->
         <? require_once 'partials/footer.php'; ?> 
