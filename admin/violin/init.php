@@ -1,7 +1,6 @@
 <?php
 function init() {
-  ini_set("output_buffering", "On");
-  ini_set("output_handler", "mb_output_handler");
+  ini_set( "display_errors", "Off");
   ini_set("default_charset", "utf-8");
   mb_language("Japanese");
   mb_internal_encoding ("utf-8");

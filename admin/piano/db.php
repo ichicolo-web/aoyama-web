@@ -18,6 +18,5 @@ $confirm_description = nl2br($view_description);
   $result_flag = mysql_query($sql);
   $close_flag = mysql_close($link);
 
-  header("Location: ../../piano_student.php");
   header("Location: ../../admin/piano/index.php");
 ?> 
