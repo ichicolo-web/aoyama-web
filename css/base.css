@@ -92,7 +92,8 @@ body {
 	height: auto;
 	position: relative;
 	margin: 0 auto;
-  background-color: #ffffff;
+    background-color: #ffffff;
+    overflow:hidden;
 }
 .contents02 {
 	width: 700px;
