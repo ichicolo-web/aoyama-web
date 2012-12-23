@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
-<title>Haus-de-musik（ハウスデムジカ）| アクセス</title>
+<title>Haus-de-musik（ハウスデムジカ）| 童謡～叙情歌を唄う会</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />

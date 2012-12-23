@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
-<title>Haus-de-musik（ハウスデムジカ）</title>
+<title>Haus-de-musik（ハウスデムジカ）| バイオリン教室</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -200,7 +200,7 @@
         
         <div class="box004">
         <div class="box_right">
-          <p class="obi">アルバム/動画</p>
+          <p class="obi">アルバム</p>
         </div>
         <div class="cb"></div>
         <div class="sentence04">

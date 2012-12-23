@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
-<title>Haus-de-musik（ハウスデムジカ）| アクセス</title>
+<title>Haus-de-musik（ハウスデムジカ）| リンク</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -34,12 +34,12 @@
       </div><!-- /title -->
       <div class="address">
       	<div class="address_box">
-          <a href="http://kze-violin.com"><span><b><img src="/images/base/sch029.gif" border="0" /><span class="name">林こずえバイオリン教室</span></b></span><br />
+          <a href="http://kze-violin.com" target="_blank"><span><b><img src="/images/base/sch029.gif" border="0" /><span class="name">林こずえバイオリン教室</span></b></span><br />
           ＳＥＡＳＯＮＳやメルティカルテットで一緒に演奏している林こずえちゃんのＨＰです。</a>
           </div>
        
           <div class="address_box">
-          <a href="http://ichicolo.com"><span><b><img src="/images/base/ichicolo_logo.png" border="0" /><span class="name">ichicolo</span></b></span><br />
+          <a href="http://ichicolo.com" target="_blank"><span><b><img src="/images/base/ichicolo_logo.png" border="0" /><span class="name">ichicolo</span></b></span><br />
           ハウスデムジカのホームページを製作して頂いたichicoloのサイトです。</a>
           </div>
  
