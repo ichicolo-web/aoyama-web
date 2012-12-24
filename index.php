@@ -63,7 +63,7 @@
           <a href="request.php"><p style="padding:22px 0 0 63px; font-size:150%; font-weight:bold;">演奏依頼</p></a>
           <div>
             出張演奏いたします。<br />
-             クワルテット、デュオ、ソロetc.<br />
+             カルテット、デュオ、ソロetc.<br />
              御要望に応じたアレンジを致します。<br />
              ”大切なイベントに生演奏を！”とお考えの方、御連絡をお待ち致しております。
           </div>

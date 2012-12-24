@@ -200,18 +200,40 @@ table{
 	margin:10px 0 0 0px;
 }
 /* 料金ページ終わり */
+/* 料金ページ */
+table{
+	width:300px;
+	border:#999 solid 1px;
+	margin:10px 0 0 0;
+}
+
+.table_box{
+	width:720px;
+	margin:10px 0 0 0;
+}
+.table_box_left{
+	float:left;
+	text-align: center;
+}
+.table_box_right{
+	float:right;
+	margin:0 80px 0 0;
+}
+/* 料金ページ終わり */
 .photo_box{
 	width:720px;
-	text-align:center;
 }
 .photo_box table{
 	text-decoration:none;
-	text-align:center;
 	border:none;
 	vertical-align:bottom;
 }
-.photo_box table td{
+.photo_title{
 	padding:5px 0 10px 0;
-	text-align:center;
 	vertical-align:bottom;
+	text-align: center;
+}
+.table_title{
+	width: 400px;
+	padding:0 0 0 10px;
 }

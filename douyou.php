@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
-<title>Haus-de-musik（ハウスデムジカ）| 童謡～叙情歌を唄う会</title>
+<title>Haus-de-musik（ハウスデムジカ）| 童謡・抒情歌を唄う会</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -34,18 +34,19 @@
       </div><!-- /title -->
       <div class="map">
         <p>
-          <span><b>童謡～叙情歌をご一緒に</b></span><br /><br />
-          <b>音羽ゆりかご会に長年所属し、現在各地で「童謡を唄う会」を開催されている柴田美嘉先生をお迎えして、童謡～叙情歌を皆様ご一緒に歌ってみませんか？心の中に大切にしまわれている歌、懐かしい歌を曲やエピソードや解説を聞きながら、季節に合わせて毎回10数曲、ピアノの伴奏で歌っています。</b><br />
+          <span><b>童謡・抒情歌をご一緒に</b></span><br /><br />
+          <b>音羽ゆりかご会に長年所属し、現在各地で「童謡を唄う会」を開催されている柴田美嘉先生をお迎えして、童謡・抒情歌を皆様ご一緒に歌ってみませんか？心の中に大切にしまわれている歌、懐かしい歌を曲のエピソードや解説を聞きながら、季節に合わせて毎回10数曲、ピアノの伴奏で歌っています。</b><br />
           <br />
-          3ヶ月かけて作曲家の想いや曲想を勉強し、「かたちの」花を唄ったり、「落葉松」をピアノの音型を味わいながら唄ったりもしました。「第九」もドイツ語(カタカナから出発)にチャレンジ！<br />
-NHK東日本地震災プロジェクト「花は咲く」は3月まで唄う予定です。</p><br />
+          3ヶ月かけて作曲家の想いや曲想を勉強し、「かたちの花」を唄ったり、「落葉松」をピアノの音型を味わいながら唄ったりもしました。「第九」もドイツ語(カタカナから出発)にチャレンジ！<br />
+NHK東日本大震災プロジェクト「花は咲く」は3月まで唄う予定です。</p><br />
 
   <div class="osirase02">
   <ul>
-            <li><span>日時：</span>第一月曜日　午前10:00～11:30</li>
+            <li><span>日時：</span>第1月曜日　午前10:00～11:30</li>
             <li><span>場所：</span>湘南鷹取　青山宅</li>
             <li><span>定員：</span>20名程度</li>
-            <li>会費、その他詳しいことはお気軽にお問い合わせください。</li>
+			<li class="smale">会費、1,000円(御家族お2人目から500円)&nbsp;&nbsp;歌集を2冊(1,000円程度)をお買い頂きます。</li>
+			<li>その他詳しいことはお気軽にお問い合わせください。</li>
           </ul>
           </div>
           <br />
@@ -72,9 +73,9 @@ NHK東日本地震災プロジェクト「花は咲く」は3月まで唄う予�
   			<div class="single">
             <div class="cb"></div>
           <div class="photo">
-            <a href="/images/album/2012_image16.jpg" rel="lightbox[roadtrip]" title="1曲ごとに、いろいろな視点からのお話を聞いて歌います。。"><img src="images/album/2012_image16_s.jpg" /><br /><br /> 
+            <a href="/images/album/2012_image16.jpg" rel="lightbox[roadtrip]" title="1曲ごとに、いろいろな視点からのお話を聞いて唄います。。"><img src="images/album/2012_image16_s.jpg" /><br /><br /> 
             1曲ごとに、いろいろな視点からの<br />
-            お話を聞いて歌います。</a>
+            お話を聞いて唄います。</a>
             <a href="/images/album/2012_image17.jpg" rel="lightbox[roadtrip]" title="お1人ごとのアクセスでしたが、今ではよい歌仲間です。"><img src="images/album/2012_image17_s.jpg" /><br /><br />
 お1人ごとのアクセスでしたが、<br />
 今ではよい歌仲間です。</a>

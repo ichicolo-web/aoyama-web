@@ -19,7 +19,7 @@ $tel = htmlspecialchars($_POST["tel"],ENT_QUOTES);
 $category = htmlspecialchars($_POST["category"],ENT_QUOTES);
 $description = htmlspecialchars($_POST["description"],ENT_QUOTES);
 
-$to="sevens67@gmail.com";
+$to="yukiko.aoyama.piano@ezweb.ne.jp";
 $title="お問い合わせがありました。";
 $all="
   お名前：$name

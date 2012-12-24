@@ -139,6 +139,8 @@
 .sentence03{
 	width:700px;
 	height:auto;
+	text-align:center;
+	margin:10px;
 }
 .sentence03 li{
 	margin:0 20px 0 0;
@@ -206,6 +208,21 @@ table{
 .request_sentence{
 	padding:30px 10px 0px 10px;
 	min-height:400px;
+}
+.request_photobox{
+	width:700px;
+	position:relative;
+	margin:0 0 0 90px;
+}
+.request_photobox img{
+	text-align:center;
+}
+.request_photo{
+	margin:10px 0 10px 50px;
+}
+.request_photo02{
+	margin:10px;
+	float:left;
 }
 .quartet{
 	float:right;
