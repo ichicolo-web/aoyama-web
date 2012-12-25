@@ -53,7 +53,7 @@ if($_POST["description"] == "") {
 }
 if($error == 1) {
   $_SESSION["error_message"] = $error_message;
-  header("Location: admin.php");
+  header("Location: index.php");
 exit();
 }
 $view_title = htmlspecialchars($_SESSION["title"],ENT_QUOTES);

@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {  
+    border: 0;
+    vertical-align: bottom;
+    line-height: 0;
+}
+
+a {
+    text-decoration: none;
+    outline:none;
+}
+
+a:link , a:visited {
+    color : #000000;
+}
+
+li {
+    list-style:none;
+}
+
+input,select{
+    vertical-align: middle;
+    margin: 0 3px 0 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    overflow-y: scroll;
+}
+
+/*---------------------ベースプロパティ---------------------*/
+
+.hide{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+body {
+    width: 100%;
+    min-width: 930px;
+    height: 100%;
+    margin:0 auto;
+    font-size: 62.5%; /* IE */
+    -webkit-text-size-adjust: none;
+    font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ","Meiryo","MS Pゴシック","MS PGothic","HiraKakuProN-W3",sans-serif;
+    line-height: 1.4;
+    position: relative;
+}
+
+html>/**/body {
+    font-size: 10px; /* Except IE */
+}
+
+h1,h2,h3,h4,h5,h5,h6{
+    font-size:100%;
+    font-weight:normal;
+    margin:0px;
+    padding:0px;
+}
+

@@ -71,7 +71,7 @@
         <div class="banners">
           <a href="douyou.php"><p class="douyou">童謡・抒情歌を唄う会</p></a>
           <p class="amsamble">室内楽・弦楽アンサンブルの会</p>
-          <p class="shunichi">Shunichiのアトリエ</p>
+          <a href="atelier.php"><p class="shunichi">Shunichiのアトリエ</p></a>
         </div><!-- /banners -->
       </div><!-- /info -->
         <? require_once 'partials/footer.php'; ?> 

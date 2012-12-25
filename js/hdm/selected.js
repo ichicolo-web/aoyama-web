@@ -18,6 +18,9 @@
       contact = path.match('contact'),
       confirm = path.match('confirm'),
       send = path.match('send'),
+      douyou = path.match('douyou'),
+      atelier = path.match('atelier'),
+      album = path.match('album'),
       link = path.match('link'),
       access = path.match('access');
 
@@ -37,6 +40,12 @@
       $('#link').addClass('selected');
     } else if (access == 'access') {
       $('#access').addClass('selected');
+    } else if (douyou == 'douyou') {
+      return false;
+    } else if (atelier == 'atelier') {
+      return false;
+    } else if (album == 'album') {
+      return false;
     } else {
       $('#index').addClass('selected');
     }
