@@ -71,9 +71,9 @@ if($_SESSION["description"]) {
       <p>ご住所</p>
       <input placeholder="全角でご入力ください。" class="address" type="text" name="address" size="30" maxlength="50" value="<?= $address ?>" />
       <p>E-mailアドレス<span>(必須)</span></p>
-      <input placeholder="半角英数字でご入力ください。" class="email" type="text" name="email" size="30" maxlength="30" value="<?= $email ?>" />
+      <input placeholder="半角英数字でご入力ください。" class="email" type="text" name="email" size="30" maxlength="50" value="<?= $email ?>" />
       <p>E-mailアドレス確認用<span>(必須)</span></p>
-      <input placeholder="半角英数字でご入力ください。" class="confirm_email" type="text" name="confirm_email" size="30" maxlength="30" value="<?= $confirm_email ?>" />
+      <input placeholder="半角英数字でご入力ください。" class="confirm_email" type="text" name="confirm_email" size="30" maxlength="50" value="<?= $confirm_email ?>" />
       <p>電話番号</p>
       <input placeholder="半角数字ハイフン無しでご入力ください。" class="tel" type="text" name="tel" size="30" maxlength="15" value="<?= $tel ?>" />
       <p>カテゴリー</p>
