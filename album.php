@@ -18,10 +18,12 @@
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
 
 <?php
-require_once("admin/piano/init.php");
+require_once("admin/atelier/init.php");
 init();
-$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
-$db_selected = mysql_select_db('sddb0040086768', $link);
+//$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
+//$db_selected = mysql_select_db('sddb0040086768', $link);
+$link = mysql_connect('localhost', 'root', 'root');
+$db_selected = mysql_select_db('update', $link);
 mysql_set_charset('utf-8');
 $result = mysql_query('SELECT id,date,file,writer,title,description FROM atelier ORDER BY id DESC');
 $close_flag = mysql_close($link);
@@ -46,9 +48,13 @@ $close_flag = mysql_close($link);
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
         <div class="box_right">
+          <p class="notice">クリックする事で写真を拡大してご覧になれます。</p>
           <?php
           while ($row = mysql_fetch_assoc($result)) {
             print('<div class="left">');
+            print('<p class="title">');
+            print($row['title']);
+            print('</p>');
             print('<img src="/admin/atelier/images/upload/'.$row['file'].'" />');
             print('</div>');
           } 
