@@ -20,7 +20,7 @@ $category = htmlspecialchars($_POST["category"],ENT_QUOTES);
 $description = htmlspecialchars($_POST["description"],ENT_QUOTES);
 
 $to="yukiko.aoyama.piano@ezweb.ne.jp";
-$title="お問い合わせがありました。";
+$title="Message From haus-de-musik-aoyama.com";
 $all="
   お名前：$name
   住所：$address
