@@ -40,7 +40,7 @@ $close_flag = mysql_close($link);
       <div class="main_title">
         <div>
          <span>Shunichiのアトリエ フォトアルバム</span>
-        </div>          
+        </div>
       </div><!-- /title -->
       <div class="big_box">
         <div class="box_left">

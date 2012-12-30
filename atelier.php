@@ -19,14 +19,8 @@
 
 <?php
 require_once("admin/atelier/init.php");
+require_once("paging.php");
 init();
-//$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
-//$db_selected = mysql_select_db('sddb0040086768', $link);
-$link = mysql_connect('localhost', 'root', 'root');
-$db_selected = mysql_select_db('update', $link);
-mysql_set_charset('utf-8');
-$result = mysql_query('SELECT id,date,file,writer,title,description FROM atelier ORDER BY id DESC LIMIT 3');
-$close_flag = mysql_close($link);
 ?>
 
 </head>
@@ -44,11 +38,12 @@ $close_flag = mysql_close($link);
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi005 selected><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/">トップページへ戻る</a></li>
+              <li class="navi005 selected"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/">トップページへ戻る</a></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
         <div class="box_right">
+          <?= $pagelink ?>
           <?php
           while ($row = mysql_fetch_assoc($result)) {
             print('<div class="article">');
