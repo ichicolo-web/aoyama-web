@@ -13,9 +13,12 @@
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="/css/album.css" media="all" charset="utf-8" />
+<link href="/css/lightbox.css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
+<script src="/js/lightbox/jquery-1.7.2.min.js"></script>
+<script src="/js/lightbox/lightbox.js"></script>
 
 <?php
 require_once("admin/atelier/init.php");
@@ -49,16 +52,27 @@ $close_flag = mysql_close($link);
         </div><!-- /box_left -->
         <div class="box_right">
           <p class="notice">クリックする事で写真を拡大してご覧になれます。</p>
+            <div class="imageRow">
+  		      	<div class="single">
           <?php
           while ($row = mysql_fetch_assoc($result)) {
-            print('<div class="left">');
-            print('<p class="title">');
-            print($row['title']);
-            print('</p>');
+            if ($row['file'] === '') {
+              $display = 'style="display:none;"';
+            } else {
+              $display = 'style="display:block;"';
+            }
+            print('<div class="left"' .$display.'>');
+            print('<a href="/admin/atelier/images/upload/'.$row['file'].'" rel="lightbox[roadtrip]" title="'.$row['title'].'">');
             print('<img src="/admin/atelier/images/upload/'.$row['file'].'" />');
+            print('<br />');
+            print('<br />');
+            print($row['title']);
+            print('</a>');
             print('</div>');
           } 
           ?>
+              </div><!-- /single -->
+            </div><!-- /imageRow -->
         </div><!-- /box_right -->
       </div><!-- /big_box -->
   <? require_once 'partials/footer.php'; ?> 
