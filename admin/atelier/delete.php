@@ -15,7 +15,7 @@ if (preg_match("/^[0-9]+$/", $confirm_delete)) {
   $close_flag = mysql_close($link);
   header("Location: index.php");
 } else {
-  $_SESSION["error_message"] = "削除できませんでした。半角数字を入力してください。";
+  $_SESSION["error_message"] = "削除できませんでした。";
   header("Location: index.php");
 }
 ?>

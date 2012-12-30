@@ -85,14 +85,6 @@
     float: left;
 }
 
-.admin form.delete {
-    width: 450px;
-    height: 20px;
-    float: left;
-    margin: 10px 0 0;
-    font-size: 1.3em;
-}
-
 .admin .view {
   float:right;
   font-size: 1.3em;
@@ -111,6 +103,10 @@
     border-top: 1px dotted #000000;
 }
 
+.admin .log span {
+    margin: 0 10px 0 0;
+}
+
 .admin .tag {
     width: 590px;
     height: 20px;
@@ -121,8 +117,11 @@
     margin: 10px 0 0;
 }
 
-.admin .tag .id{
+.admin form.delete {
+    width: auto;
+    height: auto;
     float: right;
+    cursor: pointer;
 }
 
 .admin .left {

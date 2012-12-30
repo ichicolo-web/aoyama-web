@@ -47,10 +47,6 @@ $close_flag = mysql_close($link);
           <input class="reset" type="reset" value="リセット" />
         </form>
     </div><!-- /input_space -->
-        <form action="delete.php" class="delete" method="post" enctype="multipart/form-data">IDナンバーを入力して記事を削除：
-          <input placeholder="入力" type="text" name="delete" size="10" maxlength="4" />
-          <input type="submit" value="削除する" />
-        </form>
 <a class ="view" href="/atelier.php" target="_blank">サイトで確認する</a>
 <?php
 while ($row = mysql_fetch_assoc($result)) {
@@ -60,11 +56,12 @@ while ($row = mysql_fetch_assoc($result)) {
   print($row['date']);
   print('</span>');
   print('<span>');
-  print('  posted by '.$row['writer']);
+  print('posted by '.$row['writer']);
   print('</span>');
-  print('<span class="id">');
-  print($row['id']);
-  print('</span>');
+  print('<form action="delete.php" class="delete" method="post" enctype="multipart/form-data" onsubmit="return confirm(\''.$row['title'].'を削除して宜しいですか？\');">');
+  print('<input type="hidden" name="delete" value="'.$row['id'].'" />');
+  print('<input type="submit" value="削除する" />');
+  print('</form>');
   print('</div>');
   print('<div class="left">');
   print('<img src="images/upload/'.$row['file'].'" />');
