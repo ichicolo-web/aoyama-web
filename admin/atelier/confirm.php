@@ -19,6 +19,7 @@ if($pos === false) {
 $file_size = $_FILES["upload_file"]["size"];
 $file_type = $_FILES["upload_file"]["type"];
 $file_tmp = $_FILES["upload_file"]["tmp_name"];
+move_uploaded_file($file_tmp, "images/".$confirm_filename);
 move_uploaded_file($file_tmp, "images/upload/".$confirm_filename);
 $img = file_get_contents("images/upload/".$confirm_filename);
 $im = imagecreatefromstring($img);

@@ -62,7 +62,7 @@ $close_flag = mysql_close($link);
               $display = 'style="display:block;"';
             }
             print('<div class="left"' .$display.'>');
-            print('<a href="/admin/atelier/images/upload/'.$row['file'].'" rel="lightbox[roadtrip]" title="'.$row['title'].'">');
+            print('<a href="/admin/atelier/images/'.$row['file'].'" rel="lightbox[roadtrip]" title="'.$row['title'].'">');
             print('<img src="/admin/atelier/images/upload/'.$row['file'].'" />');
             print('<br />');
             print('<br />');
