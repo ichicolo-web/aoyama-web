@@ -20,7 +20,7 @@ $_SESSION["error_message"] = "";
 $link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
 $db_selected = mysql_select_db('sddb0040086768', $link);
 mysql_set_charset('utf-8');
-$result = mysql_query('SELECT id,date,file,writer,title,description FROM posts_piano ORDER BY id DESC LIMIT 3');
+$result = mysql_query('SELECT id,date,file,writer,title,description FROM posts_piano ORDER BY id DESC');
 $close_flag = mysql_close($link);
 ?>
 </head>

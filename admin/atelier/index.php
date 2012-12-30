@@ -22,7 +22,7 @@ $_SESSION["error_message"] = "";
 $link = mysql_connect('localhost', 'root', 'root');
 $db_selected = mysql_select_db('update', $link);
 mysql_set_charset('utf-8');
-$result = mysql_query('SELECT id,date,file,writer,title,description FROM atelier ORDER BY id DESC LIMIT 3');
+$result = mysql_query('SELECT id,date,file,writer,title,description FROM atelier ORDER BY id DESC');
 $close_flag = mysql_close($link);
 ?>
 </head>
