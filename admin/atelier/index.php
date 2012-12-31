@@ -29,7 +29,7 @@ $close_flag = mysql_close($link);
 <body class="admin">
   <div class="content">
     <div class="input_space">
-    <h1>Shunishiのアトリエ 管理ページ</h1>
+    <h1>Shunichiのアトリエ 管理ページ</h1>
       <div class="error"><?= $error_message ?></div>
         <form action="confirm.php" method="post" enctype="multipart/form-data">
           <p>タイトル（20文字以内）</p>
