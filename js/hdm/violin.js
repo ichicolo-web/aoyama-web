@@ -15,6 +15,7 @@
       $('.box002').hide();
       $('.box003').hide();
 	  $('.box004').hide();
+	  $('.box005').hide();
       $('.selected').removeClass('selected');
       $('.navi00' + tag).addClass('selected');
     } else if(tag == '2') {
@@ -22,6 +23,7 @@
       $('.box001').hide();
       $('.box003').hide();
 	  $('.box004').hide();
+	  $('.box005').hide();
       $('.selected').removeClass('selected');
       $('.navi00' + tag).addClass('selected');
     } else if(tag == '3') {
@@ -29,6 +31,7 @@
       $('.box001').hide();
       $('.box002').hide();
 	  $('.box004').hide();
+	  $('.box005').hide();
       $('.selected').removeClass('selected');
 	  $('.navi00' + tag).addClass('selected');
     } else if(tag == '4') {
@@ -36,6 +39,15 @@
       $('.box001').hide();
       $('.box002').hide();
 	  $('.box003').hide();
+	  $('.box005').hide();
+      $('.selected').removeClass('selected');
+      $('.navi00' + tag).addClass('selected');
+    }else if(tag == '5') {
+      $('.box005').show();
+      $('.box001').hide();
+      $('.box002').hide();
+	  $('.box003').hide();
+	  $('.box004').hide();
       $('.selected').removeClass('selected');
       $('.navi00' + tag).addClass('selected');
     }

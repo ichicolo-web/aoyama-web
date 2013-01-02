@@ -9,7 +9,7 @@ print <<<EOF
       <address>
         神奈川県横須賀市湘南鷹取3丁目<br />
         TEL : 090-8305-0003<br />
-        お問い合わせは<a href="">コチラ</a>からお気軽にどうぞ♪<br />
+        お問い合わせは<a href="contact.php">コチラ</a>からお気軽にどうぞ♪<br />
       </address>
     </div>
     <ul class="gnavi">

@@ -36,7 +36,7 @@
           <div class="menu_left">
             <ul>
               <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
-              <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスン料</span></li>
+              <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
               <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
 			   <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム</span></li>
               <li><a href="piano_student.php"><img src="images/base/student_button.jpg" width="150" height="30" /></a></li>
@@ -58,11 +58,10 @@
                 <br />
                 <br />
                 "情操教育の一貫として" と考えていらっしゃるお家のお子様、"趣味として生涯弾いていたい"とお考えの方が中心です。
+                <br /><br />
+                小さいお子様には音楽の芽を伸ばすよう、絶対音感の訓練も取り入れつつ、音楽が大好きになっていただけるレッスンを心掛けております。
                 <br />
-                小さいお子様には音楽の芽を伸ばすよう、絶対音感の訓練も取り入れながら、音楽が大好きになっていただけるレッスンを心掛けております。
-                <br />
-                <br />
-                ただ機械的に弾くのではなく、ピアノでご自身の想いを表現できるようになって頂けるよう、日々生徒さんと一緒に励んでおります。
+                ただ機械的に弾くのではなく、ピアノでご自身の想いを表現できるようになって頂けるよう、日々生徒さんと一緒に励んでおります。<br /><br />
                 やや専門的にハノン、エチュード、J.S.Bach、曲(ソナタ、ロマン派など)、毎週4，5冊こなして来られる方、曲を2，3曲練習して来られる方、学校の合唱コンクール、式の伴奏曲を携えて来られる方、さまざまです。
 ディズニーランドのあの曲！「となりのトトロ」などのジブリの曲etc、
 お楽しみの曲や連弾を交えながら、レッスンを進めていきます。<br />
@@ -73,7 +72,7 @@
             </div><!-- /box001 -->
           <div class="box002">
           <div class="box_right">
-            <p class="obi">レッスン料</p>
+            <p class="obi">レッスンについて</p>
           </div>
           <div class="cb"></div>
           <br />
@@ -153,10 +152,13 @@
                 <li>ヤマハ講師資格を取得。大学卒業と同時にヤマハ音楽教室幼児科ジュニア科のシステム講師となり、ピアノ教室も始める。</li>
                 <li>また、高校時代より室内楽や合唱伴奏を始め、コールアミカル、ヴォーチェ・ムジカーレなど数々の合唱団の伴奏にあたり現在に至る。ピアノ講師歴33年。</li>
         </ul>
+         <br /><br />
+         
+        <iframe width="450" height="253" src="http://www.youtube.com/embed/GhnyFv0j1pw?rel=0" frameborder="0" allowfullscreen></iframe>
+        <p>2012年12月　クリスマスコンサート　娘とデュオ</p>
 
-        </ul>
         </div>
-        <br /><br />
+       
         </div><!-- /sentence03 -->
             </div><!-- /box003 -->
 			
@@ -171,6 +173,32 @@
             <div class="cb"></div>
                 <div class="photo_box">
                 <br />
+                
+                <table width="700">
+                <tr>
+                	<td colspan="3"><div class="table_title">■2012年12月 クリスマスコンサート
+                	</div></td>
+                </tr>
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2012_image19.jpg" rel="lightbox[roadtrip]" title="全員、今日は楽しかった？"><img src="/images/album/2012_image19_s.jpg" /><br /><br />
+全員、今日は楽しかった？</a></td>
+
+  				</tr>
+
+				</table><br />
+                
+                <table width="700">
+                <tr>
+                	<td colspan="3"><div class="table_title">■2012年10月20日　山梨キングスウェル・ガーデンホールの発表会
+                	</div></td>
+                </tr>
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2012_image18.jpg" rel="lightbox[roadtrip]" title="山梨キングスウェル・ガーデンホールの発表会"><img src="/images/album/2012_image18_s.jpg" /><br /><br />
+山梨キングスウェル・ガーデンホールの発表会</a></td>
+
+  				</tr>
+
+				</table><br />
                 
                 <table width="700">
   				<tr>
@@ -246,19 +274,6 @@
 
 				</table><br />
 				
-				<table width="700">
-                <tr>
-                	<td colspan="3"><div class="table_title">■2012年10月20日　山梨キングスウェル・ガーデンホールの発表会
-                	</div></td>
-                </tr>
-  				<tr>
-    				<td class="photo_title"><a href="/images/album/2012_image18.jpg" rel="lightbox[roadtrip]" title="山梨キングスウェル・ガーデンホールの発表会"><img src="/images/album/2012_image18_s.jpg" /><br /><br />
-山梨キングスウェル・ガーデンホールの発表会</a></td>
-
-  				</tr>
-
-				</table><br />
-			
             </div>
             </div>
             </div>

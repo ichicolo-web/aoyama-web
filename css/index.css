@@ -233,3 +233,10 @@
   font-weight:bold;
   margin: 0 0 0 23px;
 }
+.top_sentence{
+	float: left;
+}
+.top_sentence img{
+	vertical-align: top;
+	float: right;
+}

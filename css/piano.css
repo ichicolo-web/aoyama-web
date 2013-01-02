@@ -45,7 +45,7 @@
 }
 
 .menu_left{
-	width:160px;
+	width:200px;
 	height:auto;
 	margin: 0 0 20px 20px;
 	float:left;
@@ -100,7 +100,7 @@
 }
 
 .box_right{
-	width:720px;
+	width:700px;
 	height:30px;
 	float:right;
 	margin:10px 15px 0 0;
@@ -108,7 +108,7 @@
 }
 
 .box_right .obi{
-	width:720px;
+	width:700px;
 	height:30px;
 	color:#FFF;
 	margin:8px 0 0 30px;

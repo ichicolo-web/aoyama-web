@@ -87,14 +87,16 @@
 .box001,
 .box002,
 .box003,
-.box004{
+.box004,
+.box005{
 	min-height:400px;
 	height:auto;
 }
 
 .box002,
 .box003,
-.box004{
+.box004,
+.box005{
 	display:none;
 }
 
@@ -191,6 +193,20 @@
 .cb{
 	clear:both;
 }
+.profile_button{
+	float: right;
+	margin-right: 20px;
+}
+.profile_sentence{
+	margin: 10px 0 10px 0;
+}
+.profile_photo{
+	margin: 10px 0 10px 10px;
+}
+.profile_photo img{
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
 /* はじめにページ終わり */
 
 /* 料金ページ */
@@ -222,6 +238,13 @@ table{
 /* 料金ページ終わり */
 .photo_box{
 	width:720px;
+}
+.photo_box2{
+	width:720px;
+	margin-bottom: 10px;
+}
+.photo_title{
+	text-align: center;
 }
 .photo_box table{
 	text-decoration:none;

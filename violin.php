@@ -38,8 +38,10 @@
               <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
               <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
               <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
+              <li class="navi005" onclick="window.hdm.violin.toggle(5); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>これまでの経歴</span></li>
 			  <a href="request.php"><li><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li></a>
               <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム</span></li>
+             
               <li><a href="violin_student.php"><img src="/images/base/student_button.jpg" width="150" height="30" /></a></li>
             </ul>
           </div><!-- /menu_left -->
@@ -177,28 +179,26 @@
 			    3歳よりバイオリンを始める。桐朋学園子供のための音楽教室（鎌倉、横浜教室）を経て、桐朋女子高等学校音楽科（男女共学）、桐朋学園大学音楽学部演奏学科を卒業。 同研究科修了。同オーケストラ・アカデミー研修生修了。</li><br />
 
 				<li>これまでに小出始子、井上淑子、神谷美千子、ドガレイユ、加藤知子の各氏に師事。室内楽では、毛利伯郎、藤井一興、三上桂子、野島稔、原田幸一郎、藤原浜雄、徳永二男、斎木隆、東京カルテットの各氏に師事。</li><br />
-				<li>第７６、７８、８０回桐朋学園室内楽演奏会出演。＜br /＞
+				<li>第７６、７８、８０回桐朋学園室内楽演奏会出演。<br />
 		JTアートホール期待の音大生によるアフタヌーンコンサートVol.１８５出演。<br />
 クラシック音楽コンクール、日本演奏家コンクール、JILA音楽コンクール、TMC東京Jazz/Rockコンクールetc.上位入賞。</li><br />
 		<li>2005年&nbsp;湘南ユースオーケストラとチャイコフスキーのコンチェルトを共演。</li>
-        <li>2006年&nbsp;横須賀成人式において、成人代表として挨拶。</li>
-        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;横須賀交響楽団とヴィバルディ「四季」を共演。</li>
+        <li>2006年&nbsp;横須賀成人式において、成人代表として挨拶し、横須賀交響楽団とヴィバルディ「四季」を共演。</li>
         <li>2010年&nbsp;栄フィルハーモニー交響楽団とシベリウスのコンチェルトを共演。<br />
-		  栄フィルでは、2012年ゲストコンマスとして、リムスキー、コルサンコフの「シエラザード」のソロを演奏する。<br />
-		現在、としま未来文化財団「G.Dream21」の<br />
-オーケストラに所属、コンサートミストレスを務めたりもしている。</li><br />
-		<li>室内楽の分野では、高校時代に結成したピアノカルテット「ルミエール」は10年目を迎え、10周年コンサートを企画中。</li>
-        <li>メルティ・ストリングスカルテットはメンバーの都合により休止中だが、<br />
-タリア弦楽四重奏団(Thalia String Quartet)など室内楽にも力を注いでいる。<br />
-またストリングス・ユニット「Seasons」を結成し、TV、ライブなど、全国で活躍中。2009年にCD「Neo classic」をリリース。</li>
-        <li>多方面の活躍により、数多くの著名アーティストと競演。「魅惑のスタンダードポップス」(NHK BS2)、美のメロディー・音楽の女神たち」(NHK BS2)、ミュージックフェア、ミュージックステーション、SMAP×SMAPなどTV出演多数。</li>
+		  栄フィルでは、2012年ゲストコンマスとして、リムスキー・コルサコフの「シェラザード」のソロを演奏する。<br />
+		現在、としま未来文化財団「G.Dream21」のオーケストラに所属、コンサートミストレスを務めたりもしている。</li><br />
+		<li>高校時代に結成したピアノカルテット「ルミエール」は10年目を迎え、10周年記念コンサートを企画中。</li>
+        <li>メルティ・ストリング・スカルテットや、タリア弦楽四重奏団(Thalia String Quartet)など、室内楽にも力を注いでいる。<br />
+またストリングス・ユニット「Seasons」を結成し、TV、ライブなど、全国で活躍中。2009年にCD「Neo classic」をリリース。</li><br />
+        <li>多方面の活躍により、数多くの著名アーティストと共演。<br />
+        「魅惑のスタンダードポップス」(NHK BS2)、BSエンターテイメント「美のメロディー・音楽の女神たち」(NHK BS2)、ミュージックフェア、ミュージックステーション、SMAP×SMAPなどTV出演多数。</li>
         </ul>
-
+        
         </div>
         </div><!-- /sentence03 -->
         </div><!-- /box003 -->
-        
-        
+
+   
         <div class="box004">
         <div class="box_right">
           <p class="obi">アルバム</p>
@@ -210,6 +210,32 @@
             <div class="cb"></div>
                 <div class="photo_box">
                 <br />
+                
+                <table width="700">
+                <tr>
+                	<td colspan="3"><div class="table_title">■2012年12月 クリスマスコンサート
+                	</div></td>
+                </tr>
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2012_image19.jpg" rel="lightbox[roadtrip]" title="全員、今日は楽しかった？"><img src="/images/album/2012_image19_s.jpg" /><br /><br />
+全員、今日は楽しかった？</a></td>
+
+  				</tr>
+
+				</table><br />
+                
+                <table width="700">
+                <tr>
+                	<td colspan="3"><div class="table_title">■2012年10月20日　山梨キングスウェル・ガーデンホールの発表会
+                	</div></td>
+                </tr>
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2012_image18.jpg" rel="lightbox[roadtrip]" title="山梨キングスウェル・ガーデンホールの発表会"><img src="/images/album/2012_image18_s.jpg" /><br /><br />
+山梨キングスウェル・ガーデンホールの発表会</a></td>
+
+  				</tr>
+
+				</table><br />
                 
                 <table width="700">
   				<tr>
@@ -275,24 +301,11 @@
     				<td class="photo_title"><a href="/images/album/2012_image04_2.jpg" rel="lightbox[roadtrip]" title="ベルリーニの主題によるエアバリエ"><img src="/images/album/2012_image04_2_s.jpg" width="200" height="150" /><br /><br />
 ベルリーニの主題によるエアバリエ</a></td>
     				<td class="photo_title"><a href="/images/album/2012_image05.jpg" rel="lightbox[roadtrip]" title="全員で「聖夜」を！！バイオリンとピアノの伴奏付です。"><img src="/images/album/2012_image05_s.jpg" width="200" height="150" /><br /><br />
-全員で「聖夜」を！！<br />
+全員で「聖しこの夜」を！！<br />
 バイオリンとピアノの伴奏付です。</a></td>
 				<td class="photo_title"><a href="/images/album/2012_image06.jpg" rel="lightbox[roadtrip]" title="終了後にパチリ！！みんな、よいお顔ですね・・・"><img src="/images/album/2012_image06_s.jpg" width="200" height="150" /><br /><br />
 終了後にパチリ！！<br />
 みんな、よいお顔ですね・・・</a></td>
-  				</tr>
-
-				</table><br />
-				
-				<table width="700">
-                <tr>
-                	<td colspan="3"><div class="table_title">■2012年10月20日　山梨キングスウェル・ガーデンホールの発表会
-                	</div></td>
-                </tr>
-  				<tr>
-    				<td class="photo_title"><a href="/images/album/2012_image18.jpg" rel="lightbox[roadtrip]" title="山梨キングスウェル・ガーデンホールの発表会"><img src="/images/album/2012_image18_s.jpg" /><br /><br />
-山梨キングスウェル・ガーデンホールの発表会</a></td>
-
   				</tr>
 
 				</table><br />
@@ -303,6 +316,104 @@
      
   </div><!-- /sentence04 -->
             </div><!-- /box004 -->
+            
+          <div class="box005">
+          <div class="box_right">
+            <p class="obi"><b>詳しいプロフィール</b></p>
+          </div><!-- /box_right -->
+          <div class="cb"></div>
+            <div class="sentence">
+            <div class="profile_sentence">            
+              <ul>
+              <li>2012. 12 芸術劇場にて指揮者と(左)。汐留住友ビルにて(右)</li>
+              <div class="imageRow">
+  			<div class="single">
+             <div class="photo_box2">
+            <li class="profile_photo"><a href="/images/profile/request05.jpg" rel="lightbox[roadtrip]" title="マイスキー親子とSEASONS"><img  src="images/profile/request05_s.jpg" /><br /><div class="photo_title">芸術劇場にて指揮者と</div></a>
+            <div class="imageRow">
+  			<div class="single">
+             <div class="photo_box2">
+            <li class="profile_photo"><a href="/images/profile/request06.jpg" rel="lightbox[roadtrip]" title="マイスキー親子とSEASONS"><img  src="images/profile/request06_s.jpg" /><br /><div class="photo_title">汐留住友ビルにて</div></a></li>
+             </div>
+  			</div>
+  			</div>
+  			<div class="cb"><br /></div>
+            </li>
+  			
+  			
+              <li>2008. 12 加山雄三ディナーショーツアー参加。</li>
+              <li>2008. 9. ＪＯＨＮＬＯＳのライブに３回出演。</li>
+              <li>2008. 8. 東京JAZZ参加　　国際フォーラム屋外ステージ。</li>
+              <li class="profile_photo"><img  src="images/profile/tokyojazz_2008.jpg" /></li>
+
+              <li>2008. 6. 第80回桐朋学園室内楽演奏会出演　　浜離宮ホール。</li>
+              <li>2008. 4. ポール・ポッツ（テノール）の日本公演で共演。</li>
+              <li>2008. 4. 桐朋学園入学式「本日の奏楽」で　ルミエールとして演奏。</li>
+              <li>2008. 4. 桐朋学園大学音楽学部研究生、オーケストラーアカデミー研修生となる。</li>
+              <li>2008. 3. 調布市仙川劇場オープニングリレーコンサートに、ルミエールとして出演。</li>
+              <li class="profile_photo"><img  src="images/profile/futyusenkawa_2008.jpg" /></li>
+              <li>2007. 12. 東江原啓之チャリティーコンサート「愛する子供たちのために」で共演。</li>
+              <li>2007. 11. ミッシャ・マイスキー「60歳記念プロジェクト」に参加、共演。</li>
+              <div class="imageRow">
+  			<div class="single">
+             <div class="photo_box2">
+            <li class="profile_photo"><a href="/images/profile/request03.jpg" rel="lightbox[roadtrip]" title="マイスキー親子とSEASONS"><img  src="images/profile/request03_s.jpg" /><br /><div class="photo_title">マイスキー親子とSEASONS</div></a></li>
+             </div>
+  			</div>
+  			</div>
+  			<div class="cb"><br /></div>
+  			
+              <li>2007. 11. 親子ふれあいコンサート　大野台公民館。</li>
+              <li>2007. 9.  豊島区あうるすぽっと開館記念コンサート。</li>
+              <li>2007. 7. 「生きる」で森山良子、谷村新司と共演。</li>
+              <li>2007. 6.  親子ふれあいコンサート　ルネこだいら。</li>
+              <li>2007. 6. 第78回桐朋学園室内楽演奏会出演　浜離宮ホール。</li> 
+              <li>2007. 5. 韓国人ピアニスト　イ・ヒアとコンサート開催　都内10箇所。</li> 
+              <li>2007. 4. 加山雄三「コンサートツアー2007～2008　KOKI」にストリングセクションとして参加　25箇所。</li> 
+              <li>2007. 3. 新宿御苑100周年記念音楽イベント参加。</li> 
+              <li>2007. 3. 「ネオクラシックコンサート」で国分弘子と共演　アミュー立川。</li> 
+              <li>2007. 2. 中鉢聡（テノール）と共演　みなとみらい大ホール。</li> 
+              <li>2007. 1. 中西圭三とSEASONS「ネオクラシックコンサート」約20箇所　現在も継続中。</li>
+              <li>フジTV『MUSIC　FAIR』で加山雄三、北島三郎、スガシカオ、CHAGE＆ASUKA、さだまさし、渡辺美里、みなみこうせつ、<br />森山良子、秋川雅史、シン・スンフンと共演。</li>
+              <li>2006. 12. 加山雄三クリスマスディナーショーツアーに参加。</li>
+              <li>2006. 12. 「Act　Against　AIDS　2006」で森山良子、布施明、江原啓之、中西圭三と共演　オーチャード。</li>
+              <li>2006. 10. 鶴岡八幡宮奉納ライブコンサート舞殿修理竣工記念「舞鶴LIVE2006」に出演。</li>
+              <li>2006. 7. 河口湖ステラシアターにて森山良子、イルカと共演。</li>
+              <li>2006. 6. 第76回桐朋学園室内楽演奏会出演　浜離宮ホール。</li>
+              <li>2006. 5. ラッセル・ワトソン（テノール）と日本公演で共演。</li>
+              <li>2006. 5. 中西圭三（ボーカル）ライブでSEASONSとして共演。（渋谷duo MTV放映）。</li>
+              <li>2006. 4. ＪＴアートホール期待の音大生によるアフタヌーンコンサートＶｏｌ．185ピアノトリオｂｙ桐朋出演。</li>
+              <li>2006. 4. 調布市実篤記念館　文学コンサート出演。</li>
+              <li>2006. 1. 横須賀市成人式において、成人代表として挨拶、横須賀交響楽団とビバルディ「四季」を共演。</li>
+              <div class="imageRow">
+  			<div class="single">
+             <div class="photo_box2">
+            <li class="profile_photo"><a href="/images/profile/seizinsiki.jpg" rel="lightbox[roadtrip]" title="横須賀市 成人式"><img  src="images/profile/seizinsiki_s.jpg" /><br /><div class="photo_title">横須賀市 成人式</div></a></li>
+             </div>
+  			</div>
+  			</div>
+  			<div class="cb"><br /></div>
+    
+              <li>2005. 12. 溝口肇（チェロ）、アキコ・グレース（PIANO）とクリスマスディナーコンサートで共演。</li>
+              <li>2005. 10. 横須賀市立大矢部中学校コンサート。</li>
+              <li>2005. 9. ＳEASONSデビューコンサート　東京白寿、名古屋テレピアホール。</li>
+              <li>2005. 5. ルミエール演奏会　志茂スタジオ。</li>
+              <li>2005. 5. 湘南ユースオーケストラとチャイコフスキーバイオリンコンチェルトを共演。</li>
+              <div class="imageRow">
+  			<div class="single">
+             <div class="photo_box2">
+            <li class="profile_photo"><a href="/images/profile/chaiko.jpg" rel="lightbox[roadtrip]" title="湘南ユースオーケストラとチャイコフスキーバイオリンコンチェルトを共演"><img  src="images/profile/chaiko_s.jpg" /><br /><div class="photo_title">湘南ユースオーケストラと<br />チャイコフスキー<br />バイオリンコンチェルトを共演</div></a></li>
+             </div>
+  			</div>
+  			</div>
+  			<div class="cb"><br /></div>
+  			
+  			<li>2005. 3. ルミエール（高校時代結成したピアノクヮルテット）演奏会　スタンウェイ・サロン東京松尾ホール。</li>
+  			  			
+              </ul>
+                                            
+            </div><!-- /profile_sentence -->
+            </div><!-- /box005 -->
         
       </div><!-- /box_main -->
     </div><!-- /big_box -->

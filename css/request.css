@@ -142,6 +142,11 @@
 	text-align:center;
 	margin:10px;
 }
+.sentence03 .movie_title{
+	margin: 0 auto 20px auto;
+
+}
+
 .sentence03 li{
 	margin:0 20px 0 0;
 	word-wrap:break-all;
@@ -205,8 +210,13 @@ table{
 	min-height:400px;
 	height:auto;
 }
+.request_box{
+		width:700px;
+	min-height:400px;
+	height:auto;
+}
 .request_sentence{
-	padding:30px 10px 0px 10px;
+	padding:30px 10px 10px 10px;
 	min-height:400px;
 }
 .request_photobox{
@@ -222,7 +232,15 @@ table{
 }
 .request_photo02{
 	margin:10px;
-	float:left;
+}
+.request_photo03{
+	margin:10px;
+	float:right;
+	width: 300px;
+}
+.request_photo03 img{
+	margin:5px;
+	width: 300px;
 }
 .quartet{
 	float:right;
