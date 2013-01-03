@@ -184,12 +184,12 @@
 }
 
 .index .info .request div {
-  width: 235px;
+  width: 253px;
 	height: 100px;
   border-left: solid 2px #6a3906;
   border-right: solid 2px #6a3906;
   word-wrap: break-word;
-  padding: 15px 15px 0;
+  padding: 10px 5px 0 5px;
 }
 
 .index .info .banners {
@@ -233,6 +233,7 @@
   font-weight:bold;
   margin: 0 0 0 23px;
 }
+
 .top_sentence{
 	float: left;
 }

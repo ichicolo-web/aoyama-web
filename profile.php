@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
-<title>Haus-de-musik（ハウスデムジカ）| バイオリン教室</title>
+<title>Haus-de-musik（ハウスデムジカ）</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -12,47 +12,54 @@
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="/css/violin.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/index.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/profile.css" media="all" charset="utf-8" />
 <link href="/css/lightbox.css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
-<script type='text/javascript' src='/js/hdm/violin.js'></script>
-<script type='text/javascript' src='/js/hdm/selected.js'></script>
+<script type='text/javascript' src='/js/hdm/index.js'></script>
 <script src="/js/lightbox/jquery-1.7.2.min.js"></script>
 <script src="/js/lightbox/lightbox.js"></script>
 </head>
 <body class="index">
-<div class="wrapper">
-  <div class="contents">
-    <? require_once 'partials/header.php'; ?>
-      <div class="inner">
-      <div class="title">
-        <div>
-          <img src="/images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山英里香バイオリン教室</span>
-        </div>          
-      </div><!-- /title -->
-      <div class="big_box">
-        <div class="box_left">
-          <div class="menu_left">
-            <ul>
-              <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
-              <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
-              <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
-			  <a href="request.php"><li><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li></a>
-              <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム</span></li>
-              <li><a href="violin_student.php"><img src="/images/base/student_button.jpg" width="150" height="30" /></a></li>
-            </ul>
-          </div><!-- /menu_left -->
-        </div><!-- /box_left -->
-        <div class="box_main">
-          <div class="profile_details">
+    <div class="contents03">
+       
+
+        <p><img src="/images/base/title-design.jpg" width="165" height="24" alt="" /><br />
+        <div class="profile_name">青山　英里香</div></p>
+
           <div class="box_right">
-            <p class="obi"><b>詳しいプロフィール</b></p>
+            <p class="obi"><b>詳しい経歴</b></p>
           </div><!-- /box_right -->
           <div class="cb"></div>
             <div class="sentence">
             <div class="profile_sentence">            
               <ul>
+              <li>2012. 栄フィルのゲストコンマスとして(左)。汐留住友ビルにて(右)</li>
+              <div class="imageRow">
+  			<div class="single">
+             <div class="photo_box2">
+            <li class="profile_photo"><a href="/images/profile/sheherazade.jpg" rel="lightbox[roadtrip]" title="栄フィルのゲストコンマスとして"><img  src="images/profile/sheherazade_s.jpg" /><br /><div class="photo_title">栄フィルのゲストコンマスとして</div></a>
+            <div class="imageRow">
+  			<div class="single">
+             <div class="photo_box2">
+            <li class="profile_photo"><a href="/images/profile/request06.jpg" rel="lightbox[roadtrip]" title="汐留住友ビルにて"><img  src="images/profile/request06_s.jpg" /><br /><div class="photo_title">汐留住友ビルにて</div></a></li>
+             </div>
+  			</div>
+  			</div>
+  			<div class="cb"><br /></div>
+            </li>
+  			
+              <li>2009. 栄フィルとシベリウスのコンチェルトを共演。</li>
+              <div class="imageRow">
+  			<div class="single">
+             <div class="photo_box2">
+            <li class="profile_photo"><a href="/images/profile/sibelius.jpg" rel="lightbox[roadtrip]" title="栄フィルとシベリウスのコンチェルトを共演。"><img  src="images/profile/sibelius_s.jpg" /><br /><div class="photo_title">栄フィルとシベリウスの<br />コンチェルトを共演</div></a></li>
+             </div>
+  			</div>
+  			</div>
+  			<div class="cb"><br /></div>
+              
               <li>2008. 12 加山雄三ディナーショーツアー参加。</li>
               <li>2008. 9. ＪＯＨＮＬＯＳのライブに３回出演。</li>
               <li>2008. 8. 東京JAZZ参加　　国際フォーラム屋外ステージ。</li>
@@ -64,7 +71,7 @@
               <li>2008. 4. 桐朋学園大学音楽学部研究生、オーケストラーアカデミー研修生となる。</li>
               <li>2008. 3. 調布市仙川劇場オープニングリレーコンサートに、ルミエールとして出演。</li>
               <li class="profile_photo"><img  src="images/profile/futyusenkawa_2008.jpg" /></li>
-              <li>2007. 12. 東江原啓之チャリティーコンサート「愛する子供たちのために」で共演。</li>
+              <li>2007. 12. 江原啓之チャリティーコンサート「愛する子供たちのために」で共演。</li>
               <li>2007. 11. ミッシャ・マイスキー「60歳記念プロジェクト」に参加、共演。</li>
               <div class="imageRow">
   			<div class="single">
@@ -74,6 +81,7 @@
   			</div>
   			</div>
   			<div class="cb"><br /></div>
+  			
               <li>2007. 11. 親子ふれあいコンサート　大野台公民館。</li>
               <li>2007. 9.  豊島区あうるすぽっと開館記念コンサート。</li>
               <li>2007. 7. 「生きる」で森山良子、谷村新司と共演。</li>
@@ -119,17 +127,17 @@
   			</div>
   			<div class="cb"><br /></div>
   			
+  			<li>2005. 3. ルミエール（高校時代結成したピアノクヮルテット）演奏会　スタンウェイ・サロン東京松尾ホール。</li>
+  			  			
               </ul>
                                             
             </div><!-- /profile_sentence -->
-            </div><!-- /profile_details -->
-          
-        
-      </div><!-- /box_main -->
-    </div><!-- /big_box -->
-    </div><!-- /innner -->
-  <? require_once 'partials/footer.php'; ?> 
-  </div><!-- /contents -->
-</div><!-- /wrapper -->
+</span>
+<div class="button"><input type="button" value="閉じる" onclick="window.close()"></div>
+
+
+
+    </div><!-- /contents -->
 </body>
 </html>
+

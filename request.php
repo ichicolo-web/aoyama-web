@@ -66,15 +66,14 @@
                 桐朋、芸大卒などの音楽仲間と伺えたら・・・と思っています。<br />
                 演奏に対しては厳しく鍛えられ、きちんとした気持ちで臨むことを学んできた仲間ばかりですので、安心してお任せください。<br />
                 <br />
-                新曲も含め、あらゆるジャンル(クラシック、ポピュラー、日本の曲、アニメソング、童謡、ジャズ、タンゴなど)の曲に、楽譜を入手後、数日で本番に臨めます。<br />
+                新曲も含め、あらゆるジャンルの曲を弾いてきました。楽譜を入手後、数日で本番に臨めます。<br />
                 (すでに、クラシック、ポップス、映画音楽、ゲーム音楽、ロック、タンゴ、日本の曲、童謡、ディズニーやジブリの曲など、100曲以上のレパートリーがあります。)<br />
                 <br />
                 楽器の編成はバイオリンソロ(ピアノ伴奏付)、バイオリンデュオ、弦楽トリオ、ピアノトリオ、弦楽四重奏＝ストリングカルテット、ピアノカルテット等、対応が可能です。<br />
                 <br />
                 学校、幼稚園などの音楽鑑賞教室、レクチャーコンサート。<br />
                 会社、ホテル、レストラン、ショッピングモール、公園、植物館、美術館などのイベント演奏。
-                結婚式、披露宴のウェルカム演奏やBGM。<br />
-                お誕生日などのサプライズ演奏、老人ホーム、病院などのボランティア演奏。<br />
+                結婚式、披露宴のウェルカム演奏やBGM。お誕生日などのサプライズ演奏、老人ホーム、病院などのボランティア演奏。<br />
                 オーケストラ、バンド、アンサンブルのエキストラ・・・など。<br />
                 <br />
                 演奏時間、プログラムの構成・楽器の編成などはご要望に合わせますのでご相談ください。<br />
@@ -116,7 +115,7 @@
 
 プランタン銀座/渋谷東急プラザ/銀座ヤマハ/レクサス・クリスマスミニコンサート/神保町三井ビルディング「ライトコンサート」/汐留住友ビル/銀座三越 等<br /><br />
 
-白寿ホール/東京文化会館小ホール/杜のホール「弦楽とピアノの夕べ」/岐阜サラマンカホール/ルネ小平ホール/サンエール相模原「土曜コンサート」 「チャリティーコンサート」 等<br /><br />
+白寿ホール/東京文化会館小ホール/杜のホール「弦楽とピアノの夕べ」/岐阜サラマンカホール/ルネ小平ホール/サンエール相模原「土曜コンサート」 「チャリティーコンサート」 ／みなとみらいホール／鎌倉芸術館ホール 等<br /><br />
 
 その他ボランティア活動として、地域の学校、病院、各種施設 等</p>
 
@@ -130,20 +129,19 @@
         <div class="cb"></div>
         <div class="sentence03">
         <iframe width="420" height="315" src="http://www.youtube.com/embed/6zQiOjGywXQ?rel=0" frameborder="0" allowfullscreen></iframe>
-        <p class="movie_title">シーズン：四季（Seasons風）<br />（左から　Vn林こずえ Va友田俊 Vc堀内美貴子 Vn河村舞子 Vn青山英里香）</p>
+        <p class="movie_title">四季（Seasons風）<br />（左から　Vn林こずえ Va友田俊 Vc堀内美貴子 Vn河村舞子 Vn青山英里香）</p>
           <iframe width="420" height="315" src="http://www.youtube.com/embed/BDCBJEIqbUQ?rel=0" frameborder="0" allowfullscreen></iframe>
           <p class="movie_title">2012年 横浜美術館（リベルタンゴ）</p>
           <iframe width="420" height="236" src="http://www.youtube.com/embed/8wVht9nSK1s?rel=0" frameborder="0" allowfullscreen></iframe>
-          <p class="movie_title">メルティ動画：ヴォルフ作曲　イタリアンセレナーデ 仙川K2スタジオ<br />　
-（1stVn林こずえ 2ndVn青山英里香 Vc柳本直子 Va武田麻耶）</p>
+          <p class="movie_title">メルティ動画：ヴォルフ作曲　イタリアンセレナーデ 【仙川K2スタジオ】<br />　
+（1<sup>st</sup>Vn林こずえ 2<sup>nd</sup>Vn青山英里香 Vc柳本直子 Va武田麻耶）</p>
           
           <iframe width="420" height="236" src="http://www.youtube.com/embed/lw3CrVLz6M0?rel=0" frameborder="0" allowfullscreen></iframe>
-          <p class="movie_title">メルティ動画：タンゴ 仙川K2スタジオ<br />
-（1stVn林こずえ 2ndVn青山英里香 Vc柳本直子 Va武田麻耶<br />　
-（1stVn林こずえ 2ndVn青山英里香 Vc柳本直子 Va武田麻耶）</p>
+          <p class="movie_title">メルティ動画：タンゴ 【仙川K2スタジオ】<br />
+（1<sup>st</sup>Vn林こずえ 2<sup>nd</sup>Vn青山英里香 Vc柳本直子 Va武田麻耶</p>
           
         <iframe width="420" height="236" src="http://www.youtube.com/embed/puI1tT3eGbI?rel=0" frameborder="0" allowfullscreen></iframe>
-        <p class="movie_title">クロノトリオ動画：ジェラシー 渋谷Module 1st<br />
+        <p class="movie_title">クロノトリオ動画：ジェラシー 【渋谷Module 1st】<br />
 （Vn青山英里香 Vc柳本直子 Pf北川とわ）</p>
           
         </div><!-- /sentence03 -->

@@ -38,7 +38,6 @@
               <li class="navi001 selected" onclick="window.hdm.violin.toggle(1); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>HOME</span></li>
               <li class="navi002" onclick="window.hdm.violin.toggle(2); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>レッスンについて</span></li>
               <li class="navi003" onclick="window.hdm.violin.toggle(3); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>プロフィール</span></li>
-              <li class="navi005" onclick="window.hdm.violin.toggle(5); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>これまでの経歴</span></li>
 			  <a href="request.php"><li><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>演奏依頼</span></li></a>
               <li class="navi004" onclick="window.hdm.violin.toggle(4); window.hdm.selected.start();"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>アルバム</span></li>
              
@@ -62,11 +61,11 @@
               とお考えの方、お貸しできる楽器も置いてありますので、<br />
               体験レッスンいたします。</p>
               <ul>
-              <li>・楽譜、に自信のない方</li>
+              <li>・楽譜に自信のない方</li>
               <li>・昔習っていたので再スタートしたいという方</li>
               <li>・学校や市民オケに在籍中で、オーケストラの曲を一緒にさらって欲しい方</li>
               <li>・少し専門的に習いたい方</li>
-              <li>・音楽高校・音楽大学を受験したい方</li>
+              <li>・音楽高校、音楽大学を受験したい方</li>
               <li>・コンクールに出場してみたい方</li>
               <li>・ご自分の室内楽グループでレッスンを希望される方</li>
 			  <li>上記以外の方も、ご相談下さい。</li>
@@ -74,7 +73,7 @@
                 
                 <p>きちんとしたバイオリンテクニック(弾き方)や練習方法を効率よく身につけていたく為には、クラシックの教本・曲の勉強が必要ですが、ポップスも弾いてみたい方には、そういった曲も取り入れます。<br />
 (私も仕事では沢山弾いております。)<br /><br />
-              生徒さんの目的やレベルに沿った指導方法を考え,レッスンしていくよう<br />
+              生徒さんの目的やレベルに沿った指導方法を考え、レッスンしていくよう<br />
 心がけております。遠慮なくお話し下さい。</p>
               
               
@@ -176,23 +175,27 @@
           	<ul>
             	<li><span>【青山英里香】</span></li><br />
 				<li>横浜に生まれ、横須賀で育つ。<br />
-			    3歳よりバイオリンを始める。桐朋学園子供のための音楽教室（鎌倉、横浜教室）を経て、桐朋女子高等学校音楽科（男女共学）、桐朋学園大学音楽学部演奏学科を卒業。 同研究科修了。同オーケストラ・アカデミー研修生修了。</li><br />
+			    3歳よりバイオリンを始める。桐朋学園子供のための音楽教室（鎌倉、横浜教室）を経て、<br />桐朋女子高等学校音楽科（男女共学）、桐朋学園大学音楽学部演奏学科を卒業。 <br />同研究科修了。同オーケストラ・アカデミー研修生修了。</li><br />
 
-				<li>これまでに小出始子、井上淑子、神谷美千子、ドガレイユ、加藤知子の各氏に師事。室内楽では、毛利伯郎、藤井一興、三上桂子、野島稔、原田幸一郎、藤原浜雄、徳永二男、斎木隆、東京カルテットの各氏に師事。</li><br />
+				<li>これまでに小出始子、井上淑子、神谷美千子、ドガレイユ、加藤知子の各氏に師事。<br />室内楽では、毛利伯郎、藤井一興、三上桂子、野島稔、原田幸一郎、藤原浜雄、徳永二男、<br />斎木隆、東京カルテットの各氏に師事。</li><br />
 				<li>第７６、７８、８０回桐朋学園室内楽演奏会出演。<br />
 		JTアートホール期待の音大生によるアフタヌーンコンサートVol.１８５出演。<br />
 クラシック音楽コンクール、日本演奏家コンクール、JILA音楽コンクール、TMC東京Jazz/Rockコンクールetc.上位入賞。</li><br />
 		<li>2005年&nbsp;湘南ユースオーケストラとチャイコフスキーのコンチェルトを共演。</li>
-        <li>2006年&nbsp;横須賀成人式において、成人代表として挨拶し、横須賀交響楽団とヴィバルディ「四季」を共演。</li>
-        <li>2010年&nbsp;栄フィルハーモニー交響楽団とシベリウスのコンチェルトを共演。<br />
-		  栄フィルでは、2012年ゲストコンマスとして、リムスキー・コルサコフの「シェラザード」のソロを演奏する。<br />
-		現在、としま未来文化財団「G.Dream21」のオーケストラに所属、コンサートミストレスを務めたりもしている。</li><br />
+        <li>2006年&nbsp;横須賀成人式において、成人代表として挨拶し、横須賀交響楽団とヴィバルディ<br />「四季」を共演。</li>
+        <li>2009年&nbsp;栄フィルハーモニー交響楽団とシベリウスのコンチェルトを共演。<br />
+		  栄フィルでは、2012年ゲストコンマスとして、リムスキー・コルサコフの「シェエラザード」のソロを演奏する。<br />
+		現在、としま未来文化財団「G.Dream21」のオーケストラに所属。</li><br />
 		<li>高校時代に結成したピアノカルテット「ルミエール」は10年目を迎え、10周年記念コンサートを企画中。</li>
-        <li>メルティ・ストリング・スカルテットや、タリア弦楽四重奏団(Thalia String Quartet)など、室内楽にも力を注いでいる。<br />
-またストリングス・ユニット「Seasons」を結成し、TV、ライブなど、全国で活躍中。2009年にCD「Neo classic」をリリース。</li><br />
+        <li>メルティ・ストリングス・カルテットや、タリア弦楽四重奏団(Thalia String Quartet)など、<br />室内楽にも力を注いでいる。<br />
+またストリングス・ユニット「Seasons」を結成し、TV、ライブなど、全国で活躍中。<br />2009年にCD「Neo classic」をリリース。</li><br />
         <li>多方面の活躍により、数多くの著名アーティストと共演。<br />
         「魅惑のスタンダードポップス」(NHK BS2)、BSエンターテイメント「美のメロディー・音楽の女神たち」(NHK BS2)、ミュージックフェア、ミュージックステーション、SMAP×SMAPなどTV出演多数。</li>
         </ul>
+        
+        <p class="profile_button">
+        <a href="profile.php" onclick="window.open('./profile.php','', 'width=800,height=900,scrollbars=yes'); return false;"><img src="images/violin/profile_button.jpg"/>
+        </a></p>
         
         </div>
         </div><!-- /sentence03 -->

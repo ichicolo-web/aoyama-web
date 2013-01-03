@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.contents03 {
+	width: 730px;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+  background-color: #ffffff;
+  padding-left: 40px;
+  overflow: hidden;
+}
+.box_right{
+	width:710px;
+	height:30px;
+	float:right;
+	margin:10px 20px 0 0;
+	background-image:url(/images/base/title_background.jpg);
+}
+
+.box_right .obi{
+	width:700px;
+	height:30px;
+	color:#FFF;
+	margin:8px 0 0 30px;
+	font-weight:bold;
+}
+.cb{
+	clear:both;
+}
+.profile_name{
+	padding:5px 0 0 44px
+}
+.profile_sentence{
+	margin: 10px 0 10px 0;
+}
+.profile_photo{
+	margin: 10px 0 10px 10px;
+}
+.profile_photo img{
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+
+.photo_title{
+	padding:5px 0 10px 0;
+	vertical-align:bottom;
+	text-align: center;
+}
+.button{
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
