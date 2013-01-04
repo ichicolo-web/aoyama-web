@@ -138,7 +138,7 @@
           
           <iframe width="420" height="236" src="http://www.youtube.com/embed/lw3CrVLz6M0?rel=0" frameborder="0" allowfullscreen></iframe>
           <p class="movie_title">メルティ動画：タンゴ 【仙川K2スタジオ】<br />
-（1<sup>st</sup>Vn林こずえ 2<sup>nd</sup>Vn青山英里香 Vc柳本直子 Va武田麻耶</p>
+（1<sup>st</sup>Vn林こずえ 2<sup>nd</sup>Vn青山英里香 Vc柳本直子 Va武田麻耶)</p>
           
         <iframe width="420" height="236" src="http://www.youtube.com/embed/puI1tT3eGbI?rel=0" frameborder="0" allowfullscreen></iframe>
         <p class="movie_title">クロノトリオ動画：ジェラシー 【渋谷Module 1st】<br />

@@ -25,8 +25,14 @@
     <div class="contents03">
        
 
-        <p><img src="/images/base/title-design.jpg" width="165" height="24" alt="" /><br />
-        <div class="profile_name">青山　英里香</div></p>
+        <div  class="profile_top">
+
+        <img src="/images/base/title-design.jpg" width="165" height="24" alt="" />
+
+        <p>青山　英里香</p>
+        </div>
+        
+        <div class="cb"></div>
 
           <div class="box_right">
             <p class="obi"><b>詳しい経歴</b></p>

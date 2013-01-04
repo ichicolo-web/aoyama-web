@@ -27,8 +27,12 @@
 .cb{
 	clear:both;
 }
-.profile_name{
-	padding:5px 0 0 44px
+.profile_top{
+	margin: 10px 0 0 0;
+	float: left;
+}
+.profile_top p{
+	text-align: center;
 }
 .profile_sentence{
 	margin: 10px 0 10px 0;
