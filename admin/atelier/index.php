@@ -62,6 +62,10 @@ while ($row = mysql_fetch_assoc($result)) {
   print('<input type="hidden" name="delete" value="'.$row['id'].'" />');
   print('<input type="submit" value="削除する" />');
   print('</form>');
+  print('<form action="edit.php" class="delete" method="post">');
+  print('<input type="hidden" name="edit" value="'.$row['id'].'" />');
+  print('<input type="submit" value="編集する" />');
+  print('</form>');
   print('</div>');
   print('<div class="left">');
   print('<img src="images/upload/'.$row['file'].'" />');
