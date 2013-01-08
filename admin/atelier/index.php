@@ -56,7 +56,7 @@ while ($row = mysql_fetch_assoc($result)) {
   print($row['date']);
   print('</span>');
   print('<span>');
-  print('posted by '.$row['writer'].$row['id']);
+  print('posted by '.$row['writer']);
   print('</span>');
   print('<form action="delete.php" class="delete" method="post" onsubmit="return confirm(\''.$row['title'].'を削除して宜しいですか？\');">');
   print('<input type="hidden" name="delete" value="'.$row['id'].'" />');
