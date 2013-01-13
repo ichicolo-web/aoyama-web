@@ -188,6 +188,9 @@ table{
 	float:right;
 	margin:0 80px 0 0;
 }
+.table_box_img{
+	margin:0 0 0 140px;
+}
 /* 料金ページ終わり */
 
 .photo_box{

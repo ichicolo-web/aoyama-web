@@ -88,48 +88,16 @@
           </ul>
           <br />
           
-          <p>ここ数年は毎年春に、横浜美術館レクチャーホールにて、発表会を行っております。（発表会費10000円~）<br />
+          <p>ここ数年は毎年春に、横浜美術館レクチャーホールにて、発表会を行っております。<br />
 12月にはクリスマス会として、湘南鷹取の自宅にて、ホームコンサートを行い、ソロはもちろんですが、<br />
 ご家族、生徒さん同士の連弾や、バイオリンとのアンサンブル等の発表の場を設けるように致しております。<br />
 ティータイム付の時以外は原則無料、アットホームな楽しい会です。 </p><br />
 
-          <div class="table_box">
-          <div class="table_box_left">
-          <table border="1" cellpadding="0" cellspacing="0">
-              <th colspan="2">レッスン料の目安&nbsp;(発表会も含め年４５回程度) </th>
-            <tr>
-              <td>幼稚園</td>
-              <td>30分&nbsp;&nbsp;6,000円／月額</td>
-            </tr>
-            <tr>
-              <td>小学1，2年生</td>
-              <td>30分&nbsp;&nbsp;7,000円／月額</td>
-            </tr>
-            <tr>
-              <td>小学3～5年生</td>
-              <td>45分&nbsp;&nbsp;8,000円／月額</td>
-            </tr>
-            <tr>
-              <td>小学6年生～</td>
-              <td>60分&nbsp;&nbsp;9,000円／月額</td>
-            </tr>
-            <tr>
-              <td colspan="2">兄弟割引あり&nbsp;-1,000円</td>
-            </tr>
-            <tr>
-              <td>月2回</td>
-              <td>60分×2/5,000円</td>
-            </tr>
-            <tr>
-              <td>1レッスン方式</td>
-              <td>60分/3,000円</td>
-            </tr>
-        </table>
-        </div>
-        <div class="table_box_right">
-        	<img src="images/piano/piano_class.jpg" />
-        </div>
-        </div>
+          
+	          <div class="table_box_img">
+		          <img src="images/piano/piano_class.jpg" />
+	          </div>
+
         
             </div><!-- /box002 -->
           <div class="box003">
