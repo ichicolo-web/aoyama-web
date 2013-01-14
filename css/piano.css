@@ -178,7 +178,7 @@ table{
 
 .table_box{
 	width:720px;
-	margin:10px 0 0 0;
+	margin:0px 0 0 0;
 }
 .table_box_left{
 	float:left;
@@ -189,7 +189,11 @@ table{
 	margin:0 80px 0 0;
 }
 .table_box_img{
-	margin:0 0 0 140px;
+	text-align: center;
+	margin: 0;
+}
+.table_sentence{
+	text-align: center;
 }
 /* 料金ページ終わり */
 

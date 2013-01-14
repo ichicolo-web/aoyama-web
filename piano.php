@@ -94,7 +94,17 @@
 ティータイム付の時以外は原則無料、アットホームな楽しい会です。 </p><br />
 
           
-	          <div class="table_box_img">
+	          <div class="table_box_left">
+          <table border="1" cellpadding="0" cellspacing="0">
+              <th>レッスン料の目安(1レッスン)</th>
+            <tr>
+              <td class="table_sentence">30分/6,000円（1ヶ月）
+              </td>
+            </tr>
+        </table>
+        </div>
+	          
+	          <div class="table_box_right">
 		          <img src="images/piano/piano_class.jpg" />
 	          </div>
 
