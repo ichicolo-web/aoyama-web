@@ -29,8 +29,8 @@
 .main_title .album {
   font-size: 120%;
   font-weight:bold;
-	float:left;
-  margin: 10px 0 0 605px;
+	float:right;
+  margin: 10px 40px 0 0;
 }
 
 .main_title div{

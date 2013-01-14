@@ -31,7 +31,7 @@ init();
       <div class="main_title">
         <div>
          <span>Shunichiのアトリエ</span>
-         <a class="album" href="album.php">フォトアルバムへ</a>
+         <a class="album" href="album.php">フォトアルバムへ ※写真を拡大してご覧になれます。</a>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
