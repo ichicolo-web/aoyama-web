@@ -10,8 +10,10 @@ $writer = $_POST["writer"];
 $upload_file = $_POST["upload_file"];
 $date = $_POST["date"];
 
-$link = mysql_connect('localhost', 'root', 'root');
-$db_selected = mysql_select_db('update', $link);
+$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
+$db_selected = mysql_select_db('sddb0040086768', $link);
+//$link = mysql_connect('localhost', 'root', 'root');
+//$db_selected = mysql_select_db('update', $link);
 mysql_set_charset('utf-8');
 $result = mysql_query('SELECT file FROM atelier where id ='.$id);
 $row = mysql_fetch_assoc($result);

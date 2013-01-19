@@ -5,10 +5,10 @@ init();
 
 $confirm_up = htmlspecialchars($_POST['down']);
 if (preg_match("/^[0-9]+$/", $confirm_up)) {
-  //$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
-  //$db_selected = mysql_select_db('sddb0040086768', $link);
-  $link = mysql_connect('localhost', 'root', 'root');
-  $db_selected = mysql_select_db('update', $link);
+  $link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
+  $db_selected = mysql_select_db('sddb0040086768', $link);
+  //$link = mysql_connect('localhost', 'root', 'root');
+  //$db_selected = mysql_select_db('update', $link);
   $sql = 'SELECT id from atelier WHERE id < '.$confirm_up. ' order by id DESC LIMIT 1';
   $result_flag = mysql_query($sql);
   while ($row = mysql_fetch_assoc($result_flag)) {

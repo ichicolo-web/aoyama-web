@@ -45,6 +45,10 @@
   float:left;
 }
 
+.pagination {
+  float: left;
+}
+
 .menu_left{
 	width:160px;
 	height:auto;

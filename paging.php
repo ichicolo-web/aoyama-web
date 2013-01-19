@@ -1,11 +1,14 @@
 <?php
 
-$host="localhost";
-$user="root";
-$pass="root";
-$dbname="update";
+//$host="localhost";
+//$user="root";
+//$pass="root";
+//$dbname="update";
+$host="sddb0040086768.cgidb";
+$user="sd_dba_ODI4MzQ2";
+$pass="XahJtrWz";
+$dbname="sddb0040086768";
 
-mysql_set_charset('utf-8');
 if (isset($_GET["page"])) {
 $page=$_GET["page"];
 } else {
@@ -21,9 +24,9 @@ $first = (($page-1)*$maxrow);
 $maxpage=intval((($count-1)/$maxrow)+1);
 $pagelink = "<font size=\"+1\"><b>全".$count."件</b></font><br>\n";
 for ($i=1;$i<=$maxpage;$i++) {
-$pagelink = $pagelink."<a href=\"?page=".$i."\">";
+$pagelink = $pagelink."<a class=\"test\" href=\"?page=".$i."\">";
 if ($i==$page) {
-$pagelink = $pagelink."<font size=\"+2\">".$i."</font></a> ";
+$pagelink = $pagelink."<span class=\"selected\">".$i."</span></a> ";
 } else {
 $pagelink = $pagelink.$i."</a>\n";
 }

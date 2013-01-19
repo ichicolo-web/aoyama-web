@@ -43,7 +43,9 @@ init();
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
         <div class="box_right">
-          <?= $pagelink ?>
+          <div class="pagination">
+            <?= $pagelink ?>
+          </div><!-- /pagination -->
           <?php
           while ($row = mysql_fetch_assoc($result)) {
             print('<div class="article">');
