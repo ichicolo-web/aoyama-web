@@ -65,7 +65,7 @@ exit();
 <input type="hidden" name="check_file" value="<?= fileUpload(); ?>">
 <input type="hidden" name="check_title" value="<?= $title ?>">
 <input type="hidden" name="check_description" value="<?= $description ?>">
-<input type="hidden" name="db" value="atelier">
+<input type="hidden" name="db" value="posts_piano">
 <input type="submit" value="書き込む">
 <input type="button" value="戻る" onclick="javascript:history.back();">
 </div>

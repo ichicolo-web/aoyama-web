@@ -1,3 +1,12 @@
+<?php
+require_once (dirname(__FILE__).'/lib/EM/Init.php');
+require_once (dirname(__FILE__).'/lib/EM/Db.php');
+Init();
+$sql = 'SELECT * FROM atelier ORDER BY id DESC';
+$sth = $pdo->prepare($sql);
+$sth->execute();
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
@@ -20,18 +29,6 @@
 <script src="/js/lightbox/jquery-1.7.2.min.js"></script>
 <script src="/js/lightbox/lightbox.js"></script>
 
-<?php
-require_once("admin/atelier/init.php");
-init();
-$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
-$db_selected = mysql_select_db('sddb0040086768', $link);
-//$link = mysql_connect('localhost', 'root', 'root');
-//$db_selected = mysql_select_db('update', $link);
-mysql_set_charset('utf-8');
-$result = mysql_query('SELECT id,date,file,writer,title,description FROM atelier ORDER BY id DESC');
-$close_flag = mysql_close($link);
-?>
-
 </head>
 <body class="index">
 <div class="wrapper">
@@ -46,7 +43,7 @@ $close_flag = mysql_close($link);
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi005 selected><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/atelier.php">掲示板に戻る</a></li>
+              <li class="navi005 selected"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/atelier.php">掲示板に戻る</a></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
@@ -54,23 +51,16 @@ $close_flag = mysql_close($link);
           <p class="notice">クリックする事で写真を拡大してご覧になれます。</p>
             <div class="imageRow">
   		      	<div class="single">
-          <?php
-          while ($row = mysql_fetch_assoc($result)) {
-            if ($row['file'] === '') {
-              $display = 'style="display:none;"';
-            } else {
-              $display = 'style="display:block;"';
-            }
-            print('<div class="left"' .$display.'>');
-            print('<a href="/admin/atelier/images/'.$row['file'].'" rel="lightbox[roadtrip]" title="'.$row['title'].'">');
-            print('<img src="/admin/atelier/images/upload/'.$row['file'].'" />');
-            print('<br />');
-            print('<br />');
-            print($row['title']);
-            print('</a>');
-            print('</div>');
-          } 
-          ?>
+              <? while($row = $sth->fetchObject()): if ($row->file === '') { $display = 'style="display:none;"'; } else { $display = 'style="display:block;"'; } ?>
+              <div class="left" <?= $display ?>>
+                <a href="/admin/atelier/images/<?= $row->file ?>" rel="lightbox[roadtrip]" title="<?= $row->file ?>">
+                <img src="/admin/atelier/images/upload/<?= $row->file ?>" />
+                <br />
+                <br />
+                <?= $row->title ?>
+                </a>
+              </div>
+              <? endwhile; ?>
               </div><!-- /single -->
             </div><!-- /imageRow -->
         </div><!-- /box_right -->

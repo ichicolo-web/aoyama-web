@@ -1,3 +1,10 @@
+<?php
+require_once (dirname(__FILE__).'/lib/EM/Init.php');
+require_once (dirname(__FILE__).'/lib/EM/Db.php');
+require_once (dirname(__FILE__).'/lib/EM/PagingPiano.php');
+Init();
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
@@ -16,17 +23,6 @@
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
-
-<?php
-require_once("admin/piano/init.php");
-init();
-$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
-$db_selected = mysql_select_db('sddb0040086768', $link);
-mysql_set_charset('utf-8');
-$result = mysql_query('SELECT id,date,file,writer,title,description FROM posts_piano ORDER BY id DESC LIMIT 3');
-$close_flag = mysql_close($link);
-?>
-
 </head>
 <body class="index">
 <div class="wrapper">
@@ -45,32 +41,33 @@ $close_flag = mysql_close($link);
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
+          <div class="pagination">
+            <?= $pagelink ?>
+          </div><!-- /pagination -->
         <div class="box_right">
-          <?php
-          while ($row = mysql_fetch_assoc($result)) {
-            print('<div class="article">');
-            print('<div class="tag">');
-            print('<span>');
-            print($row['date']);
-            print('</span>');
-            print('<span>');
-            print('  posted by '.$row['writer']);
-            print('</span>');
-            print('</div>');
-            print('<div class="left">');
-            print('<img src="/admin/piano/images/upload/'.$row['file'].'" />');
-            print('</div>');
-            print('<div class="right">');
-            print('<p class="title">');
-            print($row['title']);
-            print('</p>');
-            print('<p class="description">');
-            print($row['description']);
-            print('</p>');
-            print('</div>');
-            print('</div>');
-          } 
-          ?>
+          <? while($row = $sth->fetchObject()): ?>
+            <div class="article">
+            <div class="tag">
+            <span>
+            <?= $row->date ?>
+            </span>
+            <span>
+              posted by <?= $row->writer ?>
+            </span>
+            </div>
+            <div class="left">
+            <img src="/admin/piano/images/upload/<?= $row->file ?>" />
+            </div>
+            <div class="right">
+            <p class="title">
+            <?= $row->title ?>
+            </p>
+            <p class="description">
+            <?= $row->description ?>
+            </p>
+            </div>
+            </div>
+          <? endwhile; ?>
         </div><!-- /box_right -->
       </div><!-- /big_box -->
   <? require_once 'partials/footer.php'; ?> 

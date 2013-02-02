@@ -1,3 +1,17 @@
+<?php
+
+require_once (dirname(__FILE__).'/../../lib/EM/Init.php');
+require_once (dirname(__FILE__).'/../../lib/EM/Db.php');
+Init();
+
+$sql = 'SELECT * FROM posts_piano ORDER BY id DESC';
+$sth = $pdo->prepare($sql);
+$sth->execute();
+$date = date('Y.m.d');
+$error_message = $_SESSION["error_message"];
+$_SESSION["error_message"] = "";
+?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
@@ -8,21 +22,8 @@
 <meta name="robots" content="noindex,nofollow">
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
-<link type="text/css" rel="stylesheet" href="css/common.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="css/admin.css" media="all" charset="utf-8" />
-<?php
-require_once("init.php");
-init();
-$date = date('Y.m.d');
-$error_message = $_SESSION["error_message"];
-$_SESSION["error_message"] = "";
-
-$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
-$db_selected = mysql_select_db('sddb0040086768', $link);
-mysql_set_charset('utf-8');
-$result = mysql_query('SELECT id,date,file,writer,title,description FROM posts_piano ORDER BY id DESC');
-$close_flag = mysql_close($link);
-?>
+<link type="text/css" rel="stylesheet" href="/css/common.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/admin.css" media="all" charset="utf-8" />
 </head>
 <body class="admin">
   <div class="content">
@@ -46,36 +47,50 @@ $close_flag = mysql_close($link);
           <input class="reset" type="reset" value="リセット" />
         </form>
     </div><!-- /input_space -->
-<a class ="view" href="../../piano_student.php" target="_blank">サイトで確認する</a>
-<?php
-while ($row = mysql_fetch_assoc($result)) {
-  print('<div class="log">');
-  print('<div class="tag">');
-  print('<span>');
-  print($row['date']);
-  print('</span>');
-  print('<span>');
-  print('posted by '.$row['writer']);
-  print('</span>');
-  print('<form action="delete.php" class="delete" method="post" enctype="multipart/form-data" onsubmit="return confirm(\''.$row['title'].'を削除して宜しいですか？\');">');
-  print('<input type="hidden" name="delete" value="'.$row['id'].'" />');
-  print('<input type="submit" value="削除する" />');
-  print('</form>');
-  print('</div>');
-  print('<div class="left">');
-  print('<img src="images/upload/'.$row['file'].'" />');
-  print('</div>');
-  print('<div class="right">');
-  print('<p class="title">');
-  print($row['title']);
-  print('</p>');
-  print('<p class="description">');
-  print($row['description']);
-  print('</p>');
-  print('</div>');
-  print('</div>');
-} 
-?>
+<a class ="view" href="/piano_student.php" target="_blank">サイトで確認する</a>
+    <? while($row = $sth->fetchObject()): ?>
+    <p class="detail_item_right"><?= @$purpose->name ?>&emsp;<?= @$purpose->note ?></p>
+      <div class="log">
+        <div class="tag">
+          <span>
+          <?= $row->date ?>
+          </span>
+          <span>
+          posted by <?= $row->writer ?>
+          </span>
+          <form action="/lib/EM/Delete.php" class="delete" method="post" onsubmit="return confirm('<?= $row->title ?>を削除して宜しいですか？')">
+            <input type="hidden" name="delete" value="<?= $row->id ?>" />
+            <input type="hidden" name="db" value="posts_piano">
+            <input type="submit" value="削除する" />
+          </form>
+          <form action="edit.php" class="delete" method="post">
+            <input type="hidden" name="edit" value="<?= $row->id ?>" />
+            <input type="submit" value="編集する" />
+          </form>
+          <form action="/lib/EM/Down.php" class="delete" method="post" onsubmit="return confirm('<?= $row->title ?>を下に移動して宜しいですか？')">
+            <input type="hidden" name="down" value="<?= $row->id ?>" />
+            <input type="hidden" name="db" value="posts_piano">
+            <input type="submit" value="下へ" />
+          </form>
+          <form action="/lib/EM/Up.php" class="delete" method="post" onsubmit="return confirm('<?= $row->title ?>を上に移動して宜しいですか？')">
+            <input type="hidden" name="up" value="<?= $row->id ?>" />
+            <input type="hidden" name="db" value="posts_piano">
+            <input type="submit" value="上へ" />
+          </form>
+        </div>
+        <div class="left">
+          <img src="images/upload/<?= $row->file ?>" />
+        </div>
+        <div class="right">
+          <p class="title">
+          <?= $row->title ?>
+          </p>
+          <p class="description">
+          <?= $row->description ?>
+          </p>
+        </div>
+      </div>
+    <? endwhile; ?>
   </div><!-- /content -->
 </body>
 </html>

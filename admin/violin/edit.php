@@ -7,7 +7,7 @@ fileUpload();
 
 $date = date('Y.m.d');
 $edit = $_POST['edit'];
-$sql = 'SELECT * FROM atelier where id ='.$edit;
+$sql = 'SELECT * FROM posts where id ='.$edit;
 $sth = $pdo->prepare($sql);
 $sth->execute();
 ?>
@@ -16,7 +16,7 @@ $sth->execute();
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Shunichiのアトリエ 編集</title>
+<title>バイオリン教室  編集</title>
 <meta content="" name="keywords" />
 <meta content="" name="description" />
 <meta name="robots" content="noindex,nofollow">
@@ -28,7 +28,7 @@ $sth->execute();
 <body class="admin">
   <div class="content">
     <div class="input_space">
-    <h1>Shunishiのアトリエ 編集</h1>
+    <h1>バイオリン教室  編集</h1>
     <? while($row = $sth->fetchObject()): ?>
     <form action="edit_confirm.php" method="post" enctype="multipart/form-data">
       <p>タイトル（20文字以内）</p>
