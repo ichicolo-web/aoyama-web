@@ -32,14 +32,14 @@ Init();
       <div class="main_title">
         <div>
          <span>Shunichiのアトリエ</span>
-         <a class="album" href="album.php">フォトアルバムへ ※写真を拡大してご覧になれます。</a>
+         <a class="album" href="album.php"><p class="big_title">フォトアルバムへ</p>※写真を拡大してご覧になれます。</a>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi005 selected"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/">トップページへ戻る</a></li>
+              <li class="navi005"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/">トップページへ戻る</a></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
