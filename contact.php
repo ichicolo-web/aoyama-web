@@ -1,5 +1,5 @@
 <?php
-require_once("init.php");
+require_once (dirname(__FILE__).'/lib/EM/Init.php');
 init();
 $error_message = $_SESSION["error_message"];
 if($_SESSION["name"]) {

@@ -1,5 +1,5 @@
 <?php
-require_once("init.php");
+require_once (dirname(__FILE__).'/lib/EM/Init.php');
 init();
 if(isset($_POST["name"])){$_SESSION["name"] = $_POST["name"];}
 if(isset($_POST["address"])){$_SESSION["address"] = $_POST["address"];}

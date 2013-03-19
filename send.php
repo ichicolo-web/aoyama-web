@@ -1,5 +1,5 @@
 <?php
-require_once("init.php");
+require_once (dirname(__FILE__).'/lib/EM/Init.php');
 init();
 $_SESSION = array();
 if (ini_get("session.use_cookies")) {
