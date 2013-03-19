@@ -1,10 +1,8 @@
 <?php
 require_once (dirname(__FILE__).'/lib/EM/Init.php');
 require_once (dirname(__FILE__).'/lib/EM/Db.php');
+require_once (dirname(__FILE__).'/lib/EM/PagingAlbum.php');
 Init();
-$sql = 'SELECT * FROM atelier ORDER BY id DESC';
-$sth = $pdo->prepare($sql);
-$sth->execute();
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -48,6 +46,9 @@ $sth->execute();
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
         <div class="box_right">
+          <div class="pagination">
+            <?= $pagelink ?>
+          </div><!-- /pagination -->
           <p class="notice">クリックする事で写真を拡大してご覧になれます。</p>
             <div class="imageRow">
   		      	<div class="single">
