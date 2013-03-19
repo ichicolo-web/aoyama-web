@@ -35,13 +35,14 @@ Init();
       <div class="main_title">
         <div>
          <span>Shunichiのアトリエ フォトアルバム</span>
+         <a class="album" href="atelier.php"><p class="big_title">写真の説明はこちら</p></a>
         </div>
       </div><!-- /title -->
       <div class="big_box">
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi005 selected"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/atelier.php">掲示板に戻る</a></li>
+              <li class="navi005 selected"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/atelier.php">掲示板へ</a></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
@@ -60,6 +61,7 @@ Init();
                 <br />
                 <?= $row->title ?>
                 </a>
+                
               </div>
               <? endwhile; ?>
               </div><!-- /single -->
