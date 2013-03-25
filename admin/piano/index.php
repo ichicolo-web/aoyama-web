@@ -5,8 +5,7 @@ require_once (dirname(__FILE__).'/../../lib/EM/Db.php');
 Init();
 
 $sql = 'SELECT * FROM posts_piano ORDER BY id DESC';
-$sth = $pdo->prepare($sql);
-$sth->execute();
+$result = mysql_query($sql);
 $date = date('Y.m.d');
 $error_message = $_SESSION["error_message"];
 $_SESSION["error_message"] = "";
@@ -48,45 +47,45 @@ $_SESSION["error_message"] = "";
         </form>
     </div><!-- /input_space -->
 <a class ="view" href="/piano_student.php" target="_blank">サイトで確認する</a>
-    <? while($row = $sth->fetchObject()): ?>
+    <? while($row = mysql_fetch_assoc($result)): ?>
     <p class="detail_item_right"><?= @$purpose->name ?>&emsp;<?= @$purpose->note ?></p>
       <div class="log">
         <div class="tag">
           <span>
-          <?= $row->date ?>
+          <?= $row['date'] ?>
           </span>
           <span>
-          posted by <?= $row->writer ?>
+          posted by <?= $row['writer'] ?>
           </span>
-          <form action="/lib/EM/Delete.php" class="delete" method="post" onsubmit="return confirm('<?= $row->title ?>を削除して宜しいですか？')">
-            <input type="hidden" name="delete" value="<?= $row->id ?>" />
+          <form action="/lib/EM/Delete.php" class="delete" method="post" onsubmit="return confirm('<?= $row['title'] ?>を削除して宜しいですか？')">
+            <input type="hidden" name="delete" value="<?= $row['id'] ?>" />
             <input type="hidden" name="db" value="posts_piano">
             <input type="submit" value="削除する" />
           </form>
           <form action="edit.php" class="delete" method="post">
-            <input type="hidden" name="edit" value="<?= $row->id ?>" />
+            <input type="hidden" name="edit" value="<?= $row['id'] ?>" />
             <input type="submit" value="編集する" />
           </form>
-          <form action="/lib/EM/Down.php" class="delete" method="post" onsubmit="return confirm('<?= $row->title ?>を下に移動して宜しいですか？')">
-            <input type="hidden" name="down" value="<?= $row->id ?>" />
+          <form action="/lib/EM/Down.php" class="delete" method="post" onsubmit="return confirm('<?= $row['title'] ?>を下に移動して宜しいですか？')">
+            <input type="hidden" name="down" value="<?= $row['id'] ?>" />
             <input type="hidden" name="db" value="posts_piano">
             <input type="submit" value="下へ" />
           </form>
-          <form action="/lib/EM/Up.php" class="delete" method="post" onsubmit="return confirm('<?= $row->title ?>を上に移動して宜しいですか？')">
-            <input type="hidden" name="up" value="<?= $row->id ?>" />
+          <form action="/lib/EM/Up.php" class="delete" method="post" onsubmit="return confirm('<?= $row['title'] ?>を上に移動して宜しいですか？')">
+            <input type="hidden" name="up" value="<?= $row['id'] ?>" />
             <input type="hidden" name="db" value="posts_piano">
             <input type="submit" value="上へ" />
           </form>
         </div>
         <div class="left">
-          <img src="images/upload/<?= $row->file ?>" />
+          <img src="images/upload/<?= $row['file'] ?>" />
         </div>
         <div class="right">
           <p class="title">
-          <?= $row->title ?>
+          <?= $row['title'] ?>
           </p>
           <p class="description">
-          <?= $row->description ?>
+          <?= $row['description'] ?>
           </p>
         </div>
       </div>

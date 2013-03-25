@@ -92,3 +92,4 @@ $_SESSION["error_message"] = "";
   </div><!-- /content -->
 </body>
 </html>
+$result = mysql_query($sql);
