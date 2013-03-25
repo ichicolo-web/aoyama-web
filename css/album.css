@@ -103,9 +103,18 @@
 	margin: 15px 0;
   font-size: 1.2em;
 }
+.big_title{
+	font-size: 1.1em;
+}
+
 .test{
 	color:963;
-	font-size: 3em;
+	font-size: 1.1em;
 	padding: 0 10px 0 10px;
 }
+
+.selected{
+	font-size: 1.1em;
+}
+
 
