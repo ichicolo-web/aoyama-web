@@ -54,13 +54,13 @@ Init();
           <p class="notice">クリックする事で写真を拡大してご覧になれます。</p>
             <div class="imageRow">
   		      	<div class="single">
-              <? while($row = $sth->fetchObject()): if ($row->file === '') { $display = 'style="display:none;"'; } else { $display = 'style="display:block;"'; } ?>
+              <? while($row = mysql_fetch_assoc($result)): if ($row['file'] === '') { $display = 'style="display:none;"'; } else { $display = 'style="display:block;"'; } ?>
               <div class="left" <?= $display ?>>
-                <a href="/admin/atelier/images/<?= $row->file ?>" rel="lightbox[roadtrip]" title="<?= $row->file ?>">
-                <img src="/admin/atelier/images/upload/<?= $row->file ?>" />
+                <a href="/admin/atelier/images/<?= $row['file'] ?>" rel="lightbox[roadtrip]" title="<?= $row['file'] ?>">
+                <img src="/admin/atelier/images/upload/<?= $row['file'] ?>" />
                 <br />
                 <br />
-                <?= $row->title ?>
+                <?= $row['title'] ?>
                 </a>
                 
               </div>

@@ -48,25 +48,25 @@ Init();
           <div class="pagination">
             <?= $pagelink ?>
           </div><!-- /pagination -->
-          <? while($row = $sth->fetchObject()): ?>
+          <? while($row = mysql_fetch_assoc($result)): ?>
             <div class="article">
             <div class="tag">
             <span>
             <?= $row->date ?>
             </span>
             <span>
-              posted by <?= $row->writer ?>
+              posted by <?= $row['writer'] ?>
             </span>
             </div>
             <div class="left">
-            <img src="/admin/atelier/images/upload/<?= $row->file ?>" />
+            <img src="/admin/atelier/images/upload/<?= $row['file'] ?>" />
             </div>
             <div class="right">
             <p class="title">
-            <?= $row->title ?>
+            <?= $row['title'] ?>
             </p>
             <p class="description">
-            <?= $row->description ?>
+            <?= $row['description'] ?>
             </p>
             </div>
             </div>

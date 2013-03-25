@@ -12,9 +12,8 @@ $confirm_title = htmlspecialchars($_POST['check_title']);
 $view_description = htmlspecialchars($_POST['check_description']);
 $confirm_description = nl2br($view_description);
 
-$sql = 'UPDATE ' .$db. ' SET id = ?, date = ?, file = ?, writer = ?, title = ?, description = ? WHERE id = ?';
-$sth = $pdo->prepare($sql);
-$sth->execute(array($confirm_id, $confirm_date, $confirm_filename, $confirm_writer, $confirm_title, $confirm_description, $confirm_id));
+$sql = 'UPDATE ' .$db. ' SET id =' .$confirm_id. ', date =' .$confirm_date. ', file =' .$confirm_filename. ', writer =' .$confirm_writer. ', title =' .$confirm_title. ', description =' .$confirm_description. 'WHERE id =' .$confirm_id;
+$result = mysql_query($sql);
 
   if ($db == 'atelier') {
     header("Location: /admin/atelier/index.php");

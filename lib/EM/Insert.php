@@ -11,9 +11,8 @@ $confirm_title = htmlspecialchars($_POST['check_title']);
 $view_description = htmlspecialchars($_POST['check_description']);
 $confirm_description = nl2br($view_description);
 
-$sql = 'INSERT INTO ' .$db. ' (date,file,writer,title,description) VALUES (?, ?, ?, ?, ?)';
-$sth = $pdo->prepare($sql);
-$sth->execute(array($confirm_date, $confirm_filename, $confirm_writer, $confirm_title, $confirm_description));
+$sql = 'INSERT INTO ' .$db. ' (date,file,writer,title,description) VALUES (' .$confirm_date. ',' .$confirm_filename. ',' .$confirm_writer. ',' .$confirm_title. ',' .$confirm_description. ')';
+$result = mysql_query($sql);
 
   if ($db == 'atelier') {
     header("Location: /admin/atelier/index.php");

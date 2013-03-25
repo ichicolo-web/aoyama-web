@@ -10,10 +10,9 @@ $page=$_GET["page"];
 $page=1;
 }
 $maxrow=3;
-$sql = "SELECT count(*) as count FROM posts";
-$sth = $pdo->prepare($sql);
-$sth->execute();
-$count =  $sth->fetchObject()->count;
+$sql = 'SELECT count(*) as count FROM posts';
+$result = mysql_query($sql);
+$count =  mysql_num_rows($result);
 $first = (($page-1)*$maxrow);
 $maxpage=intval((($count-1)/$maxrow)+1);
 $pagelink = "<font size=\"+1\"><b>全".$count."件</b></font><br>\n";
@@ -27,7 +26,6 @@ $pagelink = $pagelink.$i."</a>\n";
 }
 
 // 情報を取得
-$sql = "SELECT * FROM posts";
+$sql = 'SELECT * FROM posts';
 $sql = $sql." ORDER BY id DESC limit ".$first.", ".$maxrow;
-$sth = $pdo->prepare($sql);
-$sth->execute();
+$result = mysql_query($sql);

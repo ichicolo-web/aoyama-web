@@ -7,9 +7,8 @@ $db = $_POST['db'];
 $confirm_delete = htmlspecialchars($_POST['delete']);
 
 if (preg_match("/^[0-9]+$/", $confirm_delete)) {
-  $sql = 'DELETE FROM ' .$db. ' WHERE id = ?';
-  $sth = $pdo->prepare($sql);
-  $sth->execute(array($confirm_delete));
+  $sql = 'DELETE FROM ' .$db. ' WHERE id =' . $confirm_delete;
+  $result = mysql_query($sql);
   if ($db == 'atelier') {
     header("Location: /admin/atelier/index.php");
   } else if ($db == 'posts_piano') {
