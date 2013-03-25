@@ -12,13 +12,14 @@ $confirm_title = htmlspecialchars($_POST['check_title']);
 $view_description = htmlspecialchars($_POST['check_description']);
 $confirm_description = nl2br($view_description);
 
-$sql = 'UPDATE ' .$db. ' SET id =' .$confirm_id. ', date =' .$confirm_date. ', file =' .$confirm_filename. ', writer =' .$confirm_writer. ', title =' .$confirm_title. ', description =' .$confirm_description. 'WHERE id =' .$confirm_id;
+$sql = 'UPDATE ' .$db. ' SET id ="' .$confirm_id. '", date ="' .$confirm_date. '", file ="' .$confirm_filename. '", writer ="' .$confirm_writer. '", title ="' .$confirm_title. '", description ="' .$confirm_description. '" WHERE id ="' .$confirm_id. '"';
+print_r($sql);
 $result = mysql_query($sql);
 
-  if ($db == 'atelier') {
-    header("Location: /admin/atelier/index.php");
-  } else if ($db == 'posts_piano') {
-    header("Location: /admin/piano/index.php");
-  } else {
-    header("Location: /admin/violin/index.php");
-  }
+if ($db == 'atelier') {
+  header("Location: /admin/atelier/index.php");
+} else if ($db == 'posts_piano') {
+  header("Location: /admin/piano/index.php");
+} else {
+  header("Location: /admin/violin/index.php");
+}

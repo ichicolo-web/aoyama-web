@@ -8,8 +8,7 @@ fileUpload();
 $date = date('Y.m.d');
 $edit = $_POST['edit'];
 $sql = 'SELECT * FROM atelier where id ='.$edit;
-$sth = $pdo->prepare($sql);
-$sth->execute();
+$result = mysql_query($sql);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,12 +28,12 @@ $sth->execute();
   <div class="content">
     <div class="input_space">
     <h1>Shunishiのアトリエ 編集</h1>
-    <? while($row = $sth->fetchObject()): ?>
+    <? while($row = mysql_fetch_assoc($result)): ?>
     <form action="edit_confirm.php" method="post" enctype="multipart/form-data">
       <p>タイトル（20文字以内）</p>
-        <input value="<?= $row->title ?>" class="title" type="text" name="title" size="30" maxlength="20" />
+        <input value="<?= $row['title'] ?>" class="title" type="text" name="title" size="30" maxlength="20" />
       <p>本文</p>
-        <textarea class="description" name="description" rows="4" cols="40"><?= ereg_replace ("<br />","\n",$row->description) ?></textarea>
+        <textarea class="description" name="description" rows="4" cols="40"><?= ereg_replace ("<br />","\n",$row['description']) ?></textarea>
       <p>書いた人</p>
         <select class="writer" name="writer">
           <option value="Shunichi">Shunichi</option>
