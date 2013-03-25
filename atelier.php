@@ -20,6 +20,7 @@ Init();
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="/css/atelier.css" media="all" charset="utf-8" />
+<link media="only screen and (max-device-width: 480px)" href="css/iphone.css" type="text/css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>

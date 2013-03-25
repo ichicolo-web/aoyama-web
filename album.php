@@ -21,6 +21,7 @@ Init();
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="/css/album.css" media="all" charset="utf-8" />
 <link href="/css/lightbox.css" rel="stylesheet" />
+<link media="only screen and (max-device-width: 480px)" href="css/iphone.css" type="text/css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
@@ -42,7 +43,7 @@ Init();
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi005 selected"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/atelier.php">掲示板へ</a></li>
+              <li class="navi005 selected"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/atelier.php">写真の詳細へ</a></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
