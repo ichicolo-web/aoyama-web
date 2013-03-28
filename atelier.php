@@ -52,7 +52,7 @@ Init();
             <div class="article">
             <div class="tag">
             <span>
-            <?= $row->date ?>
+            <?= $row['date'] ?>
             </span>
             <span>
               posted by <?= $row['writer'] ?>
