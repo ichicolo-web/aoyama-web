@@ -96,9 +96,9 @@
           
 	          <div class="table_box_left">
           <table border="1" cellpadding="0" cellspacing="0">
-              <th>レッスン料の目安(1レッスン)</th>
+              <th>レッスン料の目安<br />(発表会／ホームコンサートを含め 年45回程度)</th>
             <tr>
-              <td class="table_sentence">30分/6,000円（1ヶ月）
+              <td class="table_sentence">幼稚園　30分/6,000円（1ヶ月）
               </td>
             </tr>
         </table>

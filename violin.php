@@ -111,7 +111,11 @@
             <li>お車の方は駐車場スペースあり</li>
 
           </ul><br />
+          
           </div>
+          <div class="photo_img">
+              <img src="/images/violin/erika04.jpg" />
+              </div>
           
           
            <div class="cb"></div>  

@@ -63,7 +63,7 @@
           <a href="request.php"><p style="padding:22px 0 0 63px; font-size:150%; font-weight:bold;">演奏依頼</p></a>
 
           <div class="top_sentence">
-            プロの演奏家が出張演奏いたします。<img src="images/index/erika_top.jpg" width="45px" height="64px;" /><br />
+            プロの演奏家が出張演奏いたします。<img src="images/index/erika_top.jpg" width="45px" height="62px;" /><br />
              カルテット、デュオ、ソロetc.<br />
              御希望にそったアレンジを致します。
              ”大切なイベントに生演奏を！”とお考えの方、御連絡をお待ち致しております。
