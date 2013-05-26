@@ -62,7 +62,6 @@ Init();
                 <br />
                 <?= $row['title'] ?>
                 </a>
-                
               </div>
               <? endwhile; ?>
               </div><!-- /single -->

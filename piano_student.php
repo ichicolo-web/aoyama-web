@@ -49,21 +49,21 @@ Init();
             <div class="article">
             <div class="tag">
             <span>
-            <?= $row->date ?>
+            <?= $row['date'] ?>
             </span>
             <span>
-              posted by <?= $row->writer ?>
+              posted by <?= $row['writer'] ?>
             </span>
             </div>
             <div class="left">
-            <img src="/admin/piano/images/upload/<?= $row->file ?>" />
+            <img src="/admin/piano/images/upload/<?= $row['file'] ?>" />
             </div>
             <div class="right">
             <p class="title">
-            <?= $row->title ?>
+            <?= $row['title'] ?>
             </p>
             <p class="description">
-            <?= $row->description ?>
+            <?= $row['description'] ?>
             </p>
             </div>
             </div>

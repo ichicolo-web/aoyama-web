@@ -10,7 +10,7 @@ $page=$_GET["page"];
 $page=1;
 }
 $maxrow=8;
-$sql = 'SELECT count(*) as count FROM atelier';
+$sql = 'SELECT * FROM atelier WHERE file NOT LIKE ""';
 $result = mysql_query($sql);
 $count =  mysql_num_rows($result);
 $first = (($page-1)*$maxrow);
@@ -26,6 +26,6 @@ $pagelink = $pagelink.$i."</a>\n";
 }
 
 // 情報を取得
-$sql = 'SELECT * FROM atelier';
+$sql = 'SELECT * FROM atelier WHERE file NOT LIKE ""';
 $sql = $sql." ORDER BY id DESC limit ".$first.", ".$maxrow;
 $result = mysql_query($sql);

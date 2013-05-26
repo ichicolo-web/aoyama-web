@@ -10,7 +10,7 @@ $page=$_GET["page"];
 $page=1;
 }
 $maxrow=3;
-$sql = 'SELECT count(*) as count FROM atelier';
+$sql = 'SELECT * FROM atelier';
 $result = mysql_query($sql);
 $count =  mysql_num_rows($result);
 $first = (($page-1)*$maxrow);
