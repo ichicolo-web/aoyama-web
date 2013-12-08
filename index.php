@@ -47,9 +47,8 @@
           <p>Haus-de-musikについて</p>
           <span>
             横浜にほど近い湘南鷹取(横須賀/追浜)のバイオリン・ピアノ教室です。音楽を楽しめる場所としてHaus-de-musik(ハウスデムジカ)は始まりました。<a href="hausdemusik.php" onclick="window.open('./hausdemusik.php', '', 'width=800,height=900'); return false;">【詳細】</a><br />
-現在、生徒さん募集中！！体験レッスン、面談などをご希望の方はお気軽にお問い合わせください。
-          </span>
-        </div>
+現在、生徒さん募集中！！体験レッスン、面談などをご希望の方はお気軽にお問い合わせください。<br />(久我山教室はただいま定員いっぱいの為、受付を停止させていただいております。)</span>
+       </div>
       </div><!-- /about -->
       <div class="classes">
         <div class="violin">
@@ -85,7 +84,7 @@
         </div><!-- /request -->
         <div class="banners">
           <a href="douyou.php"><p class="douyou">童謡・抒情歌を唄う会</p></a>
-          <p class="amsamble">室内楽・弦楽アンサンブルの会</p>
+          <a href="ensemble.php"><p class="amsamble">室内楽・弦楽アンサンブルの会</p></a>
           <a href="album.php"><p class="shunichi">Shunichiのアトリエ</p></a>
         </div><!-- /banners -->
       </div><!-- /info -->

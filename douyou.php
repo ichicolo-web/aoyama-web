@@ -82,9 +82,22 @@ NHK東日本大震災プロジェクト「花は咲く」も歌いました。</
           </ul><br />
      
           </div><br />
+          
           <div class="imageRow">
   			<div class="single">
             <div class="cb"></div>
+            <div class="douyou_titile">■2013年12月2日 クリスマスティータイム</div>
+          <div class="photo">
+            <a href="images/album/douyou_2013.jpg" rel="lightbox[roadtrip]" title="ご欠席された方・・・来年はぜひご一緒して下さい。"><img src="images/album/douyau_2013_s.jpg" /><br /><br /> 
+            ご欠席された方・・・<br />来年はぜひご一緒して下さい。</a>          
+          </div>
+          </div>
+          </div>
+          
+          <div class="imageRow">
+  			<div class="single">
+            <div class="cb"></div>
+            <div class="douyou_titile">■2012年の様子</div>
           <div class="photo">
             <a href="/images/album/2012_image16.jpg" rel="lightbox[roadtrip]" title="1曲ごとに、いろいろな視点からのお話を聞いて唄います。。"><img src="images/album/2012_image16_s.jpg" /><br /><br /> 
             1曲ごとに、いろいろな視点からの<br />
@@ -94,8 +107,7 @@ NHK東日本大震災プロジェクト「花は咲く」も歌いました。</
 今ではよい歌仲間です。</a>
             <a href="/images/album/2012_image15.jpg" rel="lightbox[roadtrip]" title="12月は会の終了後にクリスマス会をしました。"><img src="images/album/2012_image15_s.jpg" width="200" height="132" /><br /><br />
 12月は会の終了後に<br />
-クリスマス会をしました。</a>
-            
+クリスマス会をしました。</a>            
           </div>
           </div>
           </div>

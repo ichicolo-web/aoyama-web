@@ -54,9 +54,10 @@
             <div class="sentence01">
             <div class="photo_sentence">
             
-            	<p>湘南鷹取(横須賀/追浜)と久我山(東京都杉並区)にあるバイオリン教室です。<br />
+            	<p>湘南鷹取(横須賀/追浜)と久我山(東京都杉並区)にあるバイオリン教室です。
               おもに、小さいお子様～音楽大学受験生を対象にした教室です。<br />
-              現在生徒さん募集中！！お気軽にお問い合わせください。<br /><br />
+              現在生徒さん募集中！！お気軽にお問い合わせください。<br />
+              久我山教室は定員いっぱいの為、受付を停止させていただいております。<br /><br />
               バイオリンを弾いてみたいのだけど・・・？<br />
               とお考えの方、お貸しできる楽器も置いてありますので、<br />
               体験レッスンいたします。</p>
@@ -103,6 +104,7 @@
             <li>お車の方は駐車場スペースあり</li><br />
 
             <li>【東京教室】</li>
+            <li>現在、定員いっぱいの為、受付を停止させて頂いております。</li>
             <li>ほぼ毎週ですが曜日は主に金曜日、土曜日のいずれかです。</li>
             <li>所在地：杉並区久我山４丁目</li>
             <li>最寄り駅：京王井の頭線「久我山駅」より徒歩６分</li>
@@ -191,7 +193,7 @@
 		  栄フィルでは、2012年ゲストコンマスとして、リムスキー・コルサコフの「シェエラザード」のソロを演奏する。<br />
 		現在、としま未来文化財団「G.Dream21」のオーケストラに所属。</li><br />
 		<li>高校時代に結成したピアノカルテット「ルミエール」は10年目を迎え、10周年記念コンサートを企画中。</li>
-        <li>メルティ・ストリングス・カルテットや、タリア弦楽四重奏団(Thalia String Quartet)など、<br />室内楽にも力を注いでいる。<br />
+        <li>数多くのアンサンブルを組み、室内楽にも力を注いでいる。<br />
 またストリングス・ユニット「Seasons」を結成し、TV、ライブなど、全国で活躍中。<br />2009年にCD「Neo classic」をリリース。</li><br />
         <li>多方面の活躍により、数多くの著名アーティストと共演。<br />
         「魅惑のスタンダードポップス」(NHK BS2)、BSエンターテイメント「美のメロディー・音楽の女神たち」(NHK BS2)、ミュージックフェア、ミュージックステーション、SMAP×SMAPなどTV出演多数。</li>
@@ -217,6 +219,113 @@
             <div class="cb"></div>
                 <div class="photo_box">
                 <br />
+                
+                <table width="700">
+                <tr>
+                	<td colspan="3"><div class="table_title">■2013年10月26日 山梨キングスウェル・ガーデニングホールの発表会
+                	</div></td>
+                </tr>
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/yamanashi_2013.jpg" rel="lightbox[roadtrip]" title="2013年 山梨キングスウェル・ガーデニングホールの発表会"><img src="/images/album/yamanashi_2013_s.jpg" /><br /><br />
+				山梨キングスウェル・ガーデニングホールの発表会</a></td>
+
+  				</tr>
+
+				</table><br />
+                
+                <table width="700">
+  				<tr>
+                	<td colspan="3">■2013年5月19日　発表会（横浜美術館レクチャーホールにて）
+                    </td>
+  				</tr>
+                <tr>
+    				<td class="photo_title"><a href="/images/album/2013_01.jpg" rel="lightbox[roadtrip]" title="「大丈夫・・・もう年長組だもん!!」"><img src="/images/album/2013_01_s.jpg" /><br /><br />
+				「大丈夫・・・<br />もう年長組だも!!」</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2013_02.jpg" rel="lightbox[roadtrip]" title="「負けないよ、ボク!!」久しぶりに楽器を散りだしたお父様と。"><img src="/images/album/2013_02_s.jpg" /><br /><br />
+						「負けないよ、ボク!!」<br />久しぶりに楽器を散りだした<br />お父様と。</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2013_03.jpg" rel="lightbox[roadtrip]" title="お母さんと一緒だから安心!!"><img src="/images/album/2013_03_s.jpg" /><br /><br />
+				お母さんと一緒だから安心!!<br />（山梨から）
+</a></td>
+  				</tr>
+ 				 <tr>
+  	
+    				<td class="photo_title"><a href="/images/album/2013_04.jpg" rel="lightbox[roadtrip]" title="可愛いバイオリニスト!!"><img src="/images/album/2013_04_s.jpg" /><br /><br />
+				可愛いバイオリニスト!!</td>
+    
+    				<td class="photo_title" class="photo_title"><a href="/images/album/2013_05.jpg" rel="lightbox[roadtrip]" title="「2人で連弾できるようになったね、幸せ♡」"><img src="/images/album/2013_05_s.jpg" /><br /><br />
+				「2人で連弾できるようになったね、幸せ♡」</a></td>
+
+					<td class="photo_title"><a href="/images/album/2013_06.jpg" rel="lightbox[roadtrip]" title="「むずかしくたってへっちゃらさ・・・!」"><img src="/images/album/2013_06_s.jpg" /><br /><br />
+				「むずかしくたって<br />へっちゃらさ・・・!」</a></td>
+  				</tr>
+  				<tr>
+  					<td class="photo_title"><a href="/images/album/2013_07.jpg" rel="lightbox[roadtrip]" title="「これぞ名曲・・・素晴らしい!!」(お母様と)"><img src="/images/album/2013_07_s.jpg"  /><br /><br />
+	  			これぞ名曲・・・素晴らしい!!」<br />(お母様と)</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2013_08.jpg" rel="lightbox[roadtrip]" title="パパ・ママ今年もありがとうございます!!"><img src="/images/album/2013_08_s.jpg" /><br /><br />
+				パパ・ママ<br />今年もありがとうございます!!</a></td>
+    				
+    				<td class="photo_title"><a href="/images/album/2013_09.jpg" rel="lightbox[roadtrip]" title="「ドレスと髪飾り・・・私が選んだの」(山梨から)"><img src="/images/album/2013_09_s.jpg" /><br /><br />
+				「ドレスと髪飾り・・・<br />私が選んだの」(山梨から)</a></td>
+  				</tr>
+  				
+  				<tr>
+  					<td class="photo_title"><a href="/images/album/2013_10.jpg" rel="lightbox[roadtrip]" title="「に〜に、ワタシがんばる!!」"><img src="/images/album/2013_10_s.jpg"  /><br /><br />
+	  			「に〜に、ワタシがんばる!!」</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2013_11.jpg" rel="lightbox[roadtrip]" title="ふたごちゃん姉妹とパパ!一番きんちょうしているのはだ〜れ??"><img src="/images/album/2013_11_s.jpg" /><br /><br />
+				ふたごちゃん姉妹とパパ!<br />一番きんちょうしているのは<br />だ〜れ??</a></td>
+    				
+    				<td class="photo_title"><a href="/images/album/2013_12.jpg" rel="lightbox[roadtrip]" title="「ボクやっぱりバイオリン好きかも!」"><img src="/images/album/2013_12_s.jpg" /><br /><br />
+				「ボク、やっぱり<br />バイオリン好きかも!」</a></td>
+  				</tr>
+  				
+  				<tr>
+  					<td class="photo_title"><a href="/images/album/2013_13.jpg" rel="lightbox[roadtrip]" title="「す〜っと大きくなってもデュオやろうね!!」(山梨から)"><img src="/images/album/2013_13_s.jpg"  /><br /><br />
+	  			「す〜っと大きくなってもデュオやろうね!!」(山梨から)</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2013_14.jpg" rel="lightbox[roadtrip]" title="はやい曲だから一生懸命!!お友と仲良し姉妹。"><img src="/images/album/2013_14_s.jpg" /><br /><br />
+				はやい曲だから一生懸命!!<br />お友と仲良し姉妹。</a></td>
+    				
+    				<td class="photo_title"><a href="/images/album/2013_15.jpg" rel="lightbox[roadtrip]" title="「さ〜弾くわよ・・・」「大丈夫よ!」初めての母娘デュオ"><img src="/images/album/2013_15_s.jpg" /><br /><br />
+				「さ〜弾くわよ・・・」<br />「大丈夫よ!」<br />初めての母娘デュオ</a></td>
+  				</tr>
+  				
+  				<tr>
+  					<td class="photo_title"><a href="/images/album/2013_16.jpg" rel="lightbox[roadtrip]" title="はやくて長い曲に挑戦!!"><img src="/images/album/2013_16_s.jpg"  /><br /><br />
+	  			はやくて長い曲に挑戦!!</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2013_17.jpg" rel="lightbox[roadtrip]" title="すっかりお姉様ぶりを発揮。"><img src="/images/album/2013_17_s.jpg" /><br /><br />
+				すっかりお姉様ぶりを発揮。</a></td>
+    				
+    				<td class="photo_title"><a href="/images/album/2013_18.jpg" rel="lightbox[roadtrip]" title="母娘3人連弾 よき思い出としていただけたら幸いです。"><img src="/images/album/2013_18_s.jpg" /><br /><br />
+				母娘3人連弾<br />よき思い出としていただけたら<br />幸いです。</a></td>
+  				</tr>
+  				
+  				<tr>
+  					<td class="photo_title"><a href="/images/album/2013_19.jpg" rel="lightbox[roadtrip]" title="気の合っただんご三兄弟の初の舞台・・大成功！"><img src="/images/album/2013_19_s.jpg"  /><br /><br />
+	  			気の合っただんご三兄弟の<br />初の舞台・・大成功！</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2013_20.jpg" rel="lightbox[roadtrip]" title=""><img src="/images/album/2013_20_s.jpg" /><br /><br />
+				</a></td>
+    				
+    				<td class="photo_title"><a href="/images/album/2013_21.jpg" rel="lightbox[roadtrip]" title=""><img src="/images/album/2013_21_s.jpg" /><br /><br />
+				</a></td>
+  				</tr>
+  				
+  				<tr>
+  					<td class="photo_title"><a href="/images/album/2013_22.jpg" rel="lightbox[roadtrip]" title="毎年沢山の御家族がいらして下さり、嬉しい限りです。ありがとうございます!!"><img src="/images/album/2013_22_s.jpg"  /><br /><br />
+	  			毎年沢山の御家族がいらして<br />下さり、嬉しい限りです。<br />ありがとうございます!!</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート"><img src="/images/album/2013_23_s.jpg" /><br /><br />
+				今年のミニコンサート</a></td>
+    				
+    				<td>&nbsp;</td>
+  				</tr>
+  				
+				</table><br /><br />
                 
                 <table width="700">
                 <tr>

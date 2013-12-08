@@ -69,11 +69,19 @@
 .photo{
 	float:left;
 	margin:0 auto 20px 150px;
-	width:950px;
 	word-wrap:break-all;
 	text-align:center;
 }
-
+.music{
+	float:left;
+	margin:60px auto 20px 130px;
+	word-wrap:break-all;
+	text-align:center;
+}
+.music img{
+	margin: 0 0 10px 0;
+	width: 40px;
+}
 .cb{
 	clear:both;
 }
@@ -83,4 +91,7 @@
 }
 .douyou_titile{
   margin: 10px 0 10px 100px;
+}
+.name{
+	margin: 10px 0 10px 650px;
 }
