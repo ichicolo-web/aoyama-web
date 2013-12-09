@@ -14,12 +14,11 @@
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="/css/ensemble.css" media="all" charset="utf-8" />
 <link href="/css/lightbox.css" rel="stylesheet" />
-<script type="text/javascript" charset="utf-8" src="/js/musicController.js"></script>
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/violin.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
-<script src="/js/lightbox/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/musicController.js"></script>
 <script src="/js/lightbox/lightbox.js"></script>
 <script type="text/javascript">
 
@@ -35,7 +34,7 @@
 
 </script>
 <audio name="audio" preload="none">
-  <source src="mp3/schubert.mp3" type="audio/mp3">
+  <source src="/sounds/schubert.mp3" type="audio/mp3">
 </audio>
 </head>
 <body class="douyou">

@@ -77,6 +77,7 @@
 	margin:60px auto 20px 130px;
 	word-wrap:break-all;
 	text-align:center;
+  cursor: pointer;
 }
 .music img{
 	margin: 0 0 10px 0;
