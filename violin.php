@@ -222,12 +222,12 @@
                 
                 <table width="700">
                 <tr>
-                	<td colspan="3"><div class="table_title">■2013年10月26日 山梨キングスウェル・ガーデニングホールの発表会
+                	<td colspan="3"><div class="table_title">■2013年10月26日 山梨キングスウェル・ガーデンホールの発表会
                 	</div></td>
                 </tr>
   				<tr>
     				<td class="photo_title"><a href="/images/album/yamanashi_2013.jpg" rel="lightbox[roadtrip]" title="2013年 山梨キングスウェル・ガーデニングホールの発表会"><img src="/images/album/yamanashi_2013_s.jpg" /><br /><br />
-				山梨キングスウェル・ガーデニングホールの発表会</a></td>
+				山梨キングスウェル・ガーデンホールの発表会</a></td>
 
   				</tr>
 
@@ -240,10 +240,10 @@
   				</tr>
                 <tr>
     				<td class="photo_title"><a href="/images/album/2013_01.jpg" rel="lightbox[roadtrip]" title="「大丈夫・・・もう年長組だもん!!」"><img src="/images/album/2013_01_s.jpg" /><br /><br />
-				「大丈夫・・・<br />もう年長組だも!!」</a></td>
+				「大丈夫・・・<br />もう年長組だもん!!」</a></td>
 
-    				<td class="photo_title"><a href="/images/album/2013_02.jpg" rel="lightbox[roadtrip]" title="「負けないよ、ボク!!」久しぶりに楽器を散りだしたお父様と。"><img src="/images/album/2013_02_s.jpg" /><br /><br />
-						「負けないよ、ボク!!」<br />久しぶりに楽器を散りだした<br />お父様と。</a></td>
+    				<td class="photo_title"><a href="/images/album/2013_02.jpg" rel="lightbox[roadtrip]" title="「負けないよ、ボク!!」久しぶりに楽器を取りだしたお父様と。"><img src="/images/album/2013_02_s.jpg" /><br /><br />
+						「負けないよ、ボク!!」<br />久しぶりに楽器を取りだした<br />お父様と。</a></td>
 
     				<td class="photo_title"><a href="/images/album/2013_03.jpg" rel="lightbox[roadtrip]" title="お母さんと一緒だから安心!!"><img src="/images/album/2013_03_s.jpg" /><br /><br />
 				お母さんと一緒だから安心!!<br />（山梨から）
@@ -261,8 +261,8 @@
 				「むずかしくたって<br />へっちゃらさ・・・!」</a></td>
   				</tr>
   				<tr>
-  					<td class="photo_title"><a href="/images/album/2013_07.jpg" rel="lightbox[roadtrip]" title="「これぞ名曲・・・素晴らしい!!」(お母様と)"><img src="/images/album/2013_07_s.jpg"  /><br /><br />
-	  			これぞ名曲・・・素晴らしい!!」<br />(お母様と)</a></td>
+  					<td class="photo_title"><a href="/images/album/2013_07.jpg" rel="lightbox[roadtrip]" title="「これぞ名曲・・・素晴らしい!!」"><img src="/images/album/2013_07_s.jpg"  /><br /><br />
+	  			「これぞ名曲・・・素晴らしい!!」</a></td>
 
     				<td class="photo_title"><a href="/images/album/2013_08.jpg" rel="lightbox[roadtrip]" title="パパ・ママ今年もありがとうございます!!"><img src="/images/album/2013_08_s.jpg" /><br /><br />
 				パパ・ママ<br />今年もありがとうございます!!</a></td>
@@ -275,16 +275,16 @@
   					<td class="photo_title"><a href="/images/album/2013_10.jpg" rel="lightbox[roadtrip]" title="「に〜に、ワタシがんばる!!」"><img src="/images/album/2013_10_s.jpg"  /><br /><br />
 	  			「に〜に、ワタシがんばる!!」</a></td>
 
-    				<td class="photo_title"><a href="/images/album/2013_11.jpg" rel="lightbox[roadtrip]" title="ふたごちゃん姉妹とパパ!一番きんちょうしているのはだ〜れ??"><img src="/images/album/2013_11_s.jpg" /><br /><br />
-				ふたごちゃん姉妹とパパ!<br />一番きんちょうしているのは<br />だ〜れ??</a></td>
+    				<td class="photo_title"><a href="/images/album/2013_11.jpg" rel="lightbox[roadtrip]" title="ふたごちゃん姉妹とパパ!一番緊張しているのはだ〜れ??"><img src="/images/album/2013_11_s.jpg" /><br /><br />
+				ふたごちゃん姉妹とパパ!<br />一番緊張しているのは<br />だ〜れ??</a></td>
     				
     				<td class="photo_title"><a href="/images/album/2013_12.jpg" rel="lightbox[roadtrip]" title="「ボクやっぱりバイオリン好きかも!」"><img src="/images/album/2013_12_s.jpg" /><br /><br />
 				「ボク、やっぱり<br />バイオリン好きかも!」</a></td>
   				</tr>
   				
   				<tr>
-  					<td class="photo_title"><a href="/images/album/2013_13.jpg" rel="lightbox[roadtrip]" title="「す〜っと大きくなってもデュオやろうね!!」(山梨から)"><img src="/images/album/2013_13_s.jpg"  /><br /><br />
-	  			「す〜っと大きくなってもデュオやろうね!!」(山梨から)</a></td>
+  					<td class="photo_title"><a href="/images/album/2013_13.jpg" rel="lightbox[roadtrip]" title="「ず〜っと大きくなってもデュオやろうね!!」(山梨から)"><img src="/images/album/2013_13_s.jpg"  /><br /><br />
+	  			「ず〜っと大きくなってもデュオやろうね!!」(山梨から)</a></td>
 
     				<td class="photo_title"><a href="/images/album/2013_14.jpg" rel="lightbox[roadtrip]" title="はやい曲だから一生懸命!!お友と仲良し姉妹。"><img src="/images/album/2013_14_s.jpg" /><br /><br />
 				はやい曲だから一生懸命!!<br />お友と仲良し姉妹。</a></td>
@@ -305,8 +305,8 @@
   				</tr>
   				
   				<tr>
-  					<td class="photo_title"><a href="/images/album/2013_19.jpg" rel="lightbox[roadtrip]" title="気の合っただんご三兄弟の初の舞台・・大成功！"><img src="/images/album/2013_19_s.jpg"  /><br /><br />
-	  			気の合っただんご三兄弟の<br />初の舞台・・大成功！</a></td>
+  					<td class="photo_title"><a href="/images/album/2013_19.jpg" rel="lightbox[roadtrip]" title="気の合った双子兄弟の初の舞台・・大成功！"><img src="/images/album/2013_19_s.jpg"  /><br /><br />
+	  			気の合った双子兄弟の<br />初の舞台・・大成功！</a></td>
 
     				<td class="photo_title"><a href="/images/album/2013_20.jpg" rel="lightbox[roadtrip]" title=""><img src="/images/album/2013_20_s.jpg" /><br /><br />
 				</a></td>
@@ -319,8 +319,8 @@
   					<td class="photo_title"><a href="/images/album/2013_22.jpg" rel="lightbox[roadtrip]" title="毎年沢山の御家族がいらして下さり、嬉しい限りです。ありがとうございます!!"><img src="/images/album/2013_22_s.jpg"  /><br /><br />
 	  			毎年沢山の御家族がいらして<br />下さり、嬉しい限りです。<br />ありがとうございます!!</a></td>
 
-    				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート"><img src="/images/album/2013_23_s.jpg" /><br /><br />
-				今年のミニコンサート</a></td>
+    				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート バイオリン:青山英里香 久保静香 ピアノ:三澤綾希子"><img src="/images/album/2013_23_s.jpg" /><br /><br />
+				今年のミニコンサート<br />バイオリン<br />青山英里香 久保静香<br />ピアノ<br />三澤綾希子</a></td>
     				
     				<td>&nbsp;</td>
   				</tr>
