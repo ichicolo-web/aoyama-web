@@ -45,7 +45,7 @@ Init();
             <?= $pagelink ?>
           </div><!-- /pagination -->
         <div class="box_right">
-          <? while($row = $sth->fetchObject()): ?>
+          <? while($row = mysql_fetch_assoc($result)): ?>
             <div class="article">
             <div class="tag">
             <span>
