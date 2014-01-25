@@ -11,7 +11,7 @@ Init();
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
-<title>Haus-de-musik（ハウスデムジカ）</title>
+<title>Haus-de-musik（ハウスデムジカ）ピアノ生徒用ページ</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -19,10 +19,24 @@ Init();
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="/css/violin_student.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/atelier.css" media="all" charset="utf-8" />
+<link media="only screen and (max-device-width: 480px)" href="css/iphone.css" type="text/css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37288195-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 <body class="index">
 <div class="wrapper">
@@ -30,7 +44,8 @@ Init();
     <? require_once 'partials/header.php'; ?>
       <div class="main_title">
         <div>
-          <img src="/images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
+         <img src="/images/base/piano.png" width="27" height="35" alt="バイオリンアイコン" /><span>青山由貴子ピアノ教室</span>
+         <a class="album" href="/piano_album.php"><p class="big_title">フォトアルバムへ</p>※写真を拡大してご覧になれます。</a>
         </div>          
       </div><!-- /title -->
       <div class="big_box">
@@ -41,10 +56,10 @@ Init();
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
+        <div class="box_right">
           <div class="pagination">
             <?= $pagelink ?>
           </div><!-- /pagination -->
-        <div class="box_right">
           <? while($row = mysql_fetch_assoc($result)): ?>
             <div class="article">
             <div class="tag">
@@ -74,4 +89,3 @@ Init();
   </div><!-- /contents -->
 </div><!-- /wrapper -->
 </body>
-</html>

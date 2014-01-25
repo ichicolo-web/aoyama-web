@@ -11,7 +11,7 @@ Init();
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
-<title>Haus-de-musik（ハウスデムジカ）バイオリン生徒用ページ</title>
+<title>Haus-de-musik（ハウスデムジカ）バイオリン生徒用ページ フォトアルバム</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -19,11 +19,14 @@ Init();
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
-<link type="text/css" rel="stylesheet" href="/css/atelier.css" media="all" charset="utf-8" />
+<link type="text/css" rel="stylesheet" href="/css/album.css" media="all" charset="utf-8" />
+<link href="/css/lightbox.css" rel="stylesheet" />
 <link media="only screen and (max-device-width: 480px)" href="css/iphone.css" type="text/css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
+<script src="/js/lightbox/jquery-1.7.2.min.js"></script>
+<script src="/js/lightbox/lightbox.js"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -45,14 +48,14 @@ Init();
       <div class="main_title">
         <div>
          <img src="/images/base/violin.png" width="38" height="35" alt="バイオリンアイコン" /><span>青山英里香バイオリン教室</span>
-         <a class="album" href="/violin_album.php"><p class="big_title">フォトアルバムへ</p>※写真を拡大してご覧になれます。</a>
-        </div>          
+         <a class="album" href="violin_student.php"><p class="big_title">写真の説明はこちら</p></a>
+        </div>
       </div><!-- /title -->
       <div class="big_box">
         <div class="box_left">
           <div class="menu_left">
             <ul>
-              <li class="navi005 selected" onclick="window.hdm.violin.toggle(4)"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><span>生徒様用</span></li>
+              <li class="navi005 selected"><img src="/images/base/treble-clef.png" width="10" height="20" alt="音符" /><a href="/violin_student.php">写真の詳細へ</a></li>
             </ul>
           </div><!-- /menu_left -->
         </div><!-- /box_left -->
@@ -60,29 +63,21 @@ Init();
           <div class="pagination">
             <?= $pagelink ?>
           </div><!-- /pagination -->
-          <? while($row = mysql_fetch_assoc($result)): ?>
-            <div class="article">
-            <div class="tag">
-            <span>
-            <?= $row['date'] ?>
-            </span>
-            <span>
-              posted by <?= $row['writer'] ?>
-            </span>
-            </div>
-            <div class="left">
-            <img src="/admin/violin/images/upload/<?= $row['file'] ?>" />
-            </div>
-            <div class="right">
-            <p class="title">
-            <?= $row['title'] ?>
-            </p>
-            <p class="description">
-            <?= $row['description'] ?>
-            </p>
-            </div>
-            </div>
-          <? endwhile; ?>
+          <p class="notice">クリックする事で写真を拡大してご覧になれます。</p>
+            <div class="imageRow">
+  		      	<div class="single">
+              <? while($row = mysql_fetch_assoc($result)): if ($row['file'] === '') { $display = 'style="display:none;"'; } else { $display = 'style="display:block;"'; } ?>
+              <div class="left" <?= $display ?>>
+                <a href="/admin/atelier/images/<?= $row['file'] ?>" rel="lightbox[roadtrip]" title="<?= $row['file'] ?>">
+                <img src="/admin/atelier/images/upload/<?= $row['file'] ?>" />
+                <br />
+                <br />
+                <?= $row['title'] ?>
+                </a>
+              </div>
+              <? endwhile; ?>
+              </div><!-- /single -->
+            </div><!-- /imageRow -->
         </div><!-- /box_right -->
       </div><!-- /big_box -->
   <? require_once 'partials/footer.php'; ?> 
