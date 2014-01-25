@@ -83,6 +83,7 @@
    
         </div><!-- /request -->
         <div class="banners">
+          <a href="http://ameblo.jp/erikavn/" target="_blank"><p class="erika-blog">英里香のブログ</p></a>
           <a href="douyou.php"><p class="douyou">童謡・抒情歌を唄う会</p></a>
           <a href="ensemble.php"><p class="amsamble">室内楽・弦楽アンサンブルの会</p></a>
           <a href="album.php"><p class="shunichi">Shunichiのアトリエ</p></a>

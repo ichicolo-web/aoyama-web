@@ -196,7 +196,7 @@
   width: 270px;
 	height: auto;
   float: right;
-  margin: 40px 0 0;
+  margin: 10px 0 0;
 }
 
 .index .info .banners a {
@@ -207,6 +207,14 @@
 .index .info .banners p {
   background: url("/images/index/banner.jpg") no-repeat;
   margin: 0 0 39px 23px;
+}
+
+.index .info .banners p.erika-blog {
+  width: 158px;
+	height: 36px;
+  padding:30px 0 0 60px;
+  font-size:100%;
+  font-weight:bold;
 }
 
 .index .info .banners p.douyou {

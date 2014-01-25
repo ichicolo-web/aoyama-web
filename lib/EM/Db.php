@@ -8,14 +8,16 @@
  ** local
  */
 
-  $link = mysql_connect('localhost', 'root', 'root');
-  $db_selected = mysql_select_db('update', $link);
+  //$link = mysql_connect('localhost', 'root', 'root');
+  //$db_selected = mysql_select_db('update', $link);
 
 /*
  ** production
  */
 
-  //$link = mysql_connect('sddb0040086768.cgidb', 'sd_dba_ODI4MzQ2', 'XahJtrWz');
-  //$db_selected = mysql_select_db('sddb0040086768', $link);
+  //$link = mysql_connect('localhost', 'root', 'root');
+  //$db_selected = mysql_select_db('aoyama_development', $link);
+  $link = mysql_connect('mysql482.db.sakura.ne.jp', 'ichicolo', 'jkh784jkbgdf74dfajk4');
+  $db_selected = mysql_select_db('ichicolo_aoyama', $link);
   
   mysql_set_charset('utf-8');

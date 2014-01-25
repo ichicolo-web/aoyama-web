@@ -2,7 +2,7 @@
 print <<<EOF
   <div class="footer">
     <p>
-      Copyright &copy; 2012 Haus-de-musik All Rights Reserved.
+      Copyright &copy; 2014 Haus-de-musik All Rights Reserved.
     </p>
     <ul>
       <li><a href="sitemap.php">サイトマップ</a></li>

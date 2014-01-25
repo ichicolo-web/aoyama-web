@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Shunichiのアトリエ 管理ページ</title>
+<title>ハウスデムジカ 管理ページ</title>
 <meta content="" name="keywords" />
 <meta content="" name="description" />
 <meta name="robots" content="noindex,nofollow">

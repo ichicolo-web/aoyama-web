@@ -1,7 +1,7 @@
 <?php
 require_once (dirname(__FILE__).'/lib/EM/Init.php');
 require_once (dirname(__FILE__).'/lib/EM/Db.php');
-require_once (dirname(__FILE__).'/lib/EM/Paging.php');
+require_once (dirname(__FILE__).'/lib/EM/PagingAlbum.php');
 Init();
 ?>
 
