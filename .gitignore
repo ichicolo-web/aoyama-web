@@ -1,1 +1,5 @@
 .DS_Store
+lib/EM/Db.php
+admin/atelier/images
+admin/piano/images
+admin/violin/images
