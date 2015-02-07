@@ -44,7 +44,7 @@
       </div><!-- /title -->
       <div class="map">
         <p>
-          <span>Haus-de-musik Aoyama(横須賀/横浜教室)</span>
+          <span>Haus-de-musik Aoyama【横須賀/横浜：湘南鷹取教室】</span>
           <ul>
             <li><span>所在地：</span>神奈川県横須賀市湘南鷹取3丁目</li>
             <li><span>最寄り駅：</span>京浜急行「追浜駅」</li>
@@ -60,7 +60,7 @@
         -->
         <p>
         <br />
-        <span>バイオリン教室(東京教室)</span>
+        <span>バイオリン教室【東京：久我山教室】</span>
           <ul>
             <li><span>所在地：</span>杉並区久我山４丁目</li>
             <li><span>最寄り駅：</span>京王井の頭線「久我山駅」より徒歩6分</li>

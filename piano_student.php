@@ -20,10 +20,13 @@ Init();
 <link rel="shortcut icon" href="image/base/favicon.ico" type="image/x-icon" />
 <link type="text/css" rel="stylesheet" href="/css/base.css" media="all" charset="utf-8" />
 <link type="text/css" rel="stylesheet" href="/css/atelier.css" media="all" charset="utf-8" />
+<link href="/css/lightbox.css" rel="stylesheet" />
 <link media="only screen and (max-device-width: 480px)" href="css/iphone.css" type="text/css" rel="stylesheet" />
 <script type='text/javascript' src='/js/jquery-1.8.2.min.js'></script>
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
+<script src="/js/lightbox/jquery-1.7.2.min.js"></script>
+<script src="/js/lightbox/lightbox.js"></script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -71,7 +74,12 @@ Init();
             </span>
             </div>
             <div class="left">
+            <a href="/admin/piano/images/<?= $row['file'] ?>" rel="lightbox[roadtrip]" title="<?= $row['file'] ?>">
             <img src="/admin/piano/images/upload/<?= $row['file'] ?>" />
+            <br />
+            <br />
+            <?= $row['title'] ?>
+            </a>
             </div>
             <div class="right">
             <p class="title">

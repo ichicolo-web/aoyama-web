@@ -6,7 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
 <title>Haus-de-musik（ハウスデムジカ）| バイオリン教室</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
-<meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <link rel="icon" href="image/base/favicon.ico" type="image/x-icon" />
@@ -94,8 +93,8 @@
           <div class="sentence02">
            <div class="photo_sentence02">
           <ul>
-          	<li>【横須賀/横浜教室】</li>
-            <li>毎週木曜日のみ</li>
+          	<li>【横須賀/横浜：湘南鷹取教室】</li>
+            <li>原則、毎週木曜日</li>
             <li>所在地：横須賀市湘南鷹取３丁目</li>
             <li>最寄り駅：京浜急行「追浜駅」</li>
             <li>追浜駅より「湘南鷹取循環」または「鷹取一丁目」バスに乗車</li>
@@ -103,8 +102,8 @@
             <li>内川橋ー安浦利用の場合は「追浜一丁目」のバス停下車徒歩７分</li>
             <li>お車の方は駐車場スペースあり</li><br />
 
-            <li>【東京教室】</li>
-            <li>現在、定員いっぱいの為、受付を停止させて頂いております。</li>
+            <li>【東京：久我山教室】</li>
+            <li>現在、定員いっぱいの為、受付を停止させていただいております。</li>
             <li>ほぼ毎週ですが曜日は主に金曜日、土曜日のいずれかです。</li>
             <li>所在地：杉並区久我山４丁目</li>
             <li>最寄り駅：京王井の頭線「久我山駅」より徒歩６分</li>
@@ -128,7 +127,7 @@
           (原則無料です。ご家族の方にお願いする場合もあります。)<br /><br />
           年に一度、春に横浜美術館レクチャーホールにて、発表会を行っております。<br />
           (発表会費10,000円～、これ以外に上級者の方には伴奏代をお願いしております。)<br />
-          12月にはクリスマス会として、湘南鷹取の自宅にて、ホームコンサートを行い、ソロはもちろんですが、ご家族、<br />
+          また、冬には湘南鷹取の自宅にて、ホームコンサートを行い、ソロはもちろんですが、ご家族、<br />
           生徒さん同士のアンサンブルの発表の場を設けるようにしております。<br />
           ティータイム付の時以外は原則無料、アットホームな楽しい会で、毎年生徒さんの方から「いつ？」と聞かれます。 </p>
           
@@ -154,7 +153,7 @@
           <p>大人の方のレッスン、および出張レッスンは、現在受け付けておりません。<br />
   専門になさりたい方は、上記以上のお時間をお勧めします。ご相談ください。<br />
   初心者、小さいお子様は30分レッスン、徐々に時間を増やしていかれるのが良いと思います。<br />
-  現在演奏活動が忙しく曜日は決めていても、こちらの都合で変更をお願いしなければいけない事もあると思います。<br />
+  現在演奏活動が忙しく曜日は決めていても、こちらの都合で変更をお願いしなければいけない事もあります。<br />
   ご了承ください。
           </p>
           <br>
@@ -181,7 +180,7 @@
           	<ul>
             	<li><span>【青山英里香】</span></li><br />
 				<li>横浜に生まれ、横須賀で育つ。<br />
-			    3歳よりバイオリンを始める。桐朋学園子供のための音楽教室（鎌倉、横浜教室）を経て、<br />桐朋女子高等学校音楽科（男女共学）、桐朋学園大学音楽学部演奏学科を卒業。 <br />同研究科修了。同オーケストラ・アカデミー研修生修了。</li><br />
+			    3歳よりバイオリンを始める。桐朋学園子供のための音楽教室（鎌倉、横浜教室）を経て、<br />桐朋女子高等学校音楽科（男女共学）、桐朋学園大学音楽学部演奏学科を卒業。 <br />同研究科修了。同オーケストラ・アカデミー元研修生。</li><br />
 
 				<li>これまでに小出始子、井上淑子、神谷美千子、ドガレイユ、加藤知子の各氏に師事。<br />室内楽では、毛利伯郎、藤井一興、三上桂子、野島稔、原田幸一郎、藤原浜雄、徳永二男、<br />斎木隆、東京カルテットの各氏に師事。</li><br />
 				<li>第７６、７８、８０回桐朋学園室内楽演奏会出演。<br />
@@ -192,11 +191,13 @@
         <li>2009年&nbsp;栄フィルハーモニー交響楽団とシベリウスのコンチェルトを共演。<br />
 		  栄フィルでは、2012年ゲストコンマスとして、リムスキー・コルサコフの「シェエラザード」のソロを演奏する。<br />
 		現在、としま未来文化財団「G.Dream21」のオーケストラに所属。</li><br />
-		<li>高校時代に結成したピアノカルテット「ルミエール」は10年目を迎え、10周年記念コンサートを企画中。</li>
-        <li>数多くのアンサンブルを組み、室内楽にも力を注いでいる。<br />
-またストリングス・ユニット「Seasons」を結成し、TV、ライブなど、全国で活躍中。<br />2009年にCD「Neo classic」をリリース。</li><br />
+		    <li>2014年&nbsp;「クァルテット・パパス」を結成。2nd Vnを担当。クラシックだけではなく、<br>毎回"パパスの小部屋"というプログラムを設け、独自のコンサート形式による楽しいコンサートを行っている。</li><br />
+		<li>高校時代に結成したピアノカルテット「ルミエール」は10周年記念コンサートを行った。数多くのアンサンブルを組み、室内楽にも力を注いでいる。<br />
+2005年から活動しているストリングス・ユニット「Seasons」は、TV、ライブなど、全国で活躍中。<br />2009年にCD「Neo classic」をリリース。<br />
+2015年オリジナルCDを製作中。</li><br />
         <li>多方面の活躍により、数多くの著名アーティストと共演。<br />
         「魅惑のスタンダードポップス」(NHK BS2)、BSエンターテイメント「美のメロディー・音楽の女神たち」(NHK BS2)、ミュージックフェア、ミュージックステーション、SMAP×SMAPなどTV出演多数。</li>
+        <li>2014年、由紀さおりコンサートツアーでヴァイオリンを担当。TVでも放映された。</li>
         </ul>
         
         <p class="profile_button">
@@ -219,6 +220,79 @@
             <div class="cb"></div>
                 <div class="photo_box">
                 <br />
+                
+                <table width="700">
+  				<tr>
+                	<td colspan="3">■2014年5月18日　発表会（横浜美術館レクチャーホールにて）
+                    </td>
+  				</tr>
+  				
+          <tr>
+    				<td class="photo_title"><a href="/images/album/2014_01.jpg" rel="lightbox[roadtrip]" title="初めての発表会"><img src="/images/album/2014_01_s.jpg" /><br /><br />
+				初めての発表会</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_02.jpg" rel="lightbox[roadtrip]" title="ピアノってホント楽しい〜ネッ、ママ！"><img src="/images/album/2014_02_s.jpg" /><br /><br />
+						ピアノってホント楽しい〜ネッ、<br>ママ！</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_03.jpg" rel="lightbox[roadtrip]" title="小さなピアニスト"><img src="/images/album/2014_03_s.jpg" /><br /><br />
+				小さなピアニスト
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_04.jpg" rel="lightbox[roadtrip]" title="俺は海賊だ!!"><img src="/images/album/2014_04_s.jpg" /><br /><br />
+				俺は海賊だ!!</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_05.jpg" rel="lightbox[roadtrip]" title="双子ちゃん姉妹 念願の「ドッペルコンチェルト」"><img src="/images/album/2014_05_s.jpg" /><br /><br />
+						双子ちゃん姉妹<br>念願の「ドッペルコンチェルト」</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_06.jpg" rel="lightbox[roadtrip]" title="Erikaセンセイと「アヴェ マリア」練習しすぎて腱鞘炎!"><img src="/images/album/2014_06_s.jpg" /><br /><br />
+				Erikaセンセイと「アヴェ マリア」<br>練習しすぎて腱鞘炎!
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_07.jpg" rel="lightbox[roadtrip]" title="緊張!!でもボク、ピアノ好きなんだ〜"><img src="/images/album/2014_07_s.jpg" /><br /><br />
+				緊張!!でもボク、ピアノ好きなんだ〜</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_08.jpg" rel="lightbox[roadtrip]" title="アツアツ 新婚さん…"><img src="/images/album/2014_08_s.jpg" /><br /><br />
+						アツアツ 新婚さん…</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_09.jpg" rel="lightbox[roadtrip]" title="お父様が家族3人用にアレンジして下さいました。"><img src="/images/album/2014_09_s.jpg" /><br /><br />
+				お父様が家族3人用に<br>アレンジして下さいました。
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_10.jpg" rel="lightbox[roadtrip]" title="「Let it go〜 let it go〜♪」"><img src="/images/album/2014_10_s.jpg" /><br /><br />
+				「Let it go〜 let it go〜♪」</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_11.jpg" rel="lightbox[roadtrip]" title="色違いのドレス3姉妹! 私だけErikaセンセイと同じお花をお母さんがつけてくれたの…"><img src="/images/album/2014_11_s.jpg" /><br /><br />
+						色違いのドレス3姉妹! <br>私だけErikaセンセイと同じお花をお母さんがつけてくれたの…</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_12.jpg" rel="lightbox[roadtrip]" title="バ〜バとパパとボク! 3世代トリオ"><img src="/images/album/2014_12_s.jpg" /><br /><br />
+				バ〜バとパパとボク! 3世代トリオ
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_13.jpg" rel="lightbox[roadtrip]" title="ネ〜ネと連弾 がんばるからマッテ〜"><img src="/images/album/2014_13_s.jpg" /><br /><br />
+				ネ〜ネと連弾 がんばるからマッテ〜</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_14.jpg" rel="lightbox[roadtrip]" title="「これが恋かしら」…ね?!"><img src="/images/album/2014_14_s.jpg" /><br /><br />
+						「これが恋かしら」…ね?!</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_15.jpg" rel="lightbox[roadtrip]" title="ピアノ復帰後の連弾…嬉しかったです。アナウンスもありがとう。"><img src="/images/album/2014_15_s.jpg" /><br /><br />
+				ピアノ復帰後の連弾…嬉しかったです。アナウンスもありがとう。
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_16.jpg" rel="lightbox[roadtrip]" title="ミニコンサート Vn粟津惇さん 青山英里香 Va武田麻耶さん 奥村景さん"><img src="/images/album/2014_16_s.jpg" /><br /><br />
+				ミニコンサート<br>Vn&nbsp;粟津惇さん 青山英里香<br>Va&nbsp;武田麻耶さん 奥村景さん&nbsp;&nbsp;</a></td>
+  				</tr>
+  				
+				</table><br /><br />
                 
                 <table width="700">
                 <tr>
@@ -320,7 +394,7 @@
 	  			毎年沢山の御家族がいらして<br />下さり、嬉しい限りです。<br />ありがとうございます!!</a></td>
 
     				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート バイオリン:青山英里香 久保静香 ピアノ:三澤綾希子"><img src="/images/album/2013_23_s.jpg" /><br /><br />
-				今年のミニコンサート<br />バイオリン<br />青山英里香 久保静香<br />ピアノ<br />三澤綾希子</a></td>
+				今年のミニコンサート<br />バイオリン&nbsp;久保静香さん<br /><span style="margin:0 0 0 60px;">青山英里香</span><br />&nbsp;&nbsp;ピアノ<span style="margin:0 0 0 18px;">三澤綾希子さん</span></a></td>
     				
     				<td>&nbsp;</td>
   				</tr>

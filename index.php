@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
 <title>Haus-de-musik（ハウスデムジカ）</title>
 <meta content="バイオリン,ピアノ,教室,横浜,追浜" name="keywords" />
+<meta name="description" content="横浜との境にほど近い横須賀の湘南鷹取にあるバイオリンとピアノ教室。音楽を楽しめる場所としてHaus-de-musik(ハウスデムジカ)は始まりました。現在、生徒さん募集中！！体験レッスン、面談などをご希望の方はお気軽にお問い合わせください。最寄駅は京浜急行の追浜駅です。" />
 <meta content="" name="description" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
@@ -17,6 +18,14 @@
 <script type='text/javascript' src='/js/hdm.js'></script>
 <script type='text/javascript' src='/js/hdm/index.js'></script>
 <script type='text/javascript' src='/js/hdm/selected.js'></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=337089699705595&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -47,7 +56,7 @@
           <p>Haus-de-musikについて</p>
           <span>
             横浜にほど近い湘南鷹取(横須賀/追浜)のバイオリン・ピアノ教室です。音楽を楽しめる場所としてHaus-de-musik(ハウスデムジカ)は始まりました。<a href="hausdemusik.php" onclick="window.open('./hausdemusik.php', '', 'width=800,height=900'); return false;">【詳細】</a><br />
-現在、生徒さん募集中！！体験レッスン、面談などをご希望の方はお気軽にお問い合わせください。<br />(久我山教室はただいま定員いっぱいの為、受付を停止させていただいております。)</span>
+現在、生徒さん募集中！！体験レッスン、面談などをご希望の方はお気軽にお問い合わせください。<br />(東京：久我山教室はただいま定員いっぱいの為、受付を停止させていただいております。)</span>
        </div>
       </div><!-- /about -->
       <div class="classes">
@@ -69,7 +78,7 @@
       <div class="info">
         <div class="fb">
           <span>更新情報 from facebook</span>
-          <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FHausDeMusik&amp;width=630&amp;height=558&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;border_color&amp;header=false&amp;appId=337089699705595" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:630px; height:558px;" allowTransparency="true"></iframe>
+          <div class="fb-like-box" data-href="https://www.facebook.com/HausDeMusik" data-width="630" data-height="558" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
         </div><!-- /fb -->
         <div class="request">
           <a href="request.php"><p style="padding:22px 0 0 63px; font-size:150%; font-weight:bold;">演奏依頼</p></a>
@@ -86,7 +95,7 @@
           <a href="http://ameblo.jp/erikavn/" target="_blank"><p class="erika-blog">英里香のブログ</p></a>
           <a href="douyou.php"><p class="douyou">童謡・抒情歌を唄う会</p></a>
           <a href="ensemble.php"><p class="amsamble">室内楽・弦楽アンサンブルの会</p></a>
-          <a href="album.php"><p class="shunichi">Shunichiのアトリエ</p></a>
+          <a href="atelier.php"><p class="shunichi">Shunichiのアトリエ</p></a>
         </div><!-- /banners -->
       </div><!-- /info -->
         <? require_once 'partials/footer.php'; ?> 

@@ -68,8 +68,8 @@ Init();
   		      	<div class="single">
               <? while($row = mysql_fetch_assoc($result)): if ($row['file'] === '') { $display = 'style="display:none;"'; } else { $display = 'style="display:block;"'; } ?>
               <div class="left" <?= $display ?>>
-                <a href="/admin/atelier/images/<?= $row['file'] ?>" rel="lightbox[roadtrip]" title="<?= $row['file'] ?>">
-                <img src="/admin/atelier/images/upload/<?= $row['file'] ?>" />
+                <a href="/admin/piano/images/<?= $row['file'] ?>" rel="lightbox[roadtrip]" title="<?= $row['file'] ?>">
+                <img src="/admin/piano/images/upload/<?= $row['file'] ?>" />
                 <br />
                 <br />
                 <?= $row['title'] ?>

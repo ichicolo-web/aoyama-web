@@ -175,6 +175,11 @@ table{
 	border:#999 solid 1px;
 	margin:10px 0 0 0;
 }
+.kome{
+	width:300px;
+	margin:10px 0 0 0;
+	text-align: left;
+}
 
 .table_box{
 	width:720px;

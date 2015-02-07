@@ -90,8 +90,8 @@
           <div class="cb"></div>
           <br />
           <ul>
-          	<li>【横須賀/横浜教室】</li>
-            <li>毎週 月・火・金・土曜日</li>
+          	<li>【横須賀/横浜：湘南鷹取教室】</li>
+            <li>毎週 月・火・水・土曜日</li>
             <li>所在地：横須賀市湘南鷹取３丁目</li>
             <li>最寄り駅：京浜急行「追浜駅」</li>
             <li>追浜駅より「湘南鷹取循環」または「鷹取一丁目」バスに乗車</li>
@@ -111,11 +111,26 @@
           <table border="1" cellpadding="0" cellspacing="0">
               <th>レッスン料の目安<br />(発表会／ホームコンサートを含め 年45回程度)</th>
             <tr>
-              <td class="table_sentence">幼稚園　30分/6,000円（1ヶ月）
+              <td class="table_sentence">幼稚園児　30分/6,000円（1ヶ月）
+              </td>
+            </tr>
+        </table>
+        <ul class="kome" cellpadding="0" cellspacing="0">
+              <li>※45分/60分レッスン、ワンレッスン方式など詳しくはお問い合わせ下さい。<br>
+              ※発表会費、月謝、ともに家族・兄弟割あり。<br>
+              ※振替レッスンも出来るだけ行っています。
+              </li>
+        </ul>
+        <table border="1" cellpadding="0" cellspacing="0">
+              <th>横浜美術館レクチャーホールにて、<br>発表会を行っております。</th>
+            <tr>
+              <td class="table_sentence">発表会費￥10000〜
               </td>
             </tr>
         </table>
         </div>
+        
+        
 	          
 	          <div class="table_box_right">
 		          <img src="images/piano/piano_class.jpg" />
@@ -141,7 +156,7 @@
                 <li>その後『窓ぎわのトットちゃん』で有名な小学校の校長先生のお嬢様である本間みさを先生にピアノを師事。</li>
                 <li>NHK「ピアノのおけいこ」出演をきっかけに弘中孝、久保陽子先生御夫妻にも師事する。</li>
                 <li>ヤマハ講師資格を取得。大学卒業と同時にヤマハ音楽教室幼児科ジュニア科のシステム講師となり、ピアノ教室も始める。</li>
-                <li>また、高校時代より室内楽や合唱伴奏を始め、コールアミカル、ヴォーチェ・ムジカーレなど数々の合唱団の伴奏にあたり現在に至る。ピアノ講師歴33年。</li>
+                <li>また、高校時代より室内楽や合唱伴奏を始め、コールアミカル、ヴォーチェ・ムジカーレなど数々の合唱団の伴奏にあたり現在に至る。ピアノ講師歴35年。</li>
         </ul>
          <br /><br />
          
@@ -164,6 +179,79 @@
             <div class="cb"></div>
                 <div class="photo_box">
                 <br />
+                
+                <table width="700">
+  				<tr>
+                	<td colspan="3">■2014年5月18日　発表会（横浜美術館レクチャーホールにて）
+                    </td>
+  				</tr>
+  				
+          <tr>
+    				<td class="photo_title"><a href="/images/album/2014_01.jpg" rel="lightbox[roadtrip]" title="初めての発表会"><img src="/images/album/2014_01_s.jpg" /><br /><br />
+				初めての発表会</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_02.jpg" rel="lightbox[roadtrip]" title="ピアノってホント楽しい〜ネッ、ママ！"><img src="/images/album/2014_02_s.jpg" /><br /><br />
+						ピアノってホント楽しい〜ネッ、<br>ママ！</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_03.jpg" rel="lightbox[roadtrip]" title="小さなピアニスト"><img src="/images/album/2014_03_s.jpg" /><br /><br />
+				小さなピアニスト
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_04.jpg" rel="lightbox[roadtrip]" title="俺は海賊だ!!"><img src="/images/album/2014_04_s.jpg" /><br /><br />
+				俺は海賊だ!!</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_05.jpg" rel="lightbox[roadtrip]" title="双子ちゃん姉妹 念願の「ドッペルコンチェルト」"><img src="/images/album/2014_05_s.jpg" /><br /><br />
+						双子ちゃん姉妹<br>念願の「ドッペルコンチェルト」</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_06.jpg" rel="lightbox[roadtrip]" title="Erikaセンセイと「アヴェ マリア」練習しすぎて腱鞘炎!"><img src="/images/album/2014_06_s.jpg" /><br /><br />
+				Erikaセンセイと「アヴェ マリア」<br>練習しすぎて腱鞘炎!
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_07.jpg" rel="lightbox[roadtrip]" title="緊張!!でもボク、ピアノ好きなんだ〜"><img src="/images/album/2014_07_s.jpg" /><br /><br />
+				緊張!!でもボク、ピアノ好きなんだ〜</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_08.jpg" rel="lightbox[roadtrip]" title="アツアツ 新婚さん…"><img src="/images/album/2014_08_s.jpg" /><br /><br />
+						アツアツ 新婚さん…</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_09.jpg" rel="lightbox[roadtrip]" title="お父様が家族3人用にアレンジして下さいました。"><img src="/images/album/2014_09_s.jpg" /><br /><br />
+				お父様が家族3人用に<br>アレンジして下さいました。
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_10.jpg" rel="lightbox[roadtrip]" title="「Let it go〜 let it go〜♪」"><img src="/images/album/2014_10_s.jpg" /><br /><br />
+				「Let it go〜 let it go〜♪」</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_11.jpg" rel="lightbox[roadtrip]" title="色違いのドレス3姉妹! 私だけErikaセンセイと同じお花をお母さんがつけてくれたの…"><img src="/images/album/2014_11_s.jpg" /><br /><br />
+						色違いのドレス3姉妹! <br>私だけErikaセンセイと同じお花をお母さんがつけてくれたの…</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_12.jpg" rel="lightbox[roadtrip]" title="バ〜バとパパとボク! 3世代トリオ"><img src="/images/album/2014_12_s.jpg" /><br /><br />
+				バ〜バとパパとボク! 3世代トリオ
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_13.jpg" rel="lightbox[roadtrip]" title="ネ〜ネと連弾 がんばるからマッテ〜"><img src="/images/album/2014_13_s.jpg" /><br /><br />
+				ネ〜ネと連弾 がんばるからマッテ〜</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_14.jpg" rel="lightbox[roadtrip]" title="「これが恋かしら」…ね?!"><img src="/images/album/2014_14_s.jpg" /><br /><br />
+						「これが恋かしら」…ね?!</a></td>
+
+    				<td class="photo_title"><a href="/images/album/2014_15.jpg" rel="lightbox[roadtrip]" title="ピアノ復帰後の連弾…嬉しかったです。アナウンスもありがとう。"><img src="/images/album/2014_15_s.jpg" /><br /><br />
+				ピアノ復帰後の連弾…嬉しかったです。アナウンスもありがとう。
+</a></td>
+  				</tr>
+  				
+  				<tr>
+    				<td class="photo_title"><a href="/images/album/2014_16.jpg" rel="lightbox[roadtrip]" title="ミニコンサート Vn粟津惇さん 青山英里香 Va武田麻耶さん 奥村景さん"><img src="/images/album/2014_16_s.jpg" /><br /><br />
+				ミニコンサート<br>Vn&nbsp;粟津惇さん 青山英里香<br>Va&nbsp;武田麻耶さん 奥村景さん&nbsp;&nbsp;</a></td>
+  				</tr>
+  				
+				</table><br /><br />
                 
                 <table width="700">
                 <tr>
@@ -265,7 +353,7 @@
 	  			毎年沢山の御家族がいらして<br />下さり、嬉しい限りです。<br />ありがとうございます!!</a></td>
 
     				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート バイオリン:青山英里香 久保静香 ピアノ:三澤綾希子"><img src="/images/album/2013_23_s.jpg" /><br /><br />
-				今年のミニコンサート<br />バイオリン<br />青山英里香 久保静香<br />ピアノ<br />三澤綾希子</a></td>
+				今年のミニコンサート<br />バイオリン&nbsp;久保静香さん<br /><span style="margin:0 0 0 60px;">青山英里香</span><br />&nbsp;&nbsp;ピアノ<span style="margin:0 0 0 18px;">三澤綾希子さん</span></a></td>
     				
     				<td>&nbsp;</td>
   				</tr>
