@@ -1,6 +1,8 @@
 <?php
 require_once (dirname(__FILE__).'/lib/EM/Init.php');
-init();
+require_once (dirname(__FILE__).'/lib/EM/Db.php');
+Init();
+
 $_SESSION = array();
 if (ini_get("session.use_cookies")) {
   $params = session_get_cookie_params();
@@ -19,7 +21,8 @@ $tel = htmlspecialchars($_POST["tel"],ENT_QUOTES);
 $category = htmlspecialchars($_POST["category"],ENT_QUOTES);
 $description = htmlspecialchars($_POST["description"],ENT_QUOTES);
 
-$to="yukiko.aoyama.piano@ezweb.ne.jp";
+//$to="yukiko.aoyama.piano@ezweb.ne.jp";
+$to="kobito0826@i.softbank.jp,sevens67@i.softbank.jp";
 $title="Message From haus-de-musik-aoyama.com";
 $all="
   お名前：$name
@@ -28,7 +31,17 @@ $all="
   電話番号：$tel
   カテゴリー：$category
   お問い合わせ内容：$description";
-if(mail($to,$title,$all,"FROM:$email")){
+
+$header = "MIME-Version: 1.0\n"
+  . "Content-Transfer-Encoding: 7bit\n"
+  . "Content-Type: text/plain; charset=ISO-2022-JP\n"
+  . "Message-Id: <" . md5(uniqid(microtime())) . "@i.softbank.jp/>\n"
+  . "From: Haus-de-musik<yukiko.aoyama.piano@ezweb.ne.jp>\n";
+$subject= mb_encode_mimeheader('Message From haus-de-musik-aoyama.com', 'ISO-2022-JP-MS');
+
+mb_internal_encoding('UTF-8');
+
+if (mail($to, $title, mb_convert_encoding($all, 'ISO-2022-JP-MS'), $header)) {
   $caution="メールを送信いたしました。<br />
     このたびはお問い合わせいただき、誠にありがとうございました。<br /><br /><br />
     <a class='back' href='contact.php'>お問い合わせページに戻る</a>";
@@ -38,7 +51,12 @@ else{
     再度お問い合わせいただくか、お電話にてご連絡ください。<br /><br />";
 }
 
-//返信用
+$sql = 'INSERT INTO contacts (name,address,email,tel,category,description) VALUES ("' .$name. '","' .$address. '","' .$email. '","' .$tel. '","' .$category. '","' .$description. '")';
+
+//echo $sql;
+
+mysql_query($sql, $link);
+
 $reply_title="お問い合わせありがとうございます。";
 $reply_all="このメールは自動送信です。
   このたびはお問い合わせいただき、誠にありがとうございます。
@@ -50,8 +68,7 @@ $reply_all="このメールは自動送信です。
   カテゴリー：$category
   お問い合わせ内容：$description
   改めてご連絡させていただきますので今しばらくお待ちいただきますようよろしくお願いいたします。";
-mail($email,$reply_title,$reply_all,"FROM:$to");
-
+mail($to, $reply_title, mb_convert_encoding($reply_all, 'ISO-2022-JP-MS'), $header);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
