@@ -22,7 +22,7 @@ $category = htmlspecialchars($_POST["category"],ENT_QUOTES);
 $description = htmlspecialchars($_POST["description"],ENT_QUOTES);
 
 $to="yukiko.aoyama.piano@ezweb.ne.jp";
-//$to="kobito0826@i.softbank.jp";
+//$to="kobito0826@gmail.com";
 $title="Message From haus-de-musik-aoyama.com";
 $all="
   お名前：$name
@@ -35,7 +35,7 @@ $all="
 $header = "MIME-Version: 1.0\n"
   . "Content-Transfer-Encoding: 7bit\n"
   . "Content-Type: text/plain; charset=ISO-2022-JP\n"
-  . "Message-Id: <" . md5(uniqid(microtime())) . "@i.softbank.jp/>\n"
+  . "Message-Id: <" . md5(uniqid(microtime())) . "@ezweb.ne.jp/>\n"
   . "From: Haus-de-musik<yukiko.aoyama.piano@ezweb.ne.jp>\n";
 $subject= mb_encode_mimeheader('Message From haus-de-musik-aoyama.com', 'ISO-2022-JP-MS');
 
