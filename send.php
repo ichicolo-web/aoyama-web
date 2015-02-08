@@ -21,8 +21,8 @@ $tel = htmlspecialchars($_POST["tel"],ENT_QUOTES);
 $category = htmlspecialchars($_POST["category"],ENT_QUOTES);
 $description = htmlspecialchars($_POST["description"],ENT_QUOTES);
 
-//$to="yukiko.aoyama.piano@ezweb.ne.jp";
-$to="kobito0826@i.softbank.jp,sevens67@i.softbank.jp";
+$to="yukiko.aoyama.piano@ezweb.ne.jp";
+//$to="kobito0826@gmail.com";
 $title="Message From haus-de-musik-aoyama.com";
 $all="
   お名前：$name
@@ -35,7 +35,7 @@ $all="
 $header = "MIME-Version: 1.0\n"
   . "Content-Transfer-Encoding: 7bit\n"
   . "Content-Type: text/plain; charset=ISO-2022-JP\n"
-  . "Message-Id: <" . md5(uniqid(microtime())) . "@i.softbank.jp/>\n"
+  . "Message-Id: <" . md5(uniqid(microtime())) . "@ezweb.ne.jp/>\n"
   . "From: Haus-de-musik<yukiko.aoyama.piano@ezweb.ne.jp>\n";
 $subject= mb_encode_mimeheader('Message From haus-de-musik-aoyama.com', 'ISO-2022-JP-MS');
 
@@ -68,7 +68,7 @@ $reply_all="このメールは自動送信です。
   カテゴリー：$category
   お問い合わせ内容：$description
   改めてご連絡させていただきますので今しばらくお待ちいただきますようよろしくお願いいたします。";
-mail($to, $reply_title, mb_convert_encoding($reply_all, 'ISO-2022-JP-MS'), $header);
+mail($email, $reply_title, mb_convert_encoding($reply_all, 'ISO-2022-JP-MS'), $header);
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
