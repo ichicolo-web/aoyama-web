@@ -393,7 +393,7 @@
   					<td class="photo_title"><a href="/images/album/2013_22.jpg" rel="lightbox[roadtrip]" title="毎年沢山の御家族がいらして下さり、嬉しい限りです。ありがとうございます!!"><img src="/images/album/2013_22_s.jpg"  /><br /><br />
 	  			毎年沢山の御家族がいらして<br />下さり、嬉しい限りです。<br />ありがとうございます!!</a></td>
 
-    				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート バイオリン:青山英里香 久保静香 ピアノ:三澤綾希子"><img src="/images/album/2013_23_s.jpg" /><br /><br />
+    				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート バイオリン:青山英里香 久保静香さん ピアノ:三澤綾希子さん"><img src="/images/album/2013_23_s.jpg" /><br /><br />
 				今年のミニコンサート<br />バイオリン&nbsp;久保静香さん<br /><span style="margin:0 0 0 60px;">青山英里香</span><br />&nbsp;&nbsp;ピアノ<span style="margin:0 0 0 18px;">三澤綾希子さん</span></a></td>
     				
     				<td>&nbsp;</td>
