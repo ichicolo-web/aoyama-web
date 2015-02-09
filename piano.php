@@ -101,7 +101,7 @@
           </ul>
           <br />
           
-          <p>ここ数年は毎年春に、横浜美術館レクチャーホールにて、発表会を行っております。<br />
+          <p>ここ数年は毎年春に、横浜美術館レクチャーホールにて、発表会を行っております。(発表会費¥10000ぐらいです。)<br />
 12月にはクリスマス会として、湘南鷹取の自宅にて、ホームコンサートを行い、ソロはもちろんですが、<br />
 ご家族、生徒さん同士の連弾や、バイオリンとのアンサンブル等の発表の場を設けるように致しております。<br />
 ティータイム付の時以外は原則無料、アットホームな楽しい会です。 </p><br />
@@ -121,13 +121,6 @@
               ※振替レッスンも出来るだけ行っています。
               </li>
         </ul>
-        <table border="1" cellpadding="0" cellspacing="0">
-              <th>横浜美術館レクチャーホールにて、<br>発表会を行っております。</th>
-            <tr>
-              <td class="table_sentence">発表会費￥10000〜
-              </td>
-            </tr>
-        </table>
         </div>
         
         
@@ -352,8 +345,8 @@
   					<td class="photo_title"><a href="/images/album/2013_22.jpg" rel="lightbox[roadtrip]" title="毎年沢山の御家族がいらして下さり、嬉しい限りです。ありがとうございます!!"><img src="/images/album/2013_22_s.jpg"  /><br /><br />
 	  			毎年沢山の御家族がいらして<br />下さり、嬉しい限りです。<br />ありがとうございます!!</a></td>
 
-    				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート バイオリン:青山英里香 久保静香さん ピアノ:三澤綾希子さん"><img src="/images/album/2013_23_s.jpg" /><br /><br />
-				今年のミニコンサート<br />バイオリン&nbsp;久保静香さん<br /><span style="margin:0 0 0 60px;">青山英里香</span><br />&nbsp;&nbsp;ピアノ<span style="margin:0 0 0 18px;">三澤綾希子さん</span></a></td>
+    				<td class="photo_title"><a href="/images/album/2013_23.jpg" rel="lightbox[roadtrip]" title="今年のミニコンサート バイオリン:青山英里香 久保静さん ピアノ:三澤綾希子さん"><img src="/images/album/2013_23_s.jpg" /><br /><br />
+				今年のミニコンサート<br />バイオリン&nbsp;久保静さん<br /><span style="margin:0 0 0 60px;">青山英里香</span><br />&nbsp;&nbsp;ピアノ<span style="margin:0 0 0 18px;">三澤綾希子さん</span></a></td>
     				
     				<td>&nbsp;</td>
   				</tr>
